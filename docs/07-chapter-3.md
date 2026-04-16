@@ -46,21 +46,55 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 ### HU01 - Listar productos
 
-| Campo | Detalle |
-|------|--------|
-| **Número** | HU01 |
-| **Usuario** | Administrador |
-| **Nombre HU** | Listar productos |
-| **Prioridad en el negocio** | Alta |
-| **Programador responsable** | Por definir |
-| **Descripción** | Como administrador, quiero listar los productos médicos para tener control del inventario |
+<table>
+<tr>
+<td><b>Número:</b></td>
+<td>HU01</td>
+<td><b>Usuario:</b></td>
+<td>Administrador</td>
+</tr>
 
----
+<tr>
+<td><b>Nombre HU:</b></td>
+<td colspan="3">Listar productos</td>
+</tr>
 
-### Criterios de aceptación
+<tr>
+<td><b>Prioridad en el negocio:</b></td>
+<td colspan="3">Alta</td>
+</tr>
 
-| Escenario | Descripción |
-|----------|------------|
-| **Escenario 1: Visualización de productos registrados** | Dado que el administrador ha registrado uno o más productos <br> Cuando accede a la sección de inventario <br> Entonces el sistema muestra el listado de productos registrados |
-| **Escenario 2: Lista vacía** | Dado que no existen productos registrados <br> Cuando accede al inventario <br> Entonces el sistema muestra un mensaje indicando que no hay productos |
-| **Escenario 3: Acceso al detalle del producto** | Dado que existen productos registrados <br> Cuando selecciona un producto <br> Entonces el sistema muestra el detalle del producto |
+<tr>
+<td><b>Programador responsable:</b></td>
+<td colspan="3">Por definir</td>
+</tr>
+
+<tr>
+<td><b>Descripción:</b></td>
+<td colspan="3">
+Como administrador, quiero listar los productos médicos para tener control del inventario
+</td>
+</tr>
+
+<tr>
+<td><b>Criterios de aceptación:</b></td>
+<td colspan="3">
+
+<b>Escenario 1: Visualización de productos registrados</b><br>
+Dado que el administrador ha registrado uno o más productos<br>
+Cuando accede a la sección de inventario<br>
+Entonces el sistema muestra el listado de productos registrados<br><br>
+
+<b>Escenario 2: Lista vacía</b><br>
+Dado que no existen productos registrados<br>
+Cuando accede al inventario<br>
+Entonces el sistema muestra un mensaje indicando que no hay productos<br><br>
+
+<b>Escenario 3: Acceso al detalle del producto</b><br>
+Dado que existen productos registrados<br>
+Cuando selecciona un producto<br>
+Entonces el sistema muestra el detalle del producto
+
+</td>
+</tr>
+</table>
