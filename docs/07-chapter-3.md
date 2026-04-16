@@ -3,8 +3,17 @@
 ## **3.2. Impact Mapping**
 ## **3.3. Product Backlog**
 
+### Enlace al Impact Map
+
+El Impact Mapping ha sido elaborado utilizando la herramienta Miro. Puede acceder al tablero en el siguiente enlace:
+
+https://miro.com/app/board/uXjVGhw33Ew=/?share_link_id=417296329604
+
+
 
 ## **3.1 User Stories**
+
+
 
 En esta sección se presentan los requisitos funcionales del sistema Meditrack definidos mediante User Stories y agrupados en Epics a partir del análisis realizado en el Capítulo II.
 
