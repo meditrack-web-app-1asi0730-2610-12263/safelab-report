@@ -98,3 +98,57 @@ Entonces el sistema muestra el detalle del producto
 </td>
 </tr>
 </table>
+
+
+### 3.3 Product Backlog
+
+Product Backlog para el sistema Meditrack...
+
+<table>
+    <thead>
+        <tr>
+            <th># Orden</th>
+            <th>User Story ID</th>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Story Points (1/2/3/5/8)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>US01</td>
+            <td>Registrar producto</td>
+            <td>Como administrador, quiero registrar productos médicos para gestionar el inventario.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>US02</td>
+            <td>Visualizar inventario</td>
+            <td>Como administrador, quiero ver el listado de productos para tener control del stock disponible.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>US06</td>
+            <td>Alertar stock bajo</td>
+            <td>Como administrador, quiero recibir alertas de stock bajo para evitar desabastecimiento.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>US07</td>
+            <td>Alertar productos por vencer</td>
+            <td>Como administrador, quiero recibir alertas de productos próximos a vencer para evitar pérdidas.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>US08</td>
+            <td>Visualizar dashboard</td>
+            <td>Como administrador, quiero ver indicadores del inventario para tomar decisiones informadas.</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+</table>
