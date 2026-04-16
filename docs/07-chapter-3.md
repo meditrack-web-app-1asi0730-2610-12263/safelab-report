@@ -22,7 +22,7 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 #### User Stories
 
-| ID | Título | Descripción | Criterios de Aceptación | Relación |
+| ID | Título | Descripción | Criterios de aceptación | Épica |
 |----|--------|------------|--------------------------|----------|
 | US01 | Registrar producto | Como administrador, deseo registrar productos para gestionar el inventario | Dado datos válidos cuando guarda entonces el sistema registra correctamente | EP01 |
 | US02 | Editar producto | Como administrador, deseo modificar productos para mantener información actualizada | Dado producto existente cuando edita entonces el sistema actualiza | EP01 |
