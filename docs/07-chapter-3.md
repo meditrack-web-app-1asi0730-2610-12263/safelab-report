@@ -44,3 +44,23 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 ---
 
 
+### HU01 - Listar productos
+
+| Campo | Detalle |
+|------|--------|
+| **Número** | HU01 |
+| **Usuario** | Administrador |
+| **Nombre HU** | Listar productos |
+| **Prioridad en el negocio** | Alta |
+| **Programador responsable** | Por definir |
+| **Descripción** | Como administrador, quiero listar los productos médicos para tener control del inventario |
+
+---
+
+### Criterios de aceptación
+
+| Escenario | Descripción |
+|----------|------------|
+| **Escenario 1: Visualización de productos registrados** | Dado que el administrador ha registrado uno o más productos <br> Cuando accede a la sección de inventario <br> Entonces el sistema muestra el listado de productos registrados |
+| **Escenario 2: Lista vacía** | Dado que no existen productos registrados <br> Cuando accede al inventario <br> Entonces el sistema muestra un mensaje indicando que no hay productos |
+| **Escenario 3: Acceso al detalle del producto** | Dado que existen productos registrados <br> Cuando selecciona un producto <br> Entonces el sistema muestra el detalle del producto |
