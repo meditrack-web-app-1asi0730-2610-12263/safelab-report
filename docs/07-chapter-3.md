@@ -21,10 +21,16 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 | Epic ID | Título | Descripción |
 |--------|--------|------------|
-| EP01 | Gestión de productos | Registro y administración de medicamentos |
-| EP02 | Gestión de stock | Control de entradas y salidas |
-| EP03 | Sistema de alertas | Notificaciones de riesgos |
-| EP04 | Dashboard | Visualización de indicadores |
+| EP01 | Organización del laboratorio | Estructurar sedes, áreas y equipos para ubicar y gestionar recursos |
+| EP02 | Gestión de inventario | Registro de productos, control de cantidades y fechas de vencimiento |
+| EP03 | Monitoreo de condiciones | Supervisión de temperatura y variables ambientales en tiempo real |
+| EP04 | Alertas y seguimiento | Notificación de problemas y control de acciones tomadas |
+| EP05 | Historial y cumplimiento | Registro de actividades y generación de reportes para auditorías |
+| EP06 | Dashboard | Visualización general del estado del laboratorio e indicadores clave |
+| EP07 | Acceso de usuarios | Inicio de sesión seguro y recuperación de acceso |
+| EP08 | Gestión de usuarios | Administración de usuarios y permisos dentro del sistema |
+| EP09 | Configuración del sistema | Ajuste de parámetros como rangos, reglas y tipos de datos |
+| EP10 | Soporte y mantenimiento | Gestión de errores y continuidad del sistema |
 
 
 ---
