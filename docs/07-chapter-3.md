@@ -158,6 +158,82 @@ Entonces el sistema muestra el detalle del producto
 </tr>
 </table>
 
+<table> <tr> <td><b>Número:</b></td> <td>HU01</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Registrar sede</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero registrar una sede del laboratorio para organizar las operaciones por ubicación </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
+
+<b>Escenario 1: Registro exitoso</b><br>
+Dado datos válidos de una sede<br>
+Cuando el administrador guarda<br>
+Entonces el sistema registra la sede correctamente<br><br>
+
+<b>Escenario 2: Datos incompletos</b><br>
+Dado que faltan datos obligatorios<br>
+Cuando intenta guardar<br>
+Entonces el sistema muestra un mensaje de error<br><br>
+
+<b>Escenario 3: Visualización</b><br>
+Dado una sede registrada<br>
+Cuando accede al listado<br>
+Entonces la sede aparece en el sistema
+
+</td> </tr> </table>
+
+<table> <tr> <td><b>Número:</b></td> <td>HU02</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Crear sala</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero crear salas dentro de una sede para ubicar los equipos de almacenamiento </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
+
+<b>Escenario 1: Creación exitosa</b><br>
+Dado una sede existente<br>
+Cuando crea la sala<br>
+Entonces el sistema la registra correctamente<br><br>
+
+<b>Escenario 2: Error de validación</b><br>
+Dado datos incompletos<br>
+Cuando guarda<br>
+Entonces muestra error<br><br>
+
+<b>Escenario 3: Visualización</b><br>
+Dado salas registradas<br>
+Cuando consulta<br>
+Entonces se muestran en la sede
+
+</td> </tr> </table>
+
+<table> <tr> <td><b>Número:</b></td> <td>HU03</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Registrar equipo de almacenamiento</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero registrar equipos de almacenamiento para gestionar dónde se conservan los productos </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
+
+<b>Escenario 1: Registro correcto</b><br>
+Dado datos válidos<br>
+Cuando guarda<br>
+Entonces el equipo se registra<br><br>
+
+<b>Escenario 2: Datos inválidos</b><br>
+Dado información incompleta<br>
+Cuando guarda<br>
+Entonces muestra error<br><br>
+
+<b>Escenario 3: Visualización</b><br>
+Dado equipos registrados<br>
+Cuando consulta<br>
+Entonces se muestran en la lista
+
+</td> </tr> </table>
+
+<table> <tr> <td><b>Número:</b></td> <td>HU04</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Asignar equipo a sala</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero asignar un equipo a una sala para conocer su ubicación exacta </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
+
+<b>Escenario 1: Asignación exitosa</b><br>
+Dado equipo y sala existentes<br>
+Cuando asigna<br>
+Entonces queda vinculado<br><br>
+
+<b>Escenario 2: Error de asignación</b><br>
+Dado datos incorrectos<br>
+Cuando asigna<br>
+Entonces muestra error<br><br>
+
+<b>Escenario 3: Visualización</b><br>
+Dado equipo asignado<br>
+Cuando consulta<br>
+Entonces muestra su ubicación
+
+</td> </tr> </table>
+
 
 ### 3.3 Product Backlog
 
