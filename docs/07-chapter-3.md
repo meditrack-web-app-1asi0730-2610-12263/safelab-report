@@ -39,21 +39,65 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 | ID | Título | Descripción | Criterios de aceptación | Épica |
 |----|--------|------------|--------------------------|----------|
-| US01 | Registrar producto | Como administrador, deseo registrar productos para gestionar el inventario | Dado datos válidos cuando guarda entonces el sistema registra correctamente | EP01 |
-| US02 | Editar producto | Como administrador, deseo modificar productos para mantener información actualizada | Dado producto existente cuando edita entonces el sistema actualiza | EP01 |
-| US03 | Eliminar producto | Como administrador, deseo eliminar productos para depurar el sistema | Dado producto existente cuando elimina entonces el sistema lo remueve | EP01 |
-| US04 | Ver inventario | Como administrador, deseo visualizar productos para control | Dado productos existentes cuando accede entonces se listan | EP01 |
-| US05 | Buscar producto | Como administrador, deseo buscar productos para acceso rápido | Dado criterio de búsqueda cuando consulta entonces muestra resultados | EP01 |
-| US06 | Registrar entrada | Como administrador, deseo registrar ingresos para actualizar stock | Dado datos válidos cuando registra entonces aumenta stock | EP02 |
-| US07 | Registrar salida | Como administrador, deseo registrar consumo para control | Dado datos válidos cuando registra entonces disminuye stock | EP02 |
-| US08 | Ver historial | Como administrador, deseo ver movimientos para auditoría | Dado registros cuando consulta entonces muestra historial | EP02 |
-| US09 | Configurar stock mínimo | Como administrador, deseo definir límites para alertas | Dado valor definido cuando guarda entonces sistema registra límite | EP03 |
-| US10 | Alertar stock bajo | Como administrador, deseo alertas para evitar desabastecimiento | Dado stock bajo cuando evalúa entonces genera alerta | EP03 |
-| US11 | Alertar vencimiento | Como administrador, deseo alertas para evitar pérdidas | Dado fecha próxima cuando evalúa entonces alerta | EP03 |
-| US12 | Ver alertas | Como administrador, deseo visualizar alertas para actuar | Dado alertas activas cuando accede entonces se muestran | EP03 |
-| US13 | Ver dashboard general | Como administrador, deseo ver indicadores para decisiones | Dado datos cuando accede entonces muestra métricas | EP04 |
-| US14 | Ver productos críticos | Como administrador, deseo identificar riesgos | Dado datos cuando accede entonces muestra críticos | EP04 |
-| US15 | Ver estadísticas | Como administrador, deseo analizar datos | Dado datos cuando consulta entonces muestra gráficos | EP04 |
+| US01 | Registrar sede | Como usuario, deseo registrar una sede para organizar el laboratorio por ubicación | Dado datos válidos cuando guarda entonces la sede se registra | EP01 |
+| US02 | Crear sala | Como usuario, deseo crear salas para ubicar equipos | Dado sede existente cuando crea entonces la sala se registra | EP01 |
+| US03 | Registrar equipo | Como usuario, deseo registrar equipos de almacenamiento para gestionarlos | Dado datos válidos cuando guarda entonces el equipo se registra | EP01 |
+| US04 | Asignar equipo | Como usuario, deseo asignar un equipo a una sala para ubicarlo | Dado equipo y sala cuando asigna entonces queda vinculado | EP01 |
+| US05 | Ubicar equipo | Como usuario, deseo ubicar un equipo rápidamente para operarlo | Dado equipos registrados cuando busca entonces muestra ubicación | EP01 |
+
+| US06 | Registrar producto | Como usuario, deseo registrar productos para controlar inventario | Dado datos válidos cuando guarda entonces se registra | EP02 |
+| US07 | Registrar lote | Como usuario, deseo registrar lotes con vencimiento para controlarlos | Dado datos válidos cuando guarda entonces se registra lote | EP02 |
+| US08 | Ver stock | Como usuario, deseo ver stock disponible para tomar decisiones | Dado productos cuando consulta entonces muestra cantidades | EP02 |
+| US09 | Registrar entrada | Como usuario, deseo registrar entrada de productos para actualizar stock | Dado datos válidos cuando registra entonces aumenta stock | EP02 |
+| US10 | Registrar salida | Como usuario, deseo registrar salida de productos para control | Dado datos válidos cuando registra entonces disminuye stock | EP02 |
+| US11 | Ver productos por vencer | Como usuario, deseo ver productos próximos a vencer para evitar pérdidas | Dado productos cuando consulta entonces muestra próximos a vencer | EP02 |
+
+| US12 | Ver temperatura actual | Como usuario, deseo ver la temperatura de equipos para asegurar conservación | Dado equipo cuando consulta entonces muestra temperatura | EP03 |
+| US13 | Ver historial de temperatura | Como usuario, deseo revisar historial para validar estabilidad | Dado equipo cuando consulta entonces muestra historial | EP03 |
+| US14 | Ver estado de monitoreo | Como usuario, deseo saber si el equipo está siendo monitoreado | Dado equipo cuando consulta entonces muestra estado | EP03 |
+| US15 | Detectar condiciones anormales | Como usuario, deseo identificar condiciones fuera de rango para actuar | Dado valores cuando evalúa entonces detecta anomalías | EP03 |
+| US16 | Ver gráfico de temperatura | Como usuario, deseo visualizar comportamiento en el tiempo | Dado datos cuando consulta entonces muestra gráfico | EP03 |
+| US17 | Detectar pérdida de señal | Como usuario, deseo saber si un equipo deja de reportar datos | Dado equipo cuando deja de enviar entonces sistema indica falla | EP03 |
+
+| US18 | Recibir alerta de temperatura | Como usuario, deseo recibir alertas para actuar rápido | Dado valor fuera de rango cuando ocurre entonces alerta | EP04 |
+| US19 | Recibir alerta por correo | Como usuario, deseo recibir notificación por correo para enterarme | Dado alerta cuando ocurre entonces envía correo | EP04 |
+| US20 | Ver alertas activas | Como usuario, deseo ver alertas para priorizar acciones | Dado alertas cuando accede entonces lista activas | EP04 |
+| US21 | Atender alerta | Como usuario, deseo marcar alerta como atendida | Dado alerta cuando actualiza entonces cambia estado | EP04 |
+| US22 | Registrar comentario | Como usuario, deseo documentar lo ocurrido en una alerta | Dado alerta cuando comenta entonces guarda observación | EP04 |
+| US23 | Ver historial de alertas | Como usuario, deseo revisar incidentes pasados | Dado alertas cuando consulta entonces muestra historial | EP04 |
+| US24 | Alertar pérdida de monitoreo | Como usuario, deseo recibir alerta si equipo deja de reportar | Dado falla cuando ocurre entonces alerta | EP04 |
+
+| US25 | Ver historial de condiciones | Como usuario, deseo consultar historial para auditorías | Dado datos cuando consulta entonces muestra registros | EP05 |
+| US26 | Ver acciones de usuarios | Como usuario, deseo ver quién hizo cambios para control | Dado acciones cuando consulta entonces muestra usuario | EP05 |
+| US27 | Generar reporte | Como usuario, deseo generar reportes para revisión | Dado datos cuando genera entonces crea reporte | EP05 |
+| US28 | Descargar reporte | Como usuario, deseo descargar reportes para compartir | Dado reporte cuando descarga entonces exporta archivo | EP05 |
+| US29 | Garantizar integridad de datos | Como usuario, deseo confiar en que datos no se alteran | Dado registros cuando consulta entonces son inmutables | EP05 |
+
+| US30 | Ver dashboard general | Como usuario, deseo ver estado del laboratorio | Dado datos cuando accede entonces muestra resumen | EP06 |
+| US31 | Ver equipos con problemas | Como usuario, deseo identificar equipos críticos | Dado datos cuando consulta entonces muestra problemas | EP06 |
+| US32 | Ver alertas en dashboard | Como usuario, deseo ver alertas rápidamente | Dado alertas cuando accede entonces se muestran | EP06 |
+| US33 | Ver indicadores clave | Como usuario, deseo tomar decisiones rápidas | Dado datos cuando consulta entonces muestra métricas | EP06 |
+| US34 | Ver equipos sin monitoreo | Como usuario, deseo identificar equipos sin datos | Dado equipos cuando consulta entonces indica estado | EP06 |
+
+| US35 | Iniciar sesión | Como usuario, deseo acceder al sistema | Dado credenciales válidas cuando ingresa entonces accede | EP07 |
+| US36 | Recuperar contraseña | Como usuario, deseo recuperar acceso | Dado correo cuando solicita entonces recibe enlace | EP07 |
+| US37 | Cerrar sesión | Como usuario, deseo cerrar sesión | Dado sesión activa cuando cierra entonces termina | EP07 |
+| US38 | Recibir correo de recuperación | Como usuario, deseo recibir correo para recuperar acceso | Dado solicitud cuando ejecuta entonces envía correo | EP07 |
+
+| US39 | Crear usuario | Como administrador, deseo crear usuarios | Dado datos válidos cuando guarda entonces registra usuario | EP08 |
+| US40 | Asignar rol | Como administrador, deseo asignar roles | Dado usuario cuando asigna entonces define permisos | EP08 |
+| US41 | Editar usuario | Como administrador, deseo actualizar datos | Dado usuario cuando edita entonces guarda cambios | EP08 |
+| US42 | Desactivar usuario | Como administrador, deseo restringir accesos | Dado usuario cuando desactiva entonces bloquea acceso | EP08 |
+
+| US43 | Definir condiciones de temperatura | Como usuario, deseo establecer condiciones adecuadas | Dado valores cuando define entonces guarda reglas | EP09 |
+| US44 | Definir condiciones anormales | Como usuario, deseo definir cuándo algo es incorrecto | Dado valores cuando configura entonces establece regla | EP09 |
+| US45 | Aplicar condiciones por producto | Como usuario, deseo adaptar condiciones según producto | Dado producto cuando configura entonces aplica reglas | EP09 |
+| US46 | Configurar notificaciones | Como usuario, deseo definir quién recibe alertas | Dado correos cuando guarda entonces quedan registrados | EP09 |
+
+| US47 | Buscar equipo | Como usuario, deseo encontrar equipos rápidamente | Dado criterio cuando busca entonces muestra resultados | EP09 |
+| US48 | Filtrar equipos | Como usuario, deseo analizar por ubicación | Dado filtros cuando aplica entonces muestra resultados | EP09 |
+| US49 | Filtrar alertas | Como usuario, deseo gestionar alertas por estado | Dado filtros cuando aplica entonces lista resultados | EP09 |
+| US50 | Ver equipos en estado normal | Como usuario, deseo confirmar operación correcta | Dado equipos cuando consulta entonces muestra normales | EP09 |
 
 
 ---
