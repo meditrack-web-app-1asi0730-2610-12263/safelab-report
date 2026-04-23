@@ -157,7 +157,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        Durante esta etapa se mantuvo un ambiente de trabajo colaborativo e inclusivo usando WhatsApp y Discord para coordinar reuniones y GitHub para avanzar en paralelo. Definimos metas desde el inicio, organizamos las tareas y trabajamos en equipo para cumplir los objetivos. Además, mi aporte y el apoyo en el informe ayudaron a que todo fluyera mejor y el equipo se mantuviera coordinado.
       <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
