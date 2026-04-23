@@ -89,7 +89,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        Participé activamente en las reuniones y decisiones del equipo cumpliendo con mi parte dentro de los plazos. También estuve en la parte de definir las épicas y las historias de usuario (HU) según lo que encontramos en las entrevistas mostrando compromiso con el proyecto y con el equipo.
     </td>
   </tr>
   
