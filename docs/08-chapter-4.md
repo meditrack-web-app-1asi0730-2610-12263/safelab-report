@@ -274,4 +274,87 @@
 </p>
 
 ## **4.8. Database Design**
+
+<p style="text-align: justify;">
+  This section defines the database design of the SafeLab platform, focusing on the logical organization, persistence strategy, and data structure required to support the system functionalities. Based on the previously defined bounded contexts and object-oriented models, the database design ensures data integrity, scalability, traceability, and efficient access to operational information. It includes the identification of core entities, relationships, constraints, and storage considerations for modules such as users, subscriptions, assets, sensors, alerts, incidents, reports, and audit records. The detailed database diagrams and relational implementation are presented in the following subsection.
+</p>
+
 ### **4.8.1. Database Diagrams**
+
+- Identity & Access Management Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/safelab-database-diagram.png" width="70%" alt="safelab-database-diagram">
+
+
+- Identity & Access Management Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/identity-access-management-database-diagram.png" width="70%" alt="identity-access-management-database-diagram">
+</p>
+
+- User Profiles Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/user-profiles-database-diagram.png" width="70%" alt="user-profiles-database-diagram">
+</p>
+
+- Subscription & Billing Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/subscription-billing-database-diagram.png" width="70%" alt="subscription-billing-database-diagram">
+</p>
+
+- Dashboard & Overview Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/dashboard-overview-database-diagram.png" width="70%" alt="dashboard-overview-database-diagram">
+</p>
+
+- Asset & Inventory Monitoring Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/asset-inventory-monitoring-database-diagram.png" width="70%" alt="asset-inventory-monitoring-database-diagram">
+</p>
+
+- Sensor Monitoring Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/sensor-monitoring-database-diagram.png" width="70%" alt="sensor-monitoring-database-diagram">
+</p>
+
+- Environmental Compliance Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/environmental-compliance-database-diagram.png" width="70%" alt="environmental-compliance-database-diagram">
+</p>
+
+- Alerts & Notifications Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/alerts-notifications-database-diagram.png" width="70%" alt="alerts-notifications-database-diagram">
+</p>
+
+- Remote Control & Actuation Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/remote-control-actuation-database-diagram.png" width="70%" alt="remote-control-actuation-database-diagram">
+</p>
+
+- Reports & Analytics Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/reports-analytics-database-diagram.png" width="70%" alt="reports-analytics-database-diagram">
+</p>
+
+- Incident Management Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/incident-management-database-diagram.png" width="70%" alt="incident-management-database-diagram">
+</p>
+
+- Audit & Traceability Database Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/database-design/database-diagram/audit-traceability-database-diagram.png" width="70%" alt="audit-traceability-database-diagram">
+</p>
