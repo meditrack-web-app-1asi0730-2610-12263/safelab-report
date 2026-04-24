@@ -13,6 +13,20 @@
 ### **4.3.2. Landing Page Mockup**
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
+
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb1.png width="70%" alt="web application wireframes>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb2.png width="70%" alt="web application wireframes>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb3.png width="70%" alt="web application wireframes>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb4.png width="70%" alt="web application wireframes>
+</p>
+
 ### **4.4.2. Web Applications Wireflow Diagrams**
 ### **4.4.3. Web Applications Mock-ups**
 ### **4.4.4. Web Applications User Flow Diagrams**
