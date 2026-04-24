@@ -45,7 +45,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        AV1 I took ownership of the UI/UX design strategy by leading the creation of wireframes, mockups, and user flow diagrams for the SafeLab platform. I coordinated with team members to translate business requirements into visual designs, established design standards and component libraries, and provided technical guidance on frontend implementation patterns. Additionally, I contributed to architectural decisions regarding the user interface structure and ensured design consistency across all application views (Dashboard, Profiles, Billing, Inventory, Sensors, Compliance, Alerts, Remote Control, Reports, Identity Management, and Audit).
       <br><br>
         ------------------------------------
       <br><br>
