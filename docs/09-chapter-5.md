@@ -547,6 +547,20 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="execution-evidence-for-sprint-review">
     <h4>5.2.1.5. Execution Evidence for Sprint Review</h4>
+
+  <p style="text-align: justify;">
+    Durante el desarrollo del sprint se completaron las funcionalidades de la Landing Page. A continuación, se presenta la evidencia de ejecución mediante el acceso al sistema desplegado.
+  </p>
+<img src="../assets/chapter-5/landing%20page.png" alt="Landing Page Meditrack">
+  <p>
+    🔗 Landing Page desplegada:
+    <br>
+    <a href="https://meditrack-web-app-1asi0730-2610-12263.github.io/safelab-business-website/" target="_blank">
+      Ver Landing Page
+    </a>
+  </p>
+
+
   </section>
 
   <section id="services-documentation-evidence-for-sprint-review">
