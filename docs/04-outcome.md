@@ -89,7 +89,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        During AV1, the team demonstrated joint leadership by distributing responsibilities according to each member’s strengths and coordinating efforts across strategic, technical, and design areas of the SafeLab project. Leadership was reflected in repository management, task planning, architecture development, UI/UX direction, product implementation coordination, and requirements definition through epics and user stories. Each member contributed proactively within their assigned scope while maintaining communication and collaboration, which enabled the team to progress efficiently and achieve the planned objectives for the first delivery.
     </td>
   </tr>
   
@@ -165,7 +165,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        During AV1, the team created a collaborative and inclusive environment by maintaining constant communication, sharing feedback, and coordinating tasks through digital collaboration tools such as GitHub, Trello, WhatsApp, and Discord. Team members established clear goals and milestones for design, architecture, documentation, and research activities, while responsibilities were assigned according to individual strengths. This organized planning and cooperative workflow allowed the team to integrate all deliverables effectively and meet the objectives established for the first project milestone.
     </td>
   </tr>
 </table>
