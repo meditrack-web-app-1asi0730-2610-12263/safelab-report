@@ -25,6 +25,28 @@ Identify the barriers to entry (technological and economic) imposed by global Io
 <br>
 
 ### **2.1.2. Strategies and Tactics Against Competitors**
+
+**Offensive Strategies**<br>
+*Penetration through Hyper-specialization and Low Cost*<br>
+By crossing our strength of having an agnostic software architecture (without proprietary hardware) with the immense underserved market in cities of less than 250,000 inhabitants, our main tactic will be to offer a SaaS model purely focused on the clinical workflow. While competitors force the purchase of expensive closed sensor packages, SafeLab will allow medium-sized laboratories to digitize their processes using generic local sensors, democratizing access to quality technology and quickly capturing this expanding niche.
+<br><br>
+**Adaptive Strategies**<br>
+*Strategic B2B Distribution Alliances*<br>
+To counteract our main weakness (the lack of proprietary hardware and low initial brand recognition), we will take advantage of the growing need for post-pandemic digitalization through alliances. The tactic will be to partner with local distributors of medical refrigerators and providers of generic IoT sensors, offering SafeLab as a "value add" or native software in their sales. This allows us to reach the final customer through a channel that already enjoys trust, mitigating the acquisition cost.
+<br><br>
+**Defensive Strategies**<br>
+*Differentiation through Clinical Usability (Self-Onboarding)*<br>
+Faced with the threat of the healthcare sector's distrust of new technologies or the possible entry of tech giants with low-cost solutions, we will use our agility and design centered on the clinical user as a shield. The tactic is to build a "Plug & Play" onboarding flow and an interface (dashboard/PDF reports) so precisely adapted to the stress of local audits (e.g., ISO 15189), that any other generic platform will be perceived as clumsy and inadequate for a biologist.
+<br><br>
+**Survival Strategies**<br>
+*Early Validation and Strict Regulatory Compliance*<br>
+The combination of being a new brand (weakness) in a highly distrustful and regulated sector (threat) is the biggest risk for the startup. To survive this barrier, the tactic from "Day 1" will be strict standardization. The software will be designed exclusively under the formats required by health regulatory entities. Furthermore, pilot programs (free Beta tests) will be implemented in key laboratories in secondary cities to generate verifiable success cases and real ROI metrics, substituting the lack of initial reputation with irrefutable empirical evidence.
+<br>
+
+</div>
+<div style="page-break-after: always;"></div>
+<div style="text-align: justify;">
+
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
 ### **2.2.2. Interview Recording**
