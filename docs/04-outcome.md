@@ -121,7 +121,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        I fostered collaboration by organizing design reviews and actively seeking feedback from team members on wireframe iterations and mockup refinements. I set clear design milestones, breaking down the interface development into manageable tasks (wireframes, high-fidelity mockups, responsive versions, and flow diagrams), and coordinated with both technical and non-technical stakeholders to ensure alignment between user needs and technical feasibility. I utilized collaborative tools and version control to maintain design documentation, enabling the team to work efficiently and meet our delivery objectives for the AV1 phase.
       <br><br>
         ------------------------------------
       <br><br>
