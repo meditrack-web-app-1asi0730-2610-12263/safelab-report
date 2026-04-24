@@ -385,6 +385,102 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="sprint-backlog-1">
     <h4>5.2.1.3. Sprint Backlog 1</h4>
+    <table>
+      <tr>
+        <th>User Story ID</th>
+        <th>Title</th>
+        <th>Task ID</th>
+        <th>Task</th>
+        <th>Description</th>
+        <th>Assigned</th>
+        <th>Status</th>
+      </tr>
+
+  <tr>
+    <td>US01</td>
+    <td>Organizar proyecto</td>
+    <td>UT01</td>
+    <td>Configurar Trello</td>
+    <td>Crear listas y flujo de trabajo</td>
+    <td>Camila</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US02</td>
+    <td>Comunicación del equipo</td>
+    <td>UT02</td>
+    <td>Definir canales</td>
+    <td>Uso de Discord y WhatsApp</td>
+    <td>Equipo</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT03</td>
+    <td>Desarrollar capítulos I-IV</td>
+    <td>Redacción del informe</td>
+    <td>Jean </td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT03</td>
+    <td>Desarrollar capítulos II</td>
+    <td>Redacción del informe</td>
+    <td>Jean </td>
+    <td>In Process</td>
+  </tr>  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT03</td>
+    <td>Desarrollar capítulos III</td>
+    <td>Redacción del informe</td>
+    <td>Juan </td>
+    <td>In Process</td>
+  </tr>  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT03</td>
+    <td>Desarrollar capítulos IV</td>
+    <td>Redacción del informe</td>
+    <td>Giusephi Y Sebastian   </td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Capítulo V</td>
+    <td>UT04</td>
+    <td>Desarrollar Capítulo V</td>
+    <td>Configuración, despliegue y evidencia</td>
+    <td>Camila</td>
+    <td>In Process</td>
+  </tr>
+
+  <tr>
+    <td>US05</td>
+    <td>Landing Page</td>
+    <td>UT05</td>
+    <td>Desarrollar landing</td>
+    <td>Implementación visual del producto</td>
+    <td>Equipo</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Deploy</td>
+    <td>UT06</td>
+    <td>Desplegar landing</td>
+    <td>Publicación en web</td>
+    <td>Giusephi </td>
+    <td>Done</td>
+  </tr>
+
+</table>
   </section>
 
   <section id="development-evidence-for-sprint-review">
