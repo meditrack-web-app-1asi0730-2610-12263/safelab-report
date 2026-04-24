@@ -33,7 +33,7 @@
   <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow1.png" width="70%" alt="wireflow diagram">
 </p>
 <p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow1.png" width="70%" alt="wireflow diagram">
+  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow2.png" width="70%" alt="wireflow diagram">
 </p>
 
 ### **4.4.3. Web Applications Mock-ups**
@@ -52,6 +52,19 @@
 </p>
 
 ### **4.4.4. Web Applications User Flow Diagrams**
+
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow1.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow2.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow3.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow4.png" width="70%" alt="user flow diagram">
+</p>
 
 ## **4.5. Web Applications Prototyping**
 
