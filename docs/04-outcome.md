@@ -57,7 +57,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        I provided leadership by guiding the startup's strategic decisions by working on the solution profile and needfinding to be used as foundations for the rest of the project.
       <br><br>
         ------------------------------------
       <br><br>
@@ -133,7 +133,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        I planned our tasks and set clear goals for the Needfinding phase. After gathering inclusive insights from diverse biologists during our interviews, I coordinated the creation of our User Personas and other related artifacts.
       <br><br>
         ------------------------------------
       <br><br>
