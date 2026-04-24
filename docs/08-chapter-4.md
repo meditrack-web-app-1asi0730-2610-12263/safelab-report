@@ -194,6 +194,84 @@
 </p>
 
 ## **4.7. Object-Oriented Design Software**
+
+<p style="text-align: justify;">
+  This section presents the object-oriented design of the SafeLab platform through UML Class Diagrams that model the internal structure of the system. The diagrams define the main entities, attributes, methods, enumerations, and relationships required to support the business logic of each bounded context. Following Domain-Driven Design (DDD) principles, the software model is organized into twelve functional domains, including identity management, user profiles, subscriptions, dashboards, asset monitoring, sensor telemetry, environmental compliance, alerts, remote control, analytics, incident management, and audit traceability. These diagrams provide a clear blueprint for software implementation, promote maintainability, and ensure consistency between business requirements and the technical architecture.
+</p>
+
 ### **4.7.1. Class Diagrams**
+
+- Identity & Access Management Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/identity-access-management-class-diagram.png" width="70%" alt="identity-access-class-diagram">
+</p>
+
+- User Profiles Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/user-profiles-class-diagram.png" width="70%" alt="user-profiles-class-diagram">
+</p>
+
+- Subscription & Billing Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/subscription-billing-class-diagram.png" width="70%" alt="subscription-billing-class-diagram">
+</p>
+
+- Dashboard & Overview Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/dashboard-overview-class-diagram.png" width="70%" alt="dashboard-overview-class-diagram">
+</p>
+
+- Asset & Inventory Monitoring Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/asset-inventory-monitoring-class-diagram.png" width="70%" alt="asset-inventory-monitoring-class-diagram">
+</p>
+
+- Sensor Monitoring Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/sensor-monitoring-class-diagram.png" width="70%" alt="sensor-monitoring-class-diagram">
+</p>
+
+- Environmental Compliance Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/environmental-compliance-class-diagram.png" width="70%" alt="environmental-compliance-class-diagram">
+</p>
+
+- Alerts & Notifications Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/alerts-notifications-class-diagram.png" width="70%" alt="alerts-notifications-class-diagram">
+</p>
+
+- Remote Control & Actuation Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/remote-control-actuation-class-diagram.png" width="70%" alt="remote-control-actuation-class-diagram">
+</p>
+
+- Reports & Analytics Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/reports-analytics-class-diagram.png" width="70%" alt="reports-analytics-class-diagram">
+</p>
+
+- Incident Management Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/incident-management-class-diagram.png" width="70%" alt="incident-management-class-diagram">
+</p>
+
+- Audit & Traceability Class Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/design-software/class-diagrams/audit-traceability-class-diagram.png" width="70%" alt="audit-traceability-class-diagram">
+</p>
+
 ## **4.8. Database Design**
 ### **4.8.1. Database Diagrams**
