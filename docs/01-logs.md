@@ -42,16 +42,16 @@
   <!-- ROW 3 -->
   <tr>
     <td style="text-align: center;">
-      (1.x.x.)
+      (1.0.0.)
     </td>
     <td style="text-align: center;">
-      (date)
+      24/04/26
     </td>
     <td style="text-align: center;">
       Arizabal Condori, Jean Niels
     </td>
     <td style="text-align: justify;">
-      (description)
+      Completed Startup Description, Solution Profile, Target Segment, Competitors, Interviews and Needfinding
     </td>
  <!-- ROW 4 -->
 <tr>
