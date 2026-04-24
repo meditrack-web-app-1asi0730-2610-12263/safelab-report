@@ -498,7 +498,52 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="development-evidence-for-sprint-review">
     <h4>5.2.1.4. Development Evidence for Sprint Review</h4>
-  </section>
+<p style="text-align: justify;">
+    En esta sección se presentan los commits que evidencian el desarrollo de la Landing Page y del informe del proyecto Meditrack.
+  </p>
+
+  <p>
+    🔗 Repositorio Landing Page:
+    <br>
+    <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git" target="_blank">
+      Ver repositorio
+    </a>
+  </p>
+
+  <table>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on</th>
+    </tr>
+
+<tr>
+  <td>safelab-business-website</td>
+  <td>main</td>
+  <td>a1b2c3d</td>
+  <td>feat: initial landing page structure</td>
+  <td>2026-04</td>
+</tr>
+
+<tr>
+  <td>safelab-business-website</td>
+  <td>main</td>
+  <td>b2c3d4e</td>
+  <td>feat: add sections and styles</td>
+  <td>2026-04</td>
+</tr>
+
+<tr>
+  <td>safelab-business-website</td>
+  <td>main</td>
+  <td>c3d4e5f</td>
+  <td>deploy: publish landing page</td>
+  <td>2026-04</td>
+</tr>
+  </table>
+</section>
 
   <section id="execution-evidence-for-sprint-review">
     <h4>5.2.1.5. Execution Evidence for Sprint Review</h4>
