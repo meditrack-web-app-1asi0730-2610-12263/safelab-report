@@ -95,6 +95,33 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     CSS, JavaScript, Vue.js, C# y Gherkin. Todas las nomenclaturas siguen el idioma inglés y estándares reconocidos
     en la industria.
   </p>
+  <h4>HTML y CSS</h4>
+
+  <p><strong>Estándares:</strong></p>
+  <ul>
+    <li>Basados en recomendaciones del W3C y Google Style Guide</li>
+    <li>Indentación: 2 espacios</li>
+    <li>Uso de comillas dobles para atributos HTML</li>
+    <li>Comentarios descriptivos en inglés</li>
+  </ul>
+
+  <p><strong>Metodología:</strong></p>
+  <ul>
+    <li>Uso de BEM (Block-Element-Modifier) para clases CSS</li>
+    <li>Aplicación de HTML semántico mediante etiquetas como &lt;header&gt;, &lt;section&gt;, &lt;article&gt;</li>
+  </ul>
+
+<h4>JavaScript</h4>
+
+  <p><strong>Guías:</strong></p>
+  <ul>
+    <li>Basado en MDN y Google JavaScript Style Guide</li>
+    <li>Variables y funciones en camelCase (ej. calculateTotal)</li>
+    <li>Declaración de variables con const o let (evitando el uso de var)</li>
+    <li>Uso de comillas simples para strings ('texto')</li>
+    <li>Preferencia por arrow functions</li>
+  </ul>
+
 
 
 </section>
