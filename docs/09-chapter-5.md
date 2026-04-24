@@ -619,6 +619,32 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="team-collaboration-insights-during-sprint">
     <h4>5.2.1.8. Team Collaboration Insights during Sprint</h4>
+
+<p style="text-align: justify;">
+    Durante el Sprint 1, el equipo SafeLab trabajó de manera colaborativa mediante la distribución de tareas y capítulos del informe. 
+  </p>
+
+  <p style="text-align: justify;">
+    La gestión del trabajo se realizó utilizando Trello, permitiendo visualizar el estado de cada tarea mediante listas como Backlog, Sprint Backlog, To Do, In Process y Done.
+  </p>
+
+  <p style="text-align: justify;">
+    La comunicación del equipo se llevó a cabo mediante Discord para reuniones y coordinación general, y WhatsApp para comunicación rápida y seguimiento inmediato.
+  </p>
+
+  <p style="text-align: justify;">
+    Reyes Menacho, Camila Asuncion estuvo a cargo del desarrollo del Capítulo V, consolidando la documentación de implementación, despliegue y evidencias del sprint.
+  </p>
+<figure style="text-align: center;">
+  <img src="../assets/chapter-5/Trello%20screenshot.png" alt="Trello Board Evidence" width="700">
+  <figcaption>Figura 5.1. Evidencia del tablero de Trello utilizado en el Sprint 1</figcaption>
+</figure>  <p>
+    🔗 Tablero Trello:
+    <br>
+    <a href="https://trello.com/b/rTOXeOxY/trabajo-final-de-aplicaciones-web" target="_blank">
+      Ver tablero
+    </a>
+  </p>
   </section>
 </section>
   </section>
