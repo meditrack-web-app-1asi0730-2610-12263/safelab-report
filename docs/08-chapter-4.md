@@ -28,6 +28,21 @@
 </p>
 
 ### **4.4.2. Web Applications Wireflow Diagrams**
+
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow1.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow2.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow3.png" width="70%" alt="user flow diagram">
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow4.png" width="70%" alt="user flow diagram">
+</p>
+
+
 ### **4.4.3. Web Applications Mock-ups**
 
 <p align="center">
