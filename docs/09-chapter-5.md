@@ -499,52 +499,91 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <section id="development-evidence-for-sprint-review">
     <h4>5.2.1.4. Development Evidence for Sprint Review</h4>
 <p style="text-align: justify;">
-    En esta sección se presentan los commits que evidencian el desarrollo de la Landing Page y del informe del proyecto Meditrack.
-  </p>
+En esta sección se presentan los commits que evidencian el desarrollo de la Landing Page del proyecto Meditrack, incluyendo la integración, corrección de contenido, estilos y despliegue.
+</p>
 
-  <p>
-    🔗 Repositorio Landing Page:
-    <br>
-    <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git" target="_blank">
-      Ver repositorio
-    </a>
-  </p>
+<p>
+🔗 Repositorio Landing Page:
+<br>
+<a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git" target="_blank">
+Ver repositorio
+</a>
+</p>
 
-  <table>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Committed on</th>
-    </tr>
-
+<table>
 <tr>
-  <td>safelab-business-website</td>
-  <td>main</td>
-  <td>a1b2c3d</td>
-  <td>feat: initial landing page structure</td>
-  <td>2026-04</td>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit Id</th>
+<th>Commit Message</th>
+<th>Committed on</th>
 </tr>
 
 <tr>
-  <td>safelab-business-website</td>
-  <td>main</td>
-  <td>b2c3d4e</td>
-  <td>feat: add sections and styles</td>
-  <td>2026-04</td>
+<td>safelab-business-website</td>
+<td>main</td>
+<td>6144d89</td>
+<td>hotfix(release): merge landing content fixes into main</td>
+<td>2026-04-23</td>
 </tr>
 
 <tr>
-  <td>safelab-business-website</td>
-  <td>main</td>
-  <td>c3d4e5f</td>
-  <td>deploy: publish landing page</td>
-  <td>2026-04</td>
+<td>safelab-business-website</td>
+<td>main</td>
+<td>99070d</td>
+<td>release(v1): merge develop into main with initial SafeLab landing page</td>
+<td>2026-04-23</td>
 </tr>
-  </table>
-</section>
 
+<tr>
+<td>safelab-business-website</td>
+<td>develop</td>
+<td>4b6dd01</td>
+<td>merge(safelab-landing): integrate initial landing page, styles</td>
+<td>2026-04-23</td>
+</tr>
+
+<tr>
+<td>safelab-business-website</td>
+<td>hotfix/landing-content</td>
+<td>190222a</td>
+<td>fix(styles): enhance team section with updated avatar styles</td>
+<td>2026-04-24</td>
+</tr>
+
+<tr>
+<td>safelab-business-website</td>
+<td>hotfix/landing-content</td>
+<td>ec8e452</td>
+<td>fix(content): update image paths and team section content</td>
+<td>2026-04-24</td>
+</tr>
+
+<tr>
+<td>safelab-business-website</td>
+<td>hotfix/landing-content</td>
+<td>6f44d89</td>
+<td>fix(assets): update SafeLab branding logos and images</td>
+<td>2026-04-24</td>
+</tr>
+
+<tr>
+<td>safelab-business-website</td>
+<td>develop</td>
+<td>2c37fd7</td>
+<td>chore(merge): sync develop with main</td>
+<td>2026-04-24</td>
+</tr>
+
+<tr>
+<td>safelab-business-website</td>
+<td>feature/i18n-language-switcher</td>
+<td>a3efc69</td>
+<td>feat: implement language switcher feature</td>
+<td>2026-04-24</td>
+</tr>
+
+</table>
   <section id="execution-evidence-for-sprint-review">
     <h4>5.2.1.5. Execution Evidence for Sprint Review</h4>
 
