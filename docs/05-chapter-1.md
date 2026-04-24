@@ -55,16 +55,16 @@
     <td style="text-align: justify; width: 60%; vertical-align: top;">
       <h3>Augusto Sebastian Montes Maza</h3>
       <p>
-        <b>Student code:</b> U20XXXXXXX
+        <b>Student code:</b> U202218645
       </p>
       <p>
-        <b>Age:</b> 00
+        <b>Age:</b> 21
       </p>
       <p>
-        <b>Degree:</b> (degree)
+        <b>Degree:</b> Software engineering
       </p>
       <p>
-        <b>About me:</b> My name is .....
+        <b>About me:</b> My name is Augusto Montes. I am a 21 year old software engineering student. Currently on my 6th semester at the Peruvian Univeristy of Applied Sciences. I am very fond of coding and development as whole, having a strong passion for web and mobile development. Always willing to collaborate and be a team player for the sake of bringing the project forward. I am interested in fullying my role to its full potential and always learn new things in the process.
       </p>
     </td>
   </tr>
