@@ -26,6 +26,15 @@
 
 <section id="source-code-management">
   <h3>5.1.2. Source Code Management</h3>
+
+ <p style="text-align: justify;">
+    La gestión del código fuente del proyecto Meditrack se realizó utilizando Git como sistema de control de versiones
+    y GitHub como repositorio remoto. Estas herramientas permitieron mantener trazabilidad de los cambios, control de
+    versiones distribuido y colaboración entre los integrantes del equipo.
+  </p>
+
+
+
 </section>
 
 <section id="source-code-style-guide-conventions">
