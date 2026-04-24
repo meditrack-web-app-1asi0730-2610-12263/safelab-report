@@ -67,6 +67,37 @@ The combination of being a new brand (weakness) in a highly distrustful and regu
 
 ### **2.2.2. Interview Recording**
 ### **2.2.3. Interview Analysis**
+
+**Segment: Coordinator**
+
+**Characteristics**
+* **Sex:** Male
+* **Age:** 24 - 65 years old
+* **Devices:** Smartphone, Laptop
+* **Operating Systems:** Android, Windows
+* **Browsers:** Chrome
+* **Brand Influence:** Refrigeration equipment (BioRack, BioBase, Helmer Inc), Supplies (Wiener), Communication (WhatsApp)
+
+**Common Goals**
+* Stop relying on manual processes when examining their equipment and supplies.
+* Have detailed information about their equipment.
+* Standardize their controls and protocols.
+* Obtain a quick response from the administrative level.
+
+**Common Motivations**
+* Have the assurance that their equipment operates correctly.
+* Have information that prevents breakdowns before the equipment stops working.
+* Have new, fully operational equipment as soon as possible when one stops working.
+
+**Common Frustrations**
+* Manual processes prone to errors.
+* Access to superficial, insufficient information.
+* Long waiting times for bureaucratic processes due to a lack of standardization.
+
+</div>
+<div style="page-break-after: always;"></div>
+<div style="text-align: justify;">
+
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
 ### **2.3.2. User Task Matrix**
