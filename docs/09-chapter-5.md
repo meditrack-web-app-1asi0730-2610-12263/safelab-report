@@ -89,6 +89,14 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
 <section id="source-code-style-guide-conventions">
   <h3>5.1.3. Source Code Style Guide &amp; Conventions</h3>
+  <p style="text-align: justify;">
+    Con el objetivo de garantizar consistencia, mantenibilidad y calidad en el desarrollo del proyecto Meditrack,
+    se establecieron convenciones de codificación aplicables a todas las tecnologías utilizadas, incluyendo HTML,
+    CSS, JavaScript, Vue.js, C# y Gherkin. Todas las nomenclaturas siguen el idioma inglés y estándares reconocidos
+    en la industria.
+  </p>
+
+
 </section>
 
 <section id="software-deployment-configuration">
