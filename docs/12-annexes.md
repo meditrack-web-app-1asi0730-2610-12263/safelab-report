@@ -1,4 +1,4 @@
-<h2>Anexos</h2>
+<h2>Annexes</h2>
 
 
 <h3>Videos</h3>
