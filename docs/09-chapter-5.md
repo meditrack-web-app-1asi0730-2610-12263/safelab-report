@@ -343,6 +343,44 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <section id="aspect-leaders-and-collaborators">
     <h4>5.2.1.2. Aspect Leaders and Collaborators</h4>
 
+<table>
+      <tr>
+        <th>Team Member</th>
+        <th>Code</th>
+        <th>Aspect 1: Landing Page</th>
+        <th>Aspect 2: Reporte</th>
+      </tr>
+      <tr>
+        <td>Lavado, Carlos Ever Giusephi</td>
+        <td>U202224867</td>
+        <td>C</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>Montes Maza, Augusto Sebastian</td>
+        <td>U202218645</td>
+        <td>C</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>Arizabal Condori, Jean Niels</td>
+        <td>U201919096</td>
+        <td>C</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>Reyes Menacho, Camila Asuncion</td>
+        <td>U201921442</td>
+        <td>L</td>
+        <td>L (Capítulo V)</td>
+      </tr>
+      <tr>
+        <td>Orosco Ttamiña, Juan Carlos</td>
+        <td>U202414840</td>
+        <td>C</td>
+        <td>L</td>
+      </tr>
+    </table>
   </section>
 
   <section id="sprint-backlog-1">
