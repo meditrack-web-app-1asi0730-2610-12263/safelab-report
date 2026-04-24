@@ -342,51 +342,7 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="aspect-leaders-and-collaborators">
     <h4>5.2.1.2. Aspect Leaders and Collaborators</h4>
-<p style="text-align: justify;">
-      En este sprint, los integrantes del equipo participaron en distintas actividades relacionadas con la documentación, gestión del proyecto, diseño, desarrollo de la Landing Page y coordinación general. La asignación de responsabilidades permitió distribuir el trabajo de manera ordenada y mantener seguimiento del avance mediante Trello.
-    </p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Aspecto</th>
-      <th>Líder / Responsable</th>
-      <th>Colaboradores</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Gestión del proyecto</td>
-      <td>Equipo SafeLab</td>
-      <td>Todos los integrantes</td>
-    </tr>
-    <tr>
-      <td>Documentación del informe</td>
-      <td>Equipo de documentación</td>
-      <td>Todos los integrantes</td>
-    </tr>
-    <tr>
-      <td>Organización en Trello</td>
-      <td>Equipo de gestión</td>
-      <td>Todos los integrantes</td>
-    </tr>
-    <tr>
-      <td>Diseño de recursos visuales</td>
-      <td>Equipo de diseño</td>
-      <td>Equipo SafeLab</td>
-    </tr>
-    <tr>
-      <td>Landing Page</td>
-      <td>Equipo de desarrollo web</td>
-      <td>Equipo de diseño y documentación</td>
-    </tr>
-    <tr>
-      <td>Despliegue de Landing Page</td>
-      <td>Equipo de desarrollo web</td>
-      <td>Equipo SafeLab</td>
-    </tr>
-  </tbody>
-</table>
   </section>
 
   <section id="sprint-backlog-1">
