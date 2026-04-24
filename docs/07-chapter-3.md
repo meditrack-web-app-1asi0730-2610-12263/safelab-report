@@ -468,132 +468,22 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 ### HU01 - Listar productos
 
-<table>
-<tr>
-<td><b>Número:</b></td>
-<td>HU01</td>
-<td><b>Usuario:</b></td>
-<td>Administrador</td>
-</tr>
+<table> <tr> <td><b>Number:</b></td> <td>HU01</td> <td><b>User:</b></td> <td>Lab Manager</td> </tr> <tr> <td><b>Story Name:</b></td> <td colspan="3">Register laboratory site</td> </tr> <tr> <td><b>Business Priority:</b></td> <td colspan="3">High</td> </tr> <tr> <td><b>Developer:</b></td> <td colspan="3">To be defined</td> </tr> <tr> <td><b>Description:</b></td> <td colspan="3"> As a lab manager, I want to register a laboratory site so I can organize monitoring across different locations </td> </tr> <tr> <td><b>Acceptance Criteria:</b></td> <td colspan="3">
 
-<tr>
-<td><b>Nombre HU:</b></td>
-<td colspan="3">Listar productos</td>
-</tr>
+<b>Scenario 1: Successful registration</b><br>
+Given valid site data<br>
+When the user saves the site<br>
+Then the system registers it correctly<br><br>
 
-<tr>
-<td><b>Prioridad en el negocio:</b></td>
-<td colspan="3">Alta</td>
-</tr>
+<b>Scenario 2: Missing data</b><br>
+Given incomplete required fields<br>
+When the user tries to save<br>
+Then the system shows an error message<br><br>
 
-<tr>
-<td><b>Programador responsable:</b></td>
-<td colspan="3">Por definir</td>
-</tr>
-
-<tr>
-<td><b>Descripción:</b></td>
-<td colspan="3">
-Como administrador, quiero listar los productos médicos para tener control del inventario
-</td>
-</tr>
-
-<tr>
-<td><b>Criterios de aceptación:</b></td>
-<td colspan="3">
-
-<b>Escenario 1: Visualización de productos registrados</b><br>
-Dado que el administrador ha registrado uno o más productos<br>
-Cuando accede a la sección de inventario<br>
-Entonces el sistema muestra el listado de productos registrados<br><br>
-
-<b>Escenario 2: Lista vacía</b><br>
-Dado que no existen productos registrados<br>
-Cuando accede al inventario<br>
-Entonces el sistema muestra un mensaje indicando que no hay productos<br><br>
-
-<b>Escenario 3: Acceso al detalle del producto</b><br>
-Dado que existen productos registrados<br>
-Cuando selecciona un producto<br>
-Entonces el sistema muestra el detalle del producto
-
-</td>
-</tr>
-</table>
-
-<table> <tr> <td><b>Número:</b></td> <td>HU01</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Registrar sede</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero registrar una sede del laboratorio para organizar las operaciones por ubicación </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
-
-<b>Escenario 1: Registro exitoso</b><br>
-Dado datos válidos de una sede<br>
-Cuando el administrador guarda<br>
-Entonces el sistema registra la sede correctamente<br><br>
-
-<b>Escenario 2: Datos incompletos</b><br>
-Dado que faltan datos obligatorios<br>
-Cuando intenta guardar<br>
-Entonces el sistema muestra un mensaje de error<br><br>
-
-<b>Escenario 3: Visualización</b><br>
-Dado una sede registrada<br>
-Cuando accede al listado<br>
-Entonces la sede aparece en el sistema
-
-</td> </tr> </table>
-
-<table> <tr> <td><b>Número:</b></td> <td>HU02</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Crear sala</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero crear salas dentro de una sede para ubicar los equipos de almacenamiento </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
-
-<b>Escenario 1: Creación exitosa</b><br>
-Dado una sede existente<br>
-Cuando crea la sala<br>
-Entonces el sistema la registra correctamente<br><br>
-
-<b>Escenario 2: Error de validación</b><br>
-Dado datos incompletos<br>
-Cuando guarda<br>
-Entonces muestra error<br><br>
-
-<b>Escenario 3: Visualización</b><br>
-Dado salas registradas<br>
-Cuando consulta<br>
-Entonces se muestran en la sede
-
-</td> </tr> </table>
-
-<table> <tr> <td><b>Número:</b></td> <td>HU03</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Registrar equipo de almacenamiento</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero registrar equipos de almacenamiento para gestionar dónde se conservan los productos </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
-
-<b>Escenario 1: Registro correcto</b><br>
-Dado datos válidos<br>
-Cuando guarda<br>
-Entonces el equipo se registra<br><br>
-
-<b>Escenario 2: Datos inválidos</b><br>
-Dado información incompleta<br>
-Cuando guarda<br>
-Entonces muestra error<br><br>
-
-<b>Escenario 3: Visualización</b><br>
-Dado equipos registrados<br>
-Cuando consulta<br>
-Entonces se muestran en la lista
-
-</td> </tr> </table>
-
-<table> <tr> <td><b>Número:</b></td> <td>HU04</td> <td><b>Usuario:</b></td> <td>Administrador</td> </tr> <tr> <td><b>Nombre HU:</b></td> <td colspan="3">Asignar equipo a sala</td> </tr> <tr> <td><b>Prioridad en el negocio:</b></td> <td colspan="3">Alta</td> </tr> <tr> <td><b>Programador responsable:</b></td> <td colspan="3">Por definir</td> </tr> <tr> <td><b>Descripción:</b></td> <td colspan="3"> Como administrador, quiero asignar un equipo a una sala para conocer su ubicación exacta </td> </tr> <tr> <td><b>Criterios de aceptación:</b></td> <td colspan="3">
-
-<b>Escenario 1: Asignación exitosa</b><br>
-Dado equipo y sala existentes<br>
-Cuando asigna<br>
-Entonces queda vinculado<br><br>
-
-<b>Escenario 2: Error de asignación</b><br>
-Dado datos incorrectos<br>
-Cuando asigna<br>
-Entonces muestra error<br><br>
-
-<b>Escenario 3: Visualización</b><br>
-Dado equipo asignado<br>
-Cuando consulta<br>
-Entonces muestra su ubicación
+<b>Scenario 3: Site list view</b><br>
+Given a registered site<br>
+When the user opens the list<br>
+Then the site is displayed
 
 </td> </tr> </table>
 
