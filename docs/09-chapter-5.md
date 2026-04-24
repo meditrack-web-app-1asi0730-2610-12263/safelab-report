@@ -565,11 +565,57 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="services-documentation-evidence-for-sprint-review">
     <h4>5.2.1.6. Services Documentation Evidence for Sprint Review</h4>
+
+
+  <p style="text-align: justify;">
+    Como se definió en la planificación del sprint, este sprint estuvo enfocado únicamente en el desarrollo de la Landing Page y el avance del informe del proyecto. 
+  </p>
+
+  <p style="text-align: justify;">
+    No se implementaron servicios backend ni endpoints documentados con OpenAPI, debido a que el desarrollo de la aplicación principal se encuentra planificado para sprints posteriores.
+  </p>
+
+
   </section>
 
   <section id="software-deployment-evidence-for-sprint-review">
-    <h4>5.2.1.7. Software Deployment Evidence for Sprint Review</h4>
-  </section>
+
+ <h4>5.2.1.7. Software Deployment Evidence for Sprint Review</h4>
+   <p style="text-align: justify;">
+    Durante este sprint se realizó el despliegue de la Landing Page como primera evidencia del producto Meditrack. El objetivo fue contar con una versión accesible en línea para validación inicial.
+  </p>
+
+  <p style="text-align: justify;">
+    Actividades realizadas:
+  </p>
+
+  <ul>
+    <li>Creación del repositorio en GitHub</li>
+    <li>Subida del código fuente de la Landing Page</li>
+    <li>Configuración del entorno de despliegue</li>
+    <li>Verificación del acceso público</li>
+  </ul>
+
+  <p>
+    🔗 Landing Page desplegada:
+    <br>
+    <a href="https://meditrack-web-app-1asi0730-2610-12263.github.io/safelab-business-website/" target="_blank">
+      Ver Landing Page
+    </a>
+  </p>
+
+  <p>
+    🔗 Repositorio del informe:
+    <br>
+    <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-report.git" target="_blank">
+      Ver repositorio
+    </a>
+  </p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-5/deployment.png" alt="Deployment Evidence" width="600">
+  <p>Figura X. Evidencia de despliegue de la Landing Page</p>
+</div>
+</section>
 
   <section id="team-collaboration-insights-during-sprint">
     <h4>5.2.1.8. Team Collaboration Insights during Sprint</h4>
