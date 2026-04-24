@@ -130,6 +130,13 @@ The combination of being a new brand (weakness) in a highly distrustful and regu
 <br>
 
 ### **2.3.4. Empathy Mapping**
+
+**Segment: Coordinator**
+
+![User Journey Mapping Carlos](../assets/chapter-2/Carlos%20Empathy%20map.png)
+
+<br>
+
 ## **2.4. Big Picture Event Storming**
 ## **2.5. Ubiquitous Language**
 
