@@ -225,7 +225,11 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     </a>
   </p>
 
-
+ <p style="text-align: justify;">
+    Actualmente, el despliegue del proyecto se limita a la Landing Page y la documentación del informe. Las aplicaciones
+    frontend y backend de Meditrack no han sido implementadas ni desplegadas en esta etapa, por lo que su configuración
+    será abordada en sprints posteriores.
+  </p>
   </section>
 
   <section id="landing-page-services-applications-implementation">
