@@ -1,9 +1,4 @@
 # **Chapter III: Requirements Specification**
-## **3.1. User Stories**
-## **3.2. Impact Mapping**
-## **3.3. Product Backlog**
-
-
 ## **3.1 User Stories**
 
 In this section, the system’s functional requirements are presented, defined through User Stories and grouped into Epics based on the analysis carried out in Chapter II.
