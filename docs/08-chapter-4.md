@@ -1,7 +1,176 @@
 # **Chapter IV: Product Design**
+
 ## **4.1. Style Guidelines**
+
 ### **4.1.1. General Style Guidelines**
+
+**Brand Overview**
+
+SafeLab is a biotech monitoring platform designed to ensure pharmaceutical and clinical cold chain compliance through real-time sensor monitoring and alert management. The brand identity reflects professionalism, reliability, and technological innovation in the healthcare sector.
+
+**Color Palette**
+
+Our primary color palette emphasizes trust, safety, and precision:
+
+- **Primary Colors:**
+  - Indigo 600 (`#4F46E5`) - Main brand color, used for primary actions and navigation
+  - Indigo 700 (`#4338CA`) - Darker variant for hover states and emphasis
+  - Indigo 50 (`#EEF2FF`) - Light backgrounds and subtle highlights
+
+- **Secondary Colors:**
+  - Slate 900 (`#0F172A`) - Primary text and headings
+  - Slate 700 (`#334155`) - Secondary text
+  - Slate 600 (`#475569`) - Tertiary text and labels
+  - Slate 100 (`#F1F5F9`) - Background surfaces
+  - Slate 50 (`#F8FAFC`) - Page backgrounds
+
+- **Semantic Colors:**
+  - Emerald 600 (`#059669`) - Success states, active sensors, normal operations
+  - Amber 500 (`#F59E0B`) - Warning states, threshold approaching
+  - Red 600 (`#DC2626`) - Critical alerts, errors, out-of-compliance
+  - Blue 600 (`#2563EB`) - Information, neutral notifications
+
+**Typography**
+
+- **Font Family:** System font stack prioritizing readability and performance
+  - Primary: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`
+  
+- **Hierarchy:**
+  - **H1 (Page Titles):** 2rem (32px), Bold (700), Slate 900
+  - **H2 (Section Headers):** 1.5rem (24px), Bold (700), Slate 900
+  - **H3 (Subsections):** 1.25rem (20px), Semibold (600), Slate 800
+  - **Body Text:** 1rem (16px), Regular (400), Slate 700
+  - **Small Text:** 0.875rem (14px), Regular (400), Slate 600
+  - **Caption:** 0.75rem (12px), Medium (500), Slate 600
+
+**Spacing & Layout**
+
+- **Base Unit:** 0.25rem (4px)
+- **Common Spacing:**
+  - xs: 0.5rem (8px)
+  - sm: 0.75rem (12px)
+  - md: 1rem (16px)
+  - lg: 1.5rem (24px)
+  - xl: 2rem (32px)
+  - 2xl: 3rem (48px)
+
+- **Container Max-Width:** 1280px (desktop), 100% (mobile)
+- **Grid System:** 12-column responsive grid with 16px gutters
+
+**Iconography**
+
+- **Icon Library:** Lucide React
+- **Icon Sizes:**
+  - Small: 16px (informational icons)
+  - Medium: 20px (navigation, buttons)
+  - Large: 24px (feature highlights)
+  - Extra Large: 32px+ (hero sections, empty states)
+
+- **Icon Style:** Minimalist line icons with 2px stroke width, consistent with modern medical/scientific interfaces
+
+**Visual Elements**
+
+- **Border Radius:**
+  - Small components (buttons, badges): 0.375rem (6px)
+  - Cards and containers: 0.5rem (8px)
+  - Large surfaces: 0.75rem (12px)
+  - Circular elements (avatars): 50%
+
+- **Shadows:**
+  - Subtle: `0 1px 2px rgba(0, 0, 0, 0.05)`
+  - Medium: `0 4px 6px rgba(0, 0, 0, 0.1)`
+  - Large: `0 10px 15px rgba(0, 0, 0, 0.1)`
+
+- **Gradients:**
+  - Primary: `linear-gradient(135deg, #4F46E5 0%, #4338CA 100%)`
+  - Background: `linear-gradient(to bottom right, #F8FAFC 0%, #F1F5F9 100%)`
+
+**Tone & Voice**
+
+- **Professional:** Clear, concise, technical when necessary
+- **Reassuring:** Emphasize safety, reliability, and compliance
+- **Actionable:** Direct users with clear calls-to-action
+- **Accessible:** Avoid jargon when communicating with non-technical users
+
 ### **4.1.2. Web Style Guidelines**
+
+**Responsive Design Principles**
+
+SafeLab follows a mobile-first responsive approach with three primary breakpoints:
+
+- **Mobile:** 320px - 767px (single column, stacked navigation)
+- **Tablet:** 768px - 1023px (adaptive layouts, collapsible sidebar)
+- **Desktop:** 1024px+ (full multi-column layouts, persistent navigation)
+
+**Component Design Standards**
+
+**Navigation:**
+- **Desktop:** Persistent left sidebar (240px width) with icon + label navigation
+- **Mobile:** Bottom tab bar with icon-only navigation (56px height)
+- **Header:** Fixed top bar (64px height) with breadcrumbs, search, and user profile
+
+**Buttons:**
+- **Primary Button:** Indigo 600 background, white text, rounded-md, medium padding (px-4 py-2)
+  - Hover: Indigo 700 background
+  - Active: Indigo 800 background with subtle shadow
+  - Disabled: Slate 300 background, Slate 500 text, no pointer events
+
+- **Secondary Button:** White background, Slate 700 text, Slate 300 border
+  - Hover: Slate 50 background
+  
+- **Danger Button:** Red 600 background, white text (for critical actions like "Delete", "Deactivate")
+
+**Forms:**
+- **Input Fields:** White background, Slate 300 border, rounded-md, 40px height
+  - Focus: Indigo 600 border (2px), subtle shadow
+  - Error: Red 500 border, Red 600 error message below
+  - Success: Emerald 500 border
+
+- **Labels:** Slate 700, 14px, semibold (600), 8px margin-bottom
+- **Placeholders:** Slate 400, italic
+- **Helper Text:** Slate 600, 12px, regular
+
+**Cards:**
+- **Standard Card:** White background, subtle shadow, 8px border-radius, 16px padding
+- **Elevated Card:** Medium shadow on hover for interactive cards
+- **Sensor Card:** Includes status indicator (colored left border: 4px), icon, title, metrics, and timestamp
+
+**Tables:**
+- **Header:** Slate 100 background, Slate 700 bold text, 12px uppercase
+- **Rows:** White background, Slate 800 border-bottom (1px)
+  - Hover: Slate 50 background
+  - Striped (optional): Alternating Slate 50 backgrounds
+- **Responsive:** Horizontal scroll on mobile, card-based layout for narrow screens
+
+**Alerts & Notifications:**
+- **Critical Alert:** Red 50 background, Red 700 border-left (4px), Red 800 text, AlertTriangle icon
+- **Warning:** Amber 50 background, Amber 600 border, Amber 900 text, AlertCircle icon
+- **Success:** Emerald 50 background, Emerald 600 border, Emerald 900 text, CheckCircle icon
+- **Info:** Blue 50 background, Blue 600 border, Blue 900 text, Info icon
+
+**Charts & Data Visualization:**
+- **Library:** Recharts
+- **Color Scheme:** Indigo gradient for primary metrics, semantic colors for status indicators
+- **Accessibility:** All charts include text alternatives and ARIA labels
+
+**Loading States:**
+- **Skeleton Screens:** Animated pulse effect on placeholder elements
+- **Spinners:** Indigo 600 spinner for content loading
+- **Progress Bars:** Indigo 600 fill with Slate 200 background
+
+**Accessibility Standards:**
+- **WCAG 2.1 Level AA Compliance**
+- **Minimum contrast ratio:** 4.5:1 for normal text, 3:1 for large text
+- **Focus indicators:** 2px Indigo 600 outline with 2px offset
+- **Keyboard navigation:** Full support for tab, arrow keys, enter, escape
+- **Screen reader support:** Proper ARIA labels, roles, and live regions for dynamic content
+- **Touch targets:** Minimum 44x44px for all interactive elements on mobile
+
+**Animation & Transitions:**
+- **Duration:** 150ms for micro-interactions, 300ms for page transitions
+- **Easing:** `ease-in-out` for most transitions
+- **Hover Effects:** Subtle scale (1.02) or shadow increase
+- **Page Transitions:** Fade in/out with slight vertical movement
 ## **4.2. Information Architecture**
 ### **4.2.1. Organization Systems**
 ### **4.2.2. Labeling Systems**
