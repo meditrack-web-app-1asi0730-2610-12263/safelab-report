@@ -244,6 +244,17 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="sprint-planning-1">
     <h4>5.2.1.1. Sprint Planning n</h4>
+
+
+<p style="text-align: justify;">
+  Durante la planificación del Sprint 1, el equipo definió como objetivo principal establecer las bases organizativas y técnicas del proyecto Meditrack. Para ello, se priorizaron tareas relacionadas con la configuración del repositorio, el uso de herramientas colaborativas, el avance de los capítulos iniciales del informe y la implementación de la Landing Page.
+</p>
+
+<p style="text-align: justify;">
+  El alcance del sprint incluyó la organización del tablero en Trello, la coordinación mediante Discord y WhatsApp, el avance de los capítulos I, II, III y IV del informe, la creación de la estructura del Capítulo V y el despliegue de la Landing Page. No se incluyó el desarrollo del frontend ni backend de la aplicación principal, ya que estos componentes serán abordados en sprints posteriores.
+</p>
+  </section>
+
   </section>
 
   <section id="aspect-leaders-and-collaborators">
