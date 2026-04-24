@@ -15,16 +15,16 @@
 ### **4.4.1. Web Applications Wireframes**
 
 <p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb1.png width="70%" alt="web application wireframes>
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb1.png" width="70%" alt="web application wireframes">
 </p>
 <p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb2.png width="70%" alt="web application wireframes>
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb2.png" width="70%" alt="web application wireframes">
 </p>
 <p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb3.png width="70%" alt="web application wireframes>
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb3.png" width="70%" alt="web application wireframes">
 </p>
 <p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb4.png width="70%" alt="web application wireframes>
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb4.png" width="70%" alt="web application wireframes">
 </p>
 
 ### **4.4.2. Web Applications Wireflow Diagrams**
