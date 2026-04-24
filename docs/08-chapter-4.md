@@ -1256,9 +1256,19 @@ Track navigation patterns to improve UX:
 - Icon: Context-specific
 
 ## **4.3. Landing Page UI Design**
+
 ### **4.3.1. Landing Page Wireframe**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-design/wireframes/landingwireframe.png" width="70%" alt="landing page mockup">
+</p>
+
 ### **4.3.2. Landing Page Mockup**
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-design/mockups/landingmockup.png" width="70%" alt="landing page mockup">
+</p>
 ## **4.4. Web Applications UX/UI Design**
+
 ### **4.4.1. Web Applications Wireframes**
 
 <p align="center">
