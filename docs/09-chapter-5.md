@@ -236,38 +236,38 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     <h2>5.2. Landing Page, Services &amp; Applications Implementation</h2>
 
 <section id="sprint-n">
-  <h3>5.2.X. Sprint n</h3>
+  <h3>5.2.1. Sprint n</h3>
 
   <section id="sprint-planning-n">
-    <h4>5.2.X.1. Sprint Planning n</h4>
+    <h4>5.2.1.1. Sprint Planning n</h4>
   </section>
 
   <section id="aspect-leaders-and-collaborators">
-    <h4>5.2.X.2. Aspect Leaders and Collaborators</h4>
+    <h4>5.2.1.2. Aspect Leaders and Collaborators</h4>
   </section>
 
   <section id="sprint-backlog-n">
-    <h4>5.2.X.3. Sprint Backlog n</h4>
+    <h4>5.2.1.3. Sprint Backlog n</h4>
   </section>
 
   <section id="development-evidence-for-sprint-review">
-    <h4>5.2.X.4. Development Evidence for Sprint Review</h4>
+    <h4>5.2.1.4. Development Evidence for Sprint Review</h4>
   </section>
 
   <section id="execution-evidence-for-sprint-review">
-    <h4>5.2.X.5. Execution Evidence for Sprint Review</h4>
+    <h4>5.2.1.5. Execution Evidence for Sprint Review</h4>
   </section>
 
   <section id="services-documentation-evidence-for-sprint-review">
-    <h4>5.2.X.6. Services Documentation Evidence for Sprint Review</h4>
+    <h4>5.2.1.6. Services Documentation Evidence for Sprint Review</h4>
   </section>
 
   <section id="software-deployment-evidence-for-sprint-review">
-    <h4>5.2.X.7. Software Deployment Evidence for Sprint Review</h4>
+    <h4>5.2.1.7. Software Deployment Evidence for Sprint Review</h4>
   </section>
 
   <section id="team-collaboration-insights-during-sprint">
-    <h4>5.2.X.8. Team Collaboration Insights during Sprint</h4>
+    <h4>5.2.1.8. Team Collaboration Insights during Sprint</h4>
   </section>
 </section>
   </section>
