@@ -19,18 +19,73 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 #### Epics
 
-| Epic ID | Título | Descripción |
-|--------|--------|------------|
-| EP01 | Organización del laboratorio | Estructurar sedes, áreas y equipos para ubicar y gestionar recursos |
-| EP02 | Gestión de inventario | Registro de productos, control de cantidades y fechas de vencimiento |
-| EP03 | Monitoreo de condiciones | Supervisión de temperatura y variables ambientales en tiempo real |
-| EP04 | Alertas y seguimiento | Notificación de problemas y control de acciones tomadas |
-| EP05 | Historial y cumplimiento | Registro de actividades y generación de reportes para auditorías |
-| EP06 | Dashboard | Visualización general del estado del laboratorio e indicadores clave |
-| EP07 | Acceso de usuarios | Inicio de sesión seguro y recuperación de acceso |
-| EP08 | Gestión de usuarios | Administración de usuarios y permisos dentro del sistema |
-| EP09 | Configuración del sistema | Ajuste de parámetros como rangos, reglas y tipos de datos |
-| EP10 | Soporte y mantenimiento | Gestión de errores y continuidad del sistema |
+<table>
+  <tr>
+    <th>Epic ID</th>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>EP01</td>
+    <td>Laboratory Organization</td>
+    <td>Structure sites, areas, and equipment to locate and manage resources.</td>
+  </tr>
+
+  <tr>
+    <td>EP02</td>
+    <td>Inventory Management</td>
+    <td>Register products and control quantities and expiration dates.</td>
+  </tr>
+
+  <tr>
+    <td>EP03</td>
+    <td>Condition Monitoring</td>
+    <td>Monitor temperature and environmental variables in real time.</td>
+  </tr>
+
+  <tr>
+    <td>EP04</td>
+    <td>Alerts and Tracking</td>
+    <td>Notify issues and track actions taken.</td>
+  </tr>
+
+  <tr>
+    <td>EP05</td>
+    <td>History and Compliance</td>
+    <td>Record activities and generate reports for audits.</td>
+  </tr>
+
+  <tr>
+    <td>EP06</td>
+    <td>Dashboard</td>
+    <td>Provide an overview of laboratory status and key indicators.</td>
+  </tr>
+
+  <tr>
+    <td>EP07</td>
+    <td>User Access</td>
+    <td>Secure login and account recovery.</td>
+  </tr>
+
+  <tr>
+    <td>EP08</td>
+    <td>User Management</td>
+    <td>Manage users and permissions within the system.</td>
+  </tr>
+
+  <tr>
+    <td>EP09</td>
+    <td>System Configuration</td>
+    <td>Adjust parameters such as ranges, rules, and data types.</td>
+  </tr>
+
+  <tr>
+    <td>EP10</td>
+    <td>Support and Maintenance</td>
+    <td>Handle system errors and ensure operational continuity.</td>
+  </tr>
+</table>
 
 
 ---
