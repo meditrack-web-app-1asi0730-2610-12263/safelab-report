@@ -69,7 +69,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+         Participé en la organización y liderazgo técnico del desarrollo del Capítulo V, coordinando con el equipo la estructuración de la información de implementación, validación y despliegue del producto. Guié la consolidación de evidencias como commits, repositorios y despliegue de la landing page, asegurando coherencia entre el trabajo técnico y la documentación del informe.
       <br><br>
         ------------------------------------
       <br><br>
@@ -145,7 +145,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+         Definí la estructura del Capítulo V en base a los requerimientos del proyecto, organizando las secciones de configuración, desarrollo y despliegue. Coordiné con el equipo el levantamiento de información como Trello, GitHub y evidencias de sprint, estableciendo criterios para documentar correctamente cada parte.
       <br><br>
         ------------------------------------
       <br><br>
