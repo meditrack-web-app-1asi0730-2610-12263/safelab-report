@@ -1325,6 +1325,12 @@ Track navigation patterns to improve UX:
 
 ## **4.5. Web Applications Prototyping**
 
+<p align="center">
+  <img src="../assets/chapter-4/prototype.png" width="70%" alt="web application prototype">
+</p>
+
+[https://www.figma.com/proto/3nkB0rdhfOB1TfuFx5W1px/SafeLab?node-id=64-4373&t=jSkWlgIh7tqtWQFM-1](https://www.figma.com/proto/3nkB0rdhfOB1TfuFx5W1px/SafeLab?node-id=64-4373&t=jSkWlgIh7tqtWQFM-1)
+
 ## **4.6. Domain-Driven Software Architecture**
 
 <p style="text-align: justify;">
