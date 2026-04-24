@@ -33,7 +33,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        During AV1, I assumed a leadership role by organizing team repositories, defining documentation templates, assigning responsibilities, coordinating meetings, and guiding the development of the architecture deliverables to ensure team alignment and progress.
       <br><br>
         ------------------------------------
       <br><br>
@@ -69,7 +69,7 @@
         AV1
       </i></b>
       <br>
-         Participé en la organización y liderazgo técnico del desarrollo del Capítulo V, coordinando con el equipo la estructuración de la información de implementación, validación y despliegue del producto. Guié la consolidación de evidencias como commits, repositorios y despliegue de la landing page, asegurando coherencia entre el trabajo técnico y la documentación del informe.
+         I participated in the organization and technical leadership of Chapter V's development, coordinating with the team the structuring of information for product implementation, validation, and deployment. I guided the consolidation of evidence such as commits, repositories, and the landing page deployment, ensuring consistency between the technical work and the report documentation.
       <br><br>
         ------------------------------------
       <br><br>
@@ -81,7 +81,7 @@
         AV1
       </i></b>
       <br>
-        Participé activamente en las reuniones y decisiones del equipo cumpliendo con mi parte dentro de los plazos. También estuve en la parte de definir las épicas y las historias de usuario (HU) según lo que encontramos en las entrevistas mostrando compromiso con el proyecto y con el equipo.
+        I actively participated in team meetings and decisions, fulfilling my responsibilities within the established deadlines. I was also involved in defining the epics and user stories (US) based on the information gathered during interviews, demonstrating commitment to the project and the team.
       <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
@@ -109,7 +109,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        During AV1, I promoted collaboration by structuring the workflow, distributing tasks according to team strengths, setting clear milestones, and supporting the integration of deliverables such as diagrams, database design, and landing page development, helping the team achieve project objectives successfully.
       <br><br>
         ------------------------------------
       <br><br>
@@ -145,7 +145,7 @@
         AV1
       </i></b>
       <br>
-         Definí la estructura del Capítulo V en base a los requerimientos del proyecto, organizando las secciones de configuración, desarrollo y despliegue. Coordiné con el equipo el levantamiento de información como Trello, GitHub y evidencias de sprint, estableciendo criterios para documentar correctamente cada parte.
+         I defined the structure of Chapter V based on the project requirements, organizing the configuration, development, and deployment sections. I coordinated with the team to gather information using Trello, GitHub, and sprint evidence, establishing criteria to properly document each part.
       <br><br>
         ------------------------------------
       <br><br>
@@ -157,7 +157,7 @@
         AV1
       </i></b>
       <br>
-        Durante esta etapa se mantuvo un ambiente de trabajo colaborativo e inclusivo usando WhatsApp y Discord para coordinar reuniones y GitHub para avanzar en paralelo. Definimos metas desde el inicio, organizamos las tareas y trabajamos en equipo para cumplir los objetivos. Además, mi aporte y el apoyo en el informe ayudaron a que todo fluyera mejor y el equipo se mantuviera coordinado.
+        During this phase, we maintained a collaborative and inclusive work environment, using WhatsApp and Discord to coordinate meetings and GitHub to work in parallel. We defined goals from the outset, organized tasks, and worked as a team to achieve them. Furthermore, my input and support in the reporting process helped everything run more smoothly and kept the team coordinated.
       <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">

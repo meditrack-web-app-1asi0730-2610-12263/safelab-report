@@ -12,16 +12,16 @@
   <!-- ROW 1 -->
   <tr>
     <td style="text-align: center;">
-      (1.x.x.)
+      1.0.0.
     </td>
     <td style="text-align: center;">
-      (fecha)
+      24/04/2026
     </td>
     <td style="text-align: center;">
       Carlos Lavado, Ever Giusephi
     </td>
-    <td style="text-align: center;">
-      (description)
+    <td style="text-align: justify;">
+      Completed Domain-Driven Architecture, UML Class Diagrams, Database Design, repository organization, team coordination, and landing page base development.
     </td>
   </tr>
   <!-- ROW 2 -->
@@ -35,7 +35,7 @@
     <td style="text-align: center;">
       Montes Maza, Augusto Sebastian
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       (description)
     </td>
   </tr>
@@ -50,7 +50,7 @@
     <td style="text-align: center;">
       Arizabal Condori, Jean Niels
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       (description)
     </td>
  <!-- ROW 4 -->
@@ -64,8 +64,8 @@
   <td style="text-align: center;">
     Reyes Menacho, Camila Asuncion
   </td>
-  <td style="text-align: center;">
-    Desarrollo del Capítulo V: Product Implementation, Validation & Deployment. Se documentó la configuración del entorno, control de versiones, convenciones de código y despliegue. Además, se integraron evidencias de desarrollo (commits, repositorio) y deployment de la landing page.
+  <td style="text-align: justify;">
+    Chapter V: Product Implementation, Validation & Deployment was developed. This section documented the environment configuration, version control, coding conventions, and deployment. Additionally, evidence of development (commits, repository) and the landing page deployment was integrated.
   </td>
 </tr>
   <!-- ROW 5 -->
@@ -79,7 +79,7 @@
     <td style="text-align: center;">
       Orosco Ttamiña, Juan Carlos
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       (description)
     </td>
   </tr>
