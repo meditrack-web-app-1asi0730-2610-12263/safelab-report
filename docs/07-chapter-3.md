@@ -92,67 +92,375 @@ En esta sección se presentan los requisitos funcionales del sistema Meditrack d
 
 #### User Stories
 
-| ID | Título | Descripción | Criterios de aceptación | Épica |
-|----|--------|------------|--------------------------|----------|
-| US01 | Registrar sede | Como usuario, deseo registrar una sede para organizar el laboratorio por ubicación | Dado datos válidos cuando guarda entonces la sede se registra | EP01 |
-| US02 | Crear sala | Como usuario, deseo crear salas para ubicar equipos | Dado sede existente cuando crea entonces la sala se registra | EP01 |
-| US03 | Registrar equipo | Como usuario, deseo registrar equipos de almacenamiento para gestionarlos | Dado datos válidos cuando guarda entonces el equipo se registra | EP01 |
-| US04 | Asignar equipo | Como usuario, deseo asignar un equipo a una sala para ubicarlo | Dado equipo y sala cuando asigna entonces queda vinculado | EP01 |
-| US05 | Ubicar equipo | Como usuario, deseo ubicar un equipo rápidamente para operarlo | Dado equipos registrados cuando busca entonces muestra ubicación | EP01 |
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Epic</th>
+  </tr>
 
-| US06 | Registrar producto | Como usuario, deseo registrar productos para controlar inventario | Dado datos válidos cuando guarda entonces se registra | EP02 |
-| US07 | Registrar lote | Como usuario, deseo registrar lotes con vencimiento para controlarlos | Dado datos válidos cuando guarda entonces se registra lote | EP02 |
-| US08 | Ver stock | Como usuario, deseo ver stock disponible para tomar decisiones | Dado productos cuando consulta entonces muestra cantidades | EP02 |
-| US09 | Registrar entrada | Como usuario, deseo registrar entrada de productos para actualizar stock | Dado datos válidos cuando registra entonces aumenta stock | EP02 |
-| US10 | Registrar salida | Como usuario, deseo registrar salida de productos para control | Dado datos válidos cuando registra entonces disminuye stock | EP02 |
-| US11 | Ver productos por vencer | Como usuario, deseo ver productos próximos a vencer para evitar pérdidas | Dado productos cuando consulta entonces muestra próximos a vencer | EP02 |
+  <tr>
+    <td>US01</td>
+    <td>Register laboratory site</td>
+    <td>As a lab manager, I want to register a site so I can organize monitoring across locations</td>
+    <td>EP01</td>
+  </tr>
 
-| US12 | Ver temperatura actual | Como usuario, deseo ver la temperatura de equipos para asegurar conservación | Dado equipo cuando consulta entonces muestra temperatura | EP03 |
-| US13 | Ver historial de temperatura | Como usuario, deseo revisar historial para validar estabilidad | Dado equipo cuando consulta entonces muestra historial | EP03 |
-| US14 | Ver estado de monitoreo | Como usuario, deseo saber si el equipo está siendo monitoreado | Dado equipo cuando consulta entonces muestra estado | EP03 |
-| US15 | Detectar condiciones anormales | Como usuario, deseo identificar condiciones fuera de rango para actuar | Dado valores cuando evalúa entonces detecta anomalías | EP03 |
-| US16 | Ver gráfico de temperatura | Como usuario, deseo visualizar comportamiento en el tiempo | Dado datos cuando consulta entonces muestra gráfico | EP03 |
-| US17 | Detectar pérdida de señal | Como usuario, deseo saber si un equipo deja de reportar datos | Dado equipo cuando deja de enviar entonces sistema indica falla | EP03 |
+  <tr>
+    <td>US02</td>
+    <td>Create storage room</td>
+    <td>As a lab manager, I want to create rooms so I can organize where samples and vaccines are stored</td>
+    <td>EP01</td>
+  </tr>
 
-| US18 | Recibir alerta de temperatura | Como usuario, deseo recibir alertas para actuar rápido | Dado valor fuera de rango cuando ocurre entonces alerta | EP04 |
-| US19 | Recibir alerta por correo | Como usuario, deseo recibir notificación por correo para enterarme | Dado alerta cuando ocurre entonces envía correo | EP04 |
-| US20 | Ver alertas activas | Como usuario, deseo ver alertas para priorizar acciones | Dado alertas cuando accede entonces lista activas | EP04 |
-| US21 | Atender alerta | Como usuario, deseo marcar alerta como atendida | Dado alerta cuando actualiza entonces cambia estado | EP04 |
-| US22 | Registrar comentario | Como usuario, deseo documentar lo ocurrido en una alerta | Dado alerta cuando comenta entonces guarda observación | EP04 |
-| US23 | Ver historial de alertas | Como usuario, deseo revisar incidentes pasados | Dado alertas cuando consulta entonces muestra historial | EP04 |
-| US24 | Alertar pérdida de monitoreo | Como usuario, deseo recibir alerta si equipo deja de reportar | Dado falla cuando ocurre entonces alerta | EP04 |
+  <tr>
+    <td>US03</td>
+    <td>Register storage equipment</td>
+    <td>As a lab manager, I want to register refrigerators and freezers so I can monitor where critical materials are stored</td>
+    <td>EP01</td>
+  </tr>
 
-| US25 | Ver historial de condiciones | Como usuario, deseo consultar historial para auditorías | Dado datos cuando consulta entonces muestra registros | EP05 |
-| US26 | Ver acciones de usuarios | Como usuario, deseo ver quién hizo cambios para control | Dado acciones cuando consulta entonces muestra usuario | EP05 |
-| US27 | Generar reporte | Como usuario, deseo generar reportes para revisión | Dado datos cuando genera entonces crea reporte | EP05 |
-| US28 | Descargar reporte | Como usuario, deseo descargar reportes para compartir | Dado reporte cuando descarga entonces exporta archivo | EP05 |
-| US29 | Garantizar integridad de datos | Como usuario, deseo confiar en que datos no se alteran | Dado registros cuando consulta entonces son inmutables | EP05 |
+  <tr>
+    <td>US04</td>
+    <td>Assign equipment to room</td>
+    <td>As a lab manager, I want to assign equipment to rooms so I always know their exact location</td>
+    <td>EP01</td>
+  </tr>
 
-| US30 | Ver dashboard general | Como usuario, deseo ver estado del laboratorio | Dado datos cuando accede entonces muestra resumen | EP06 |
-| US31 | Ver equipos con problemas | Como usuario, deseo identificar equipos críticos | Dado datos cuando consulta entonces muestra problemas | EP06 |
-| US32 | Ver alertas en dashboard | Como usuario, deseo ver alertas rápidamente | Dado alertas cuando accede entonces se muestran | EP06 |
-| US33 | Ver indicadores clave | Como usuario, deseo tomar decisiones rápidas | Dado datos cuando consulta entonces muestra métricas | EP06 |
-| US34 | Ver equipos sin monitoreo | Como usuario, deseo identificar equipos sin datos | Dado equipos cuando consulta entonces indica estado | EP06 |
+  <tr>
+    <td>US05</td>
+    <td>Find equipment quickly</td>
+    <td>As a lab technician, I want to quickly find equipment so I can react faster during issues</td>
+    <td>EP01</td>
+  </tr>
 
-| US35 | Iniciar sesión | Como usuario, deseo acceder al sistema | Dado credenciales válidas cuando ingresa entonces accede | EP07 |
-| US36 | Recuperar contraseña | Como usuario, deseo recuperar acceso | Dado correo cuando solicita entonces recibe enlace | EP07 |
-| US37 | Cerrar sesión | Como usuario, deseo cerrar sesión | Dado sesión activa cuando cierra entonces termina | EP07 |
-| US38 | Recibir correo de recuperación | Como usuario, deseo recibir correo para recuperar acceso | Dado solicitud cuando ejecuta entonces envía correo | EP07 |
+  <tr>
+    <td>US06</td>
+    <td>Register product</td>
+    <td>As a lab technician, I want to register products so I can track samples, vaccines, and reactives</td>
+    <td>EP02</td>
+  </tr>
 
-| US39 | Crear usuario | Como administrador, deseo crear usuarios | Dado datos válidos cuando guarda entonces registra usuario | EP08 |
-| US40 | Asignar rol | Como administrador, deseo asignar roles | Dado usuario cuando asigna entonces define permisos | EP08 |
-| US41 | Editar usuario | Como administrador, deseo actualizar datos | Dado usuario cuando edita entonces guarda cambios | EP08 |
-| US42 | Desactivar usuario | Como administrador, deseo restringir accesos | Dado usuario cuando desactiva entonces bloquea acceso | EP08 |
+  <tr>
+    <td>US07</td>
+    <td>Register batch with expiration</td>
+    <td>As a lab technician, I want to add expiration dates so I can avoid using expired materials</td>
+    <td>EP02</td>
+  </tr>
 
-| US43 | Definir condiciones de temperatura | Como usuario, deseo establecer condiciones adecuadas | Dado valores cuando define entonces guarda reglas | EP09 |
-| US44 | Definir condiciones anormales | Como usuario, deseo definir cuándo algo es incorrecto | Dado valores cuando configura entonces establece regla | EP09 |
-| US45 | Aplicar condiciones por producto | Como usuario, deseo adaptar condiciones según producto | Dado producto cuando configura entonces aplica reglas | EP09 |
-| US46 | Configurar notificaciones | Como usuario, deseo definir quién recibe alertas | Dado correos cuando guarda entonces quedan registrados | EP09 |
+  <tr>
+    <td>US08</td>
+    <td>View inventory levels</td>
+    <td>As a lab manager, I want to see stock levels so I can avoid shortages or waste</td>
+    <td>EP02</td>
+  </tr>
 
-| US47 | Buscar equipo | Como usuario, deseo encontrar equipos rápidamente | Dado criterio cuando busca entonces muestra resultados | EP09 |
-| US48 | Filtrar equipos | Como usuario, deseo analizar por ubicación | Dado filtros cuando aplica entonces muestra resultados | EP09 |
-| US49 | Filtrar alertas | Como usuario, deseo gestionar alertas por estado | Dado filtros cuando aplica entonces lista resultados | EP09 |
-| US50 | Ver equipos en estado normal | Como usuario, deseo confirmar operación correcta | Dado equipos cuando consulta entonces muestra normales | EP09 |
+  <tr>
+    <td>US09</td>
+    <td>Register incoming products</td>
+    <td>As a lab technician, I want to register incoming items so inventory stays accurate</td>
+    <td>EP02</td>
+  </tr>
+
+  <tr>
+    <td>US10</td>
+    <td>Register product usage</td>
+    <td>As a lab technician, I want to register product usage so inventory reflects real consumption</td>
+    <td>EP02</td>
+  </tr>
+
+  <tr>
+    <td>US11</td>
+    <td>View products close to expiration</td>
+    <td>As a lab manager, I want to see products close to expiration so I can prevent losses</td>
+    <td>EP02</td>
+  </tr>
+
+  <tr>
+    <td>US12</td>
+    <td>View equipment temperature</td>
+    <td>As a lab technician, I want to see current temperature so I can ensure proper storage conditions</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>View temperature history</td>
+    <td>As a lab manager, I want to review temperature history so I can confirm stability over time</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US14</td>
+    <td>Check monitoring status</td>
+    <td>As a lab technician, I want to know if equipment is being monitored so I can trust the data</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Detect abnormal conditions</td>
+    <td>As a lab technician, I want to detect abnormal conditions so I can act before samples are damaged</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US16</td>
+    <td>View temperature trends</td>
+    <td>As a lab manager, I want to see temperature trends so I can understand equipment behavior</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US17</td>
+    <td>Detect monitoring loss</td>
+    <td>As a lab technician, I want to know when a device stops sending data so I can avoid blind spots</td>
+    <td>EP03</td>
+  </tr>
+
+  <tr>
+    <td>US18</td>
+    <td>Receive temperature alerts</td>
+    <td>As a lab technician, I want to receive alerts so I can react quickly to temperature issues</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US19</td>
+    <td>Receive email notifications</td>
+    <td>As a lab manager, I want to receive alerts by email so I can stay informed even when offline</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US20</td>
+    <td>View active alerts</td>
+    <td>As a lab technician, I want to see active alerts so I can prioritize actions</td>
+    <td>EP04</td>
+  </tr>
+
+</table>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Epic</th>
+  </tr>
+
+  <tr>
+    <td>US21</td>
+    <td>Mark alert as handled</td>
+    <td>As a lab technician, I want to mark alerts as handled so I can track resolved issues</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US22</td>
+    <td>Add notes to alerts</td>
+    <td>As a lab technician, I want to add notes to alerts so I can document what happened</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US23</td>
+    <td>View alert history</td>
+    <td>As a lab manager, I want to review past alerts so I can analyze incidents</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Get alerts for monitoring failure</td>
+    <td>As a lab technician, I want to be alerted when monitoring stops so I can avoid missing risks</td>
+    <td>EP04</td>
+  </tr>
+
+  <tr>
+    <td>US25</td>
+    <td>View condition history</td>
+    <td>As a lab manager, I want to see historical conditions so I can support audits</td>
+    <td>EP05</td>
+  </tr>
+
+  <tr>
+    <td>US26</td>
+    <td>Track user actions</td>
+    <td>As a lab manager, I want to see who made changes so I can maintain accountability</td>
+    <td>EP05</td>
+  </tr>
+
+  <tr>
+    <td>US27</td>
+    <td>Generate reports</td>
+    <td>As a lab manager, I want to generate reports so I can review operations and compliance</td>
+    <td>EP05</td>
+  </tr>
+
+  <tr>
+    <td>US28</td>
+    <td>Download reports</td>
+    <td>As a lab manager, I want to download reports so I can share them easily</td>
+    <td>EP05</td>
+  </tr>
+
+  <tr>
+    <td>US29</td>
+    <td>Ensure data integrity</td>
+    <td>As a lab manager, I want to trust that data cannot be altered so audits are reliable</td>
+    <td>EP05</td>
+  </tr>
+
+  <tr>
+    <td>US30</td>
+    <td>View dashboard overview</td>
+    <td>As a lab manager, I want to see a full overview so I understand the current situation quickly</td>
+    <td>EP06</td>
+  </tr>
+
+  <tr>
+    <td>US31</td>
+    <td>Identify critical equipment</td>
+    <td>As a lab technician, I want to see which equipment has issues so I can act fast</td>
+    <td>EP06</td>
+  </tr>
+
+  <tr>
+    <td>US32</td>
+    <td>See alerts in dashboard</td>
+    <td>As a lab technician, I want to see alerts in one place so I don’t miss anything</td>
+    <td>EP06</td>
+  </tr>
+
+  <tr>
+    <td>US33</td>
+    <td>View key metrics</td>
+    <td>As a lab manager, I want to see key indicators so I can make quick decisions</td>
+    <td>EP06</td>
+  </tr>
+
+  <tr>
+    <td>US34</td>
+    <td>Detect unmonitored equipment</td>
+    <td>As a lab technician, I want to identify equipment with no data so I can fix issues</td>
+    <td>EP06</td>
+  </tr>
+
+  <tr>
+    <td>US35</td>
+    <td>Login to system</td>
+    <td>As a user, I want to log in so I can access the platform securely</td>
+    <td>EP07</td>
+  </tr>
+
+  <tr>
+    <td>US36</td>
+    <td>Recover password</td>
+    <td>As a user, I want to recover my password so I can regain access</td>
+    <td>EP07</td>
+  </tr>
+
+  <tr>
+    <td>US37</td>
+    <td>Logout from system</td>
+    <td>As a user, I want to log out so I can protect my account</td>
+    <td>EP07</td>
+  </tr>
+
+  <tr>
+    <td>US38</td>
+    <td>Receive recovery email</td>
+    <td>As a user, I want to receive an email to reset my password so I can log back in</td>
+    <td>EP07</td>
+  </tr>
+
+  <tr>
+    <td>US39</td>
+    <td>Create user account</td>
+    <td>As an admin, I want to create users so the team can access the system</td>
+    <td>EP08</td>
+  </tr>
+
+  <tr>
+    <td>US40</td>
+    <td>Assign user roles</td>
+    <td>As an admin, I want to assign roles so I can control permissions</td>
+    <td>EP08</td>
+  </tr>
+
+  <tr>
+    <td>US41</td>
+    <td>Edit user information</td>
+    <td>As an admin, I want to update user data so information stays accurate</td>
+    <td>EP08</td>
+  </tr>
+
+  <tr>
+    <td>US42</td>
+    <td>Deactivate users</td>
+    <td>As an admin, I want to deactivate users so I can restrict access when needed</td>
+    <td>EP08</td>
+  </tr>
+
+  <tr>
+    <td>US43</td>
+    <td>Set temperature conditions</td>
+    <td>As a lab manager, I want to define safe temperature ranges so samples are protected</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US44</td>
+    <td>Define abnormal conditions</td>
+    <td>As a lab manager, I want to define what is considered abnormal so alerts are meaningful</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US45</td>
+    <td>Apply rules by product</td>
+    <td>As a lab manager, I want to apply different conditions depending on the product so storage is accurate</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US46</td>
+    <td>Configure alert recipients</td>
+    <td>As a lab manager, I want to choose who receives alerts so response is faster</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US47</td>
+    <td>Search equipment</td>
+    <td>As a lab technician, I want to search equipment so I can find it quickly</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US48</td>
+    <td>Filter equipment</td>
+    <td>As a lab manager, I want to filter equipment by location so I can analyze specific areas</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US49</td>
+    <td>Filter alerts</td>
+    <td>As a lab technician, I want to filter alerts so I can focus on what matters</td>
+    <td>EP09</td>
+  </tr>
+
+  <tr>
+    <td>US50</td>
+    <td>Confirm normal conditions</td>
+    <td>As a lab manager, I want to quickly confirm everything is normal so I can have peace of mind</td>
+    <td>EP09</td>
+  </tr>
+
+</table>
 
 
 ---
