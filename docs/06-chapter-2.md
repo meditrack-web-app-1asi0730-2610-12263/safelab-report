@@ -49,6 +49,22 @@ The combination of being a new brand (weakness) in a highly distrustful and regu
 
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
+
+**Segment: Coordinator**
+
+1. Could you tell us your name, age, marital status, and the district you live in?
+2. Tell us a bit about yourself and what you usually do in your free time. How would you describe yourself in three words?
+3. What is your current position and how many years of experience do you have? Do you have a short-term professional goal?
+4. In your day-to-day life, what technological devices do you use the most (smartphone, tablet, laptop), and what operating system and browser do you prefer?
+5. What is the monitoring process currently like in your laboratory/pharmacy on a day-to-day basis?
+6. How much time do you estimate you spend recording these logs and preparing the reports?
+7. Tell me about the last time you had a critical event, such as a high temperature deviation or a loss of reagents/vaccines.
+8. What frustrates or stresses you the most about your job right now?
+9. If an ideal system existed to solve your problems, what would it be like?
+10. If a system sent an alert to your cell phone that the refrigerator is failing, would you prefer to just receive the notification or have the system attempt to execute a contingency action?
+11. For you to trust this system 100%, what information or guarantees would it have to show you?
+12. Is there anything else about your work that you think is important to discuss?
+
 ### **2.2.2. Interview Recording**
 ### **2.2.3. Interview Analysis**
 ## **2.3. Needfinding**
