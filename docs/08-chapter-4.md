@@ -98,6 +98,13 @@
 </p>
 
 ### **4.6.2. Software Architecture Context Diagram**
+
+- SafeLab Contex Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/context-diagram/context-diagram.png" width="70%" alt="context-diagram">
+</p>
+
 ### **4.6.3. Software Architecture Container Diagrams**
 ### **4.6.4. Software Architecture Components Diagrams**
 ## **4.7. Object-Oriented Design Software**
