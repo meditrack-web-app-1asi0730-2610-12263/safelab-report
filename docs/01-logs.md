@@ -71,16 +71,16 @@
   <!-- ROW 5 -->
   <tr>
     <td style="text-align: center;">
-      (1.x.x.)
+      1.3.0
     </td>
     <td style="text-align: center;">
-      (date)
+      24/04/2026
     </td>
     <td style="text-align: center;">
       Orosco Ttamiña, Juan Carlos
     </td>
     <td style="text-align: justify;">
-      (description)
+      Requirements Specification. In this section, user stories were defined to represent the main functionalities based on user needs. Impact mapping was also created to connect business goals with users and system features. Finally, the Product Backlog was organized, prioritized, and estimated using the Fibonacci scale to support the development process.
     </td>
   </tr>
 </table>
