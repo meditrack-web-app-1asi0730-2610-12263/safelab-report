@@ -105,7 +105,22 @@ The combination of being a new brand (weakness) in a highly distrustful and regu
 
 ![User Persona Carlos](../assets/chapter-2/Carlos%20Mendoza.png)
 
+<br>
+
 ### **2.3.2. User Task Matrix**
+
+<br>
+
+| # | Task | Frequency | Importance |
+| :--- | :--- | :--- | :--- |
+| 1 | Routine temperature monitoring | High | High |
+| 2 | Response to equipment incidents | Low | Critical |
+| 3 | Preparation of quality reports | Medium | High |
+| 4 | Information handover between shifts | High | Medium |
+| 5 | Administrative replacement management | Very Low | Medium |
+
+<br>
+
 ### **2.3.3. User Journey Mapping**
 ### **2.3.4. Empathy Mapping**
 ## **2.4. Big Picture Event Storming**
