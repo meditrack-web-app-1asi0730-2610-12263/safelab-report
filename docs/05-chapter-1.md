@@ -73,7 +73,7 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/jean.png"
+      src="../assets/chapter-1/team-member-profiles/jean.jpeg"
       alt="jean-profile-photo"
       width="70%"
       style="border-radius: 10px;">
@@ -81,16 +81,16 @@
     <td style="text-align: justify; width: 60%; vertical-align: top;">
       <h3>Jean Niels Arizabal Condori</h3>
       <p>
-        <b>Student code:</b> U20XXXXXXX
+        <b>Student code:</b> U201919096
       </p>
       <p>
-        <b>Age:</b> 00
+        <b>Age:</b> 24
       </p>
       <p>
-        <b>Degree:</b> (degree)
+        <b>Degree:</b> Software engineering
       </p>
       <p>
-        <b>About me:</b> My name is .....
+        <b>About me:</b> I'm interested in how programs work internally, that's why I focus on low-level programming.
       </p>
     </td>
   </tr>
@@ -99,7 +99,7 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/camila.png"
+      src="../assets/chapter-1/team-member-profiles/camila.jpeg"
       alt="camila-profile-photo"
       width="70%"
       style="border-radius: 10px;">
@@ -107,16 +107,16 @@
     <td style="text-align: justify; width: 60%; vertical-align: top;">
       <h3>Camila Asuncion Reyes Menacho</h3>
       <p>
-        <b>Student code:</b> U20XXXXXXX
+        <b>Student code:</b> U201921442
       </p>
       <p>
-        <b>Age:</b> 00
+        <b>Age:</b> 31
       </p>
       <p>
-        <b>Degree:</b> (degree)
+        <b>Degree:</b> Software engineering
       </p>
       <p>
-        <b>About me:</b> My name is .....
+        <b>About me:</b> As it is my second career, I seek to focus my knowledge and experience as a graphic designer to improve my skills as an engineer.
       </p>
     </td>
   </tr>
@@ -125,7 +125,7 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/juan.png"
+      src="../assets/chapter-1/team-member-profiles/juan.jpeg"
       alt="juan-profile-photo"
       width="70%"
       style="border-radius: 10px;">
@@ -133,16 +133,15 @@
     <td style="text-align: justify; width: 60%; vertical-align: top;">
       <h3>Juan Carlos Orosco Ttamiña</h3>
       <p>
-        <b>Student code:</b> U20XXXXXXX
+        <b>Student code:</b> U202414840
       </p>
       <p>
-        <b>Age:</b> 00
+        <b>Age:</b> 21
+      <p>
+        <b>Degree:</b> Software engineering
       </p>
       <p>
-        <b>Degree:</b> (degree)
-      </p>
-      <p>
-        <b>About me:</b> My name is .....
+        <b>About me:</b> I am a Software Engineering student, interested in creating applications and developing technological solutions. I am motivated to face new technical challenges that allow me to continue learning.
       </p>
     </td>
   </tr>
