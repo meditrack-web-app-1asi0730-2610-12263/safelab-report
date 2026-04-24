@@ -29,6 +29,23 @@
 
 ### **4.4.2. Web Applications Wireflow Diagrams**
 ### **4.4.3. Web Applications Mock-ups**
+
+
+
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb1.png" width="70%" alt="web application mockup>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb2.png" width="70%" alt="web application mockup>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb3.png" width="70%" alt="web application mockup>
+</p>
+<p align="center">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb4.png" width="70%" alt="web application mockup>
+</p>
+
+
 ### **4.4.4. Web Applications User Flow Diagrams**
 ## **4.5. Web Applications Prototyping**
 ## **4.6. Domain-Driven Software Architecture**
