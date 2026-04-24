@@ -177,6 +177,9 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 <section id="software-deployment-configuration">
   <h3>5.1.4. Software Deployment Configuration</h3>
 </section>
+  <p style="text-align: justify;">
+    A continuación se detallan los pasos para el despliegue de los componentes actualmente implementados en la solución Meditrack, los cuales corresponden a la Landing Page y al informe del proyecto.
+  </p>
   </section>
 
   <section id="landing-page-services-applications-implementation">
