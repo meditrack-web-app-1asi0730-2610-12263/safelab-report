@@ -66,6 +66,41 @@ The combination of being a new brand (weakness) in a highly distrustful and regu
 12. Is there anything else about your work that you think is important to discuss?
 
 ### **2.2.2. Interview Recording**
+
+Interviews link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQAuZLuadZQQSr_vJx2yVLziASK5lLgG74-kih5DpGcV-pc
+
+**Segment: Coordinator**
+
+* **Interview 1**: Abdul Muchica
+    * **Starts at**: 00:00
+    * **Length**: 09:56
+    * **Screenshot**: <br>![Abdul Muchica](../assets/chapter-2/Abdul%20Muchica.png)
+    * **Summary**: Abdul Muchica is a 29-year-old biologist with experience in the areas of microbiology and clinical laboratory at the Honorio Delgado and Manuel Nuñez Butron hospitals. He describes himself as an athletic and empathetic person.
+His work begins by monitoring refrigerators in a blood bank; he takes the temperature manually using a digital thermometer independent of the refrigerator and records the time, the responsible person, and the temperature on a sheet of paper. He performs this procedure three times per shift and it takes him approximately five minutes each time. He tells us that sometimes the thermometers might not be handled correctly and end up being uncalibrated. What frustrates him is that he does not have much space inside the laboratory; it is difficult for him to handle his tools, and even more so when he is in a hurry.
+He would like the data he works with not to have to be measured manually and to be available to him through his cell phone for greater comfort. He prefers that, if a problem occurs, the system takes care of fixing it itself, although he expresses skepticism in the case of lower-budget laboratories. He considers it of high importance, in addition to having information about the temperatures of the refrigerators, to know the status of the equipment to prevent it from stopping operating at critical moments.
+
+<br>
+
+* **Interview 2**: Fabrizio Palomino
+    * **Starts at**: 09:57
+    * **Length**: 09:20
+    * **Screenshot**: <br>![Fabrizio Palomino](../assets/chapter-2/Fabrizio%20Palomino.png)
+    * **Summary**: Fabrizio Palomino is a 24-year-old biologist with two years of experience in microbiology. He describes himself as an enthusiastic and cooperative person.
+His work begins with a quality control check; he reviews refrigerators where he stores reagents, some of which have thermometers, others do not. The control is manual; the temperature and humidity are noted in a notebook, and at the end of the month, he must generate a report with the temperature variations and breakdowns that the equipment has suffered. Each inspection takes him approximately 5 minutes. Some of the equipment cannot be examined correctly and inevitably fails. When this happens, the bidding process to acquire a new one stresses him out; he just wants to have a new functioning equipment as soon as possible.
+The main thing he looks for in a new application is that it proves reliability, that the application informs him and is available at all times. He prefers that alerts be sent whenever an unforeseen event occurs, prioritizing the staff on duty at the time of the failure. He expects the application to show temperature variation between periods, preferably between weeks and months.
+
+<br>
+
+* **Interview 3**: Efrain Palomino
+    * **Starts at**: 09:57
+    * **Length**: 09:20
+    * **Screenshot**: <br>![Fabrizio Palomino](../assets/chapter-2/Efrain%20Palomino.png)
+    * **Summary**: Efrain Palomino is a 65-year-old biologist who works in the EsSalud laboratory service; he has 26 years of experience in the microbiology area. He describes himself as a supportive and hardworking person.
+Upon arriving at work, the first thing he does is record the temperatures of his equipment; he does this manually, three times a day, and it takes about 35 minutes throughout a week. These records are archived daily in an "incident log". He indicates that he has not suffered any critical experience so far, attributing it to good teamwork. What stresses him are administrative failures when facing a lack of supplies and equipment breakdowns.
+What matters most to him is constant communication among the staff; although he currently uses WhatsApp, he would like this to be formally integrated into his work. He mentions the need to personalize alerts to filter information and act immediately. He requires this app to show him information on incidents, the status of supplies, and equipment. Finally, he emphasizes the need for alarms so that all staff are informed about the status of their service.
+
+<br>
+
 ### **2.2.3. Interview Analysis**
 
 **Segment: Coordinator**
