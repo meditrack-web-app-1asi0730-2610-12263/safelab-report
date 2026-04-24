@@ -1,26 +1,87 @@
-# **Chapter V: Product Implementation, Validation & Deployment**
-## **5.1. Configuration Management Software**
+<section id="chapter-v">
+  <h1>Chapter V: Product Implementation, Validation &amp; Deployment</h1>
+
+  <section id="configuration-management-software">
+    <h2>5.1. Configuration Management Software</h2>
 
 <p style="text-align: justify;">
-En esta sección se describen las decisiones de gestión de configuración adoptadas durante el desarrollo del producto Meditrack, desarrollado por la startup SafeLab. Estas decisiones abarcan el entorno de desarrollo, control de versiones, convenciones de código y estrategias de despliegue, con el objetivo de asegurar consistencia, mantenibilidad y trazabilidad durante todo el ciclo de vida del proyecto.
+  En esta sección se describen las decisiones de gestión de configuración adoptadas durante el desarrollo del producto Meditrack, desarrollado por la startup SafeLab. Estas decisiones abarcan el entorno de desarrollo, control de versiones, convenciones de código y estrategias de despliegue, con el objetivo de asegurar consistencia, mantenibilidad y trazabilidad durante todo el ciclo de vida del proyecto.
 </p>
 
-### **5.1.1. Software Development Environment Configuration**
-### **5.1.2. Source Code Management**
-### **5.1.3. Source Code Style Guide & Conventions**
-### **5.1.4. Software Deployment Configuration**
-## **5.2. Landing Page, Services & Applications Implementation**
-### **5.2.X. Sprint n**
-#### **5.2.X.1. Sprint Planning n**
-#### **5.2.X.2. Aspect Leaders and Collaborators**
-#### **5.2.X.3. Sprint Backlog n**
-#### **5.2.X.4. Development Evidence for Sprint Review**
-#### **5.2.X.5. Execution Evidence for Sprint Review**
-#### **5.2.X.6. Services Documentation Evidence for Sprint Review**
-#### **5.2.X.7. Software Deployment Evidence for Sprint Review**
-#### **5.2.X.8. Team Collaboration Insights during Sprint**
-## **5.3. Validation Interviews**
-### **5.3.1. Interview Design**
-### **5.3.2. Interview Recording**
-### **5.3.3. Evaluations Based on Heuristics**
-## **5.4. About-the-Product Video**
+<section id="software-development-environment-configuration">
+  <h3>5.1.1. Software Development Environment Configuration</h3>
+</section>
+
+<section id="source-code-management">
+  <h3>5.1.2. Source Code Management</h3>
+</section>
+
+<section id="source-code-style-guide-conventions">
+  <h3>5.1.3. Source Code Style Guide &amp; Conventions</h3>
+</section>
+
+<section id="software-deployment-configuration">
+  <h3>5.1.4. Software Deployment Configuration</h3>
+</section>
+  </section>
+
+  <section id="landing-page-services-applications-implementation">
+    <h2>5.2. Landing Page, Services &amp; Applications Implementation</h2>
+
+<section id="sprint-n">
+  <h3>5.2.X. Sprint n</h3>
+
+  <section id="sprint-planning-n">
+    <h4>5.2.X.1. Sprint Planning n</h4>
+  </section>
+
+  <section id="aspect-leaders-and-collaborators">
+    <h4>5.2.X.2. Aspect Leaders and Collaborators</h4>
+  </section>
+
+  <section id="sprint-backlog-n">
+    <h4>5.2.X.3. Sprint Backlog n</h4>
+  </section>
+
+  <section id="development-evidence-for-sprint-review">
+    <h4>5.2.X.4. Development Evidence for Sprint Review</h4>
+  </section>
+
+  <section id="execution-evidence-for-sprint-review">
+    <h4>5.2.X.5. Execution Evidence for Sprint Review</h4>
+  </section>
+
+  <section id="services-documentation-evidence-for-sprint-review">
+    <h4>5.2.X.6. Services Documentation Evidence for Sprint Review</h4>
+  </section>
+
+  <section id="software-deployment-evidence-for-sprint-review">
+    <h4>5.2.X.7. Software Deployment Evidence for Sprint Review</h4>
+  </section>
+
+  <section id="team-collaboration-insights-during-sprint">
+    <h4>5.2.X.8. Team Collaboration Insights during Sprint</h4>
+  </section>
+</section>
+  </section>
+
+  <section id="validation-interviews">
+    <h2>5.3. Validation Interviews</h2>
+
+<section id="interview-design">
+  <h3>5.3.1. Interview Design</h3>
+</section>
+
+<section id="interview-recording">
+  <h3>5.3.2. Interview Recording</h3>
+</section>
+
+<section id="evaluations-based-on-heuristics">
+  <h3>5.3.3. Evaluations Based on Heuristics</h3>
+</section>
+  </section>
+
+  <section id="about-the-product-video">
+    <h2>5.4. About-the-Product Video</h2>
+  </section>
+</section>
