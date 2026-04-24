@@ -106,6 +106,13 @@
 </p>
 
 ### **4.6.3. Software Architecture Container Diagrams**
+
+- SafeLab Container Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/container-diagram/container-diagram.png" width="70%" alt="container-diagram">
+</p>
+
 ### **4.6.4. Software Architecture Components Diagrams**
 ## **4.7. Object-Oriented Design Software**
 ### **4.7.1. Class Diagrams**
