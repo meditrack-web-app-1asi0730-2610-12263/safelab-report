@@ -1,5 +1,10 @@
 # **Chapter V: Product Implementation, Validation & Deployment**
 ## **5.1. Configuration Management Software**
+
+<p style="text-align: justify;">
+En esta sección se describen las decisiones de gestión de configuración adoptadas durante el desarrollo del producto Meditrack, desarrollado por la startup SafeLab. Estas decisiones abarcan el entorno de desarrollo, control de versiones, convenciones de código y estrategias de despliegue, con el objetivo de asegurar consistencia, mantenibilidad y trazabilidad durante todo el ciclo de vida del proyecto.
+</p>
+
 ### **5.1.1. Software Development Environment Configuration**
 ### **5.1.2. Source Code Management**
 ### **5.1.3. Source Code Style Guide & Conventions**
