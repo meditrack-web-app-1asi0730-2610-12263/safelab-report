@@ -235,34 +235,162 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <section id="landing-page-services-applications-implementation">
     <h2>5.2. Landing Page, Services &amp; Applications Implementation</h2>
 
-<section id="sprint-1">
-  <h3>5.2.1. Sprint n</h3>
+<section id="sprint-1"> 
+
+  <h3>5.2.1. Sprint 1</h3>
 
   <p style="text-align: justify;">
     El Sprint 1 del proyecto Meditrack estuvo enfocado en la organización inicial del proyecto, la consolidación de la documentación del informe, la gestión de tareas mediante Trello y el desarrollo y despliegue de la Landing Page. Durante este sprint, el equipo priorizó actividades de planificación, coordinación y entrega de evidencias iniciales, dejando el desarrollo del frontend y backend de la aplicación principal para futuras iteraciones.
   </p>
 
   <section id="sprint-planning-1">
-    <h4>5.2.1.1. Sprint Planning n</h4>
+    <h4>5.2.1.1. Sprint Planning 1</h4>
 
 
 <p style="text-align: justify;">
   Durante la planificación del Sprint 1, el equipo definió como objetivo principal establecer las bases organizativas y técnicas del proyecto Meditrack. Para ello, se priorizaron tareas relacionadas con la configuración del repositorio, el uso de herramientas colaborativas, el avance de los capítulos iniciales del informe y la implementación de la Landing Page.
 </p>
 
-<p style="text-align: justify;">
-  El alcance del sprint incluyó la organización del tablero en Trello, la coordinación mediante Discord y WhatsApp, el avance de los capítulos I, II, III y IV del informe, la creación de la estructura del Capítulo V y el despliegue de la Landing Page. No se incluyó el desarrollo del frontend ni backend de la aplicación principal, ya que estos componentes serán abordados en sprints posteriores.
-</p>
+  <p style="text-align: justify;">
+    Para este primer sprint nos enfocamos en la organización del proyecto, el avance del informe y el desarrollo de la Landing Page. Las tareas fueron distribuidas entre los integrantes del equipo SafeLab, asignando responsabilidades específicas para cada sección del informe y entregables del proyecto. En este contexto, Reyes Menacho, Camila Asuncion fue responsable del desarrollo del Capítulo V.
+  </p>
+
+  <table>
+    <tr>
+      <th>Sprint 1</th>
+      <th>Sprint 1</th>
+    </tr>
+
+<tr>
+  <td><strong>Sprint Planning Background</strong></td>
+  <td></td>
+</tr>
+
+<tr>
+  <td>Date</td>
+  <td>April 2026</td>
+</tr>
+
+<tr>
+  <td>Time</td>
+  <td>8:30 PM</td>
+</tr>
+
+<tr>
+  <td>Location</td>
+  <td>Via Discord</td>
+</tr>
+
+<tr>
+  <td>Prepared By</td>
+  <td>Equipo SafeLab</td>
+</tr>
+
+<tr>
+  <td>Attendees (to planning meeting)</td>
+  <td>
+    Carlos Lavado, Augusto Montes, Jean Arizabal,
+    Camila Reyes, Juan Orosco
+  </td>
+</tr>
+
+<tr>
+  <td>Sprint 1 Review Summary</td>
+  <td>
+    En este sprint se planteó la organización del proyecto, el desarrollo
+    del informe y la implementación de la Landing Page como primer entregable.
+  </td>
+</tr>
+
+<tr>
+  <td>Sprint 1 Retrospective Summary</td>
+  <td>
+    El equipo identificó avances en la organización y documentación del proyecto,
+    así como oportunidades de mejora en la planificación del desarrollo técnico
+    de la aplicación principal.
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Sprint Goal &amp; User Stories</strong></td>
+  <td></td>
+</tr>
+
+<tr>
+  <td>Sprint 1 Goal</td>
+  <td>
+    Desarrollar y desplegar una Landing Page que presente la información
+    del producto Meditrack, además de avanzar significativamente en la
+    documentación del informe del proyecto.
+  </td>
+</tr>
+
+<tr>
+  <td>Sprint 1 Velocity</td>
+  <td>7 story points</td>
+</tr>
+
+<tr>
+  <td>Sum of Story Points</td>
+  <td>7 Story Points</td>
+</tr>
+  </table> 
+
   </section>
 
   </section>
 
   <section id="aspect-leaders-and-collaborators">
     <h4>5.2.1.2. Aspect Leaders and Collaborators</h4>
+<p style="text-align: justify;">
+      En este sprint, los integrantes del equipo participaron en distintas actividades relacionadas con la documentación, gestión del proyecto, diseño, desarrollo de la Landing Page y coordinación general. La asignación de responsabilidades permitió distribuir el trabajo de manera ordenada y mantener seguimiento del avance mediante Trello.
+    </p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Líder / Responsable</th>
+      <th>Colaboradores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestión del proyecto</td>
+      <td>Equipo SafeLab</td>
+      <td>Todos los integrantes</td>
+    </tr>
+    <tr>
+      <td>Documentación del informe</td>
+      <td>Equipo de documentación</td>
+      <td>Todos los integrantes</td>
+    </tr>
+    <tr>
+      <td>Organización en Trello</td>
+      <td>Equipo de gestión</td>
+      <td>Todos los integrantes</td>
+    </tr>
+    <tr>
+      <td>Diseño de recursos visuales</td>
+      <td>Equipo de diseño</td>
+      <td>Equipo SafeLab</td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td>Equipo de desarrollo web</td>
+      <td>Equipo de diseño y documentación</td>
+    </tr>
+    <tr>
+      <td>Despliegue de Landing Page</td>
+      <td>Equipo de desarrollo web</td>
+      <td>Equipo SafeLab</td>
+    </tr>
+  </tbody>
+</table>
   </section>
 
-  <section id="sprint-backlog-n">
-    <h4>5.2.1.3. Sprint Backlog n</h4>
+  <section id="sprint-backlog-1">
+    <h4>5.2.1.3. Sprint Backlog 1</h4>
   </section>
 
   <section id="development-evidence-for-sprint-review">
