@@ -149,7 +149,29 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     <li>Uso de ViewModels para transferencia de datos</li>
   </ul>
 
+<h4>Gherkin (.feature)</h4>
 
+  <p><strong>Prácticas:</strong></p>
+  <ul>
+    <li>Uso de keywords Given – When – Then</li>
+    <li>Lenguaje claro, descriptivo y no técnico</li>
+    <li>Escenarios modulares y reutilizables</li>
+  </ul>
+
+<h4>Buenas Prácticas Generales</h4>
+
+  <ul>
+    <li>Modularidad y reutilización de código</li>
+    <li>Legibilidad mediante nombres descriptivos</li>
+    <li>Indentación consistente en todos los archivos</li>
+    <li>Optimización del rendimiento</li>
+    <li>Consideración de seguridad desde el diseño</li>
+  </ul>
+
+  <p style="text-align: justify;">
+    Estas convenciones permiten mantener una base de código consistente, escalable y alineada con estándares
+    profesionales, facilitando el trabajo colaborativo y el mantenimiento futuro del sistema.
+  </p>
 </section>
 
 <section id="software-deployment-configuration">
