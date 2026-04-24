@@ -53,20 +53,21 @@
     <td style="text-align: center;">
       (description)
     </td>
-  <!-- ROW 4 -->
-  <tr>
-    <td style="text-align: center;">
-      (1.x.x.)
-    </td>
-    <td style="text-align: center;">
-      (date)
-    </td>
-    <td style="text-align: center;">
-      Reyes Menacho, Camila Asuncion
-    </td>
-    <td style="text-align: center;">
-      (description)
-    </td>
+ <!-- ROW 4 -->
+<tr>
+  <td style="text-align: center;">
+    1.5.0
+  </td>
+  <td style="text-align: center;">
+    24/04/2026
+  </td>
+  <td style="text-align: center;">
+    Reyes Menacho, Camila Asuncion
+  </td>
+  <td style="text-align: center;">
+    Desarrollo del Capítulo V: Product Implementation, Validation & Deployment. Se documentó la configuración del entorno, control de versiones, convenciones de código y despliegue. Además, se integraron evidencias de desarrollo (commits, repositorio) y deployment de la landing page.
+  </td>
+</tr>
   <!-- ROW 5 -->
   <tr>
     <td style="text-align: center;">
