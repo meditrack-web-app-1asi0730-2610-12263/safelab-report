@@ -10,6 +10,18 @@
 
 <section id="software-development-environment-configuration">
   <h3>5.1.1. Software Development Environment Configuration</h3>
+
+  <p style="text-align: justify;">
+    Para el entorno de desarrollo del proyecto se consideraron herramientas orientadas al desarrollo web moderno. El equipo configuró los recursos necesarios para trabajar en la landing page y preparar la futura implementación de la aplicación principal.
+  </p>
+
+  <p style="text-align: justify;">
+    El entorno de desarrollo considerado incluye el uso de Visual Studio Code como editor de código, Git para el control de versiones, GitHub como repositorio remoto y tecnologías web como HTML, CSS y JavaScript para la landing page. Asimismo, se contempla el uso posterior de tecnologías frontend y backend para la aplicación principal, aunque en esta primera etapa todavía no se ha avanzado con su implementación.
+  </p>
+
+  <p style="text-align: justify;">
+    También se utilizó Trello como herramienta de organización de tareas, permitiendo dividir el trabajo en listas como Backlog, Sprint Backlog, To Do, In Process y Done. La comunicación del equipo se realizó mediante Discord para coordinaciones generales y WhatsApp para mensajes rápidos, avisos y seguimiento inmediato.
+  </p>
 </section>
 
 <section id="source-code-management">
