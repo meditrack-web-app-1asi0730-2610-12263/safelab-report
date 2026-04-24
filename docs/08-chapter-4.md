@@ -114,6 +114,85 @@
 </p>
 
 ### **4.6.4. Software Architecture Components Diagrams**
+
+- SafeLab Web Application Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/web-application-component-diagram.png" width="70%" alt="web-application-component-diagram">
+</p>
+
+- Identity & Access Management Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/identity-access-component-diagram.png" width="70%" alt="identity-access-component-diagram">
+</p>
+
+- User Profiles Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/user-profiles-component-diagram.png" width="70%" alt="user-profiles-component-diagram">
+</p>
+
+- Subscription & Billing Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/subscription-billing-component-diagram.png" width="70%" alt="subscription-billing-component-diagram">
+</p>
+
+- Dashboard & Overview Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/dashboard-overview-component-diagram.png" width="70%" alt="dashboard-overview-component-diagram">
+</p>
+
+- Asset & Inventory Monitoring Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/asset-inventory-monitoring-component-diagram.png" width="70%" alt="asset-inventory-monitoring-component-diagram">
+</p>
+
+- Sensor Monitoring Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/sensor-monitoring-component-diagram.png" width="70%" alt="sensor-monitoring-component-diagram">
+</p>
+
+- Environmental Compliance Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/environmental-compliance-component-diagram.png" width="70%" alt="environmental-compliance-component-diagram">
+</p>
+
+- Alerts & Notifications Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/alerts-notifications-component-diagram.png" width="70%" alt="alerts-notifications-component-diagram">
+</p>
+
+- Remote Control & Actuation Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/remote-control-actuation-component-diagram.png" width="70%" alt="remote-control-actuation-component-diagram">
+</p>
+
+- Reports & Analytics Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/reports-analytics-component-diagram.png" width="70%" alt="reports-analytics-component-diagram">
+</p>
+
+- Incident Management Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/incident-management-component-diagram.png" width="70%" alt="incident-management-component-diagram">
+</p>
+
+- Audit & Traceability Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/audit-traceability-component-diagram.png" width="70%" alt="audit-traceability-component-diagram">
+</p>
+
 ## **4.7. Object-Oriented Design Software**
 ### **4.7.1. Class Diagrams**
 ## **4.8. Database Design**
