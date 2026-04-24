@@ -27,16 +27,16 @@
   <!-- ROW 2 -->
   <tr>
     <td style="text-align: center;">
-      (1.x.x.)
+      1.2.0
     </td>
     <td style="text-align: center;">
-      (date)
+      24/04/2026
     </td>
     <td style="text-align: center;">
       Montes Maza, Augusto Sebastian
     </td>
     <td style="text-align: justify;">
-      (description)
+      Completed UI/UX Design System including wireframes, high-fidelity mockups (desktop and mobile versions), and flow diagrams (wireflow and user flow) for all 11 application views: Dashboard, User Profiles, Billing, Inventory, Sensors, Compliance, Alerts, Remote Control, Reports, Identity Management, and Audit & Traceability.
     </td>
   </tr>
   <!-- ROW 3 -->
