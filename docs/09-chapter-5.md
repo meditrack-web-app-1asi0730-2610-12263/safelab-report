@@ -66,6 +66,25 @@
 </li>
   </ul>
 
+
+<p style="text-align: justify;">
+Durante el desarrollo, se utilizó una estrategia básica de commits orientada a la documentación del avance del
+proyecto. Los commits fueron estructurados utilizando prefijos como <strong>docs</strong>, <strong>feat</strong>,
+<strong>chore</strong> y <strong>deploy</strong>, permitiendo identificar el tipo de cambio realizado en cada
+actualización del repositorio.
+</p>
+
+<p style="text-align: justify;">
+En esta etapa del proyecto, los commits se enfocaron principalmente en la creación del repositorio, configuración
+inicial del entorno, desarrollo de la landing page y avance de la documentación del informe. No se registran aún
+commits asociados al desarrollo del frontend o backend de la aplicación principal, debido a que estas fases serán
+abordadas en sprints posteriores.
+</p>
+
+<p style="text-align: justify;">
+Esta organización permitió mantener una separación clara entre los distintos componentes del proyecto, facilitando
+la gestión del código, la revisión de cambios y la futura escalabilidad del sistema.
+</p>
 </section>
 
 <section id="source-code-style-guide-conventions">
