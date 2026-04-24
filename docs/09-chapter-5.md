@@ -180,6 +180,34 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <p style="text-align: justify;">
     A continuación se detallan los pasos para el despliegue de los componentes actualmente implementados en la solución Meditrack, los cuales corresponden a la Landing Page y al informe del proyecto.
   </p>
+
+<h4>Pasos para el despliegue</h4>
+
+  <p><strong>Landing Page:</strong></p>
+  <ul>
+    <li>Clonar o descargar el repositorio desde GitHub.</li>
+    <li>Instalar las dependencias necesarias del proyecto (si aplica).</li>
+    <li>Construir el proyecto en caso de utilizar herramientas de build.</li>
+    <li>Publicar los archivos estáticos (HTML, CSS y JavaScript) en un servidor web o servicio de hosting.</li>
+    <li>Verificar que la página se visualice correctamente en el navegador.</li>
+  </ul>
+
+  <p>
+    🔗 Enlace al repositorio de la Landing Page:
+    <br>
+    <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git" target="_blank">
+      https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git
+    </a>
+  </p>
+
+  <p>
+    🔗 Enlace a la Landing Page desplegada:
+    <br>
+    <a href="https://meditrack-web-app-1asi0730-2610-12263.github.io/safelab-business-website/" target="_blank">
+      https://meditrack-web-app-1asi0730-2610-12263.github.io/safelab-business-website/
+    </a>
+  </p>
+
   </section>
 
   <section id="landing-page-services-applications-implementation">
