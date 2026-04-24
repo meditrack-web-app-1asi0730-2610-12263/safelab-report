@@ -235,10 +235,14 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <section id="landing-page-services-applications-implementation">
     <h2>5.2. Landing Page, Services &amp; Applications Implementation</h2>
 
-<section id="sprint-n">
+<section id="sprint-1">
   <h3>5.2.1. Sprint n</h3>
 
-  <section id="sprint-planning-n">
+  <p style="text-align: justify;">
+    El Sprint 1 del proyecto Meditrack estuvo enfocado en la organización inicial del proyecto, la consolidación de la documentación del informe, la gestión de tareas mediante Trello y el desarrollo y despliegue de la Landing Page. Durante este sprint, el equipo priorizó actividades de planificación, coordinación y entrega de evidencias iniciales, dejando el desarrollo del frontend y backend de la aplicación principal para futuras iteraciones.
+  </p>
+
+  <section id="sprint-planning-1">
     <h4>5.2.1.1. Sprint Planning n</h4>
   </section>
 
