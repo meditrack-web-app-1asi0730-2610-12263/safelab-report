@@ -33,7 +33,38 @@
     versiones distribuido y colaboración entre los integrantes del equipo.
   </p>
 
+  <p style="text-align: justify;">
+    El proyecto cuenta con múltiples repositorios organizados según el tipo de entregable. Por un lado, se dispone de
+    un repositorio dedicado al informe técnico, donde se almacena la documentación del proyecto. Por otro lado, se
+    cuenta con un repositorio independiente para la landing page, donde se gestiona el código fuente de la aplicación
+    web desplegada.
+  </p>
 
+  <ul>
+    <li>
+      Repositorio general del proyecto:
+      <br>
+      <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263" target="_blank">
+        https://github.com/meditrack-web-app-1asi0730-2610-12263
+      </a>
+    </li>
+
+<li>
+  Repositorio del informe:
+  <br>
+  <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-report.git" target="_blank">
+    https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-report.git
+  </a>
+</li>
+
+<li>
+  Repositorio de la landing page:
+  <br>
+  <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git" target="_blank">
+    https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-business-website.git
+  </a>
+</li>
+  </ul>
 
 </section>
 
