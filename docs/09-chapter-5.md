@@ -208,6 +208,24 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     </a>
   </p>
 
+<p><strong>Informe del Proyecto:</strong></p>
+  <ul>
+    <li>Acceder al repositorio del informe en GitHub.</li>
+    <li>Actualizar los contenidos correspondientes a cada capítulo del proyecto.</li>
+    <li>Verificar la estructura HTML y el formato del documento.</li>
+    <li>Subir los cambios al repositorio mediante commits.</li>
+    <li>Validar la correcta visualización del informe en el entorno de trabajo o visor correspondiente.</li>
+  </ul>
+
+  <p>
+    🔗 Enlace al repositorio del informe:
+    <br>
+    <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-report.git" target="_blank">
+      https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-report.git
+    </a>
+  </p>
+
+
   </section>
 
   <section id="landing-page-services-applications-implementation">
