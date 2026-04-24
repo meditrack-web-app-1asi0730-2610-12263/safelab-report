@@ -385,7 +385,12 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
 
   <section id="sprint-backlog-1">
     <h4>5.2.1.3. Sprint Backlog 1</h4>
-    <table>
+     <p style="text-align: justify;">
+    El Sprint Backlog 1 estuvo compuesto por tareas relacionadas con la organización del proyecto, la comunicación del equipo, el avance del informe, el desarrollo de la Landing Page y su despliegue. Estas tareas fueron organizadas en Trello para dar seguimiento a su estado de avance.
+  </p>
+
+  <table>
+    <thead>
       <tr>
         <th>User Story ID</th>
         <th>Title</th>
@@ -395,7 +400,9 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
         <th>Assigned</th>
         <th>Status</th>
       </tr>
+    </thead>
 
+<tbody>
   <tr>
     <td>US01</td>
     <td>Organizar proyecto</td>
@@ -420,40 +427,46 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     <td>US03</td>
     <td>Informe</td>
     <td>UT03</td>
-    <td>Desarrollar capítulos I-IV</td>
+    <td>Desarrollar capítulo I</td>
     <td>Redacción del informe</td>
-    <td>Jean </td>
+    <td>Jean</td>
     <td>In Process</td>
   </tr>
+
   <tr>
     <td>US03</td>
     <td>Informe</td>
-    <td>UT03</td>
-    <td>Desarrollar capítulos II</td>
+    <td>UT04</td>
+    <td>Desarrollar capítulo II</td>
     <td>Redacción del informe</td>
-    <td>Jean </td>
-    <td>In Process</td>
-  </tr>  <tr>
-    <td>US03</td>
-    <td>Informe</td>
-    <td>UT03</td>
-    <td>Desarrollar capítulos III</td>
-    <td>Redacción del informe</td>
-    <td>Juan </td>
-    <td>In Process</td>
-  </tr>  <tr>
-    <td>US03</td>
-    <td>Informe</td>
-    <td>UT03</td>
-    <td>Desarrollar capítulos IV</td>
-    <td>Redacción del informe</td>
-    <td>Giusephi Y Sebastian   </td>
+    <td>Jean</td>
     <td>In Process</td>
   </tr>
+
+  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT05</td>
+    <td>Desarrollar capítulo III</td>
+    <td>Redacción del informe</td>
+    <td>Juan</td>
+    <td>In Process</td>
+  </tr>
+
+  <tr>
+    <td>US03</td>
+    <td>Informe</td>
+    <td>UT06</td>
+    <td>Desarrollar capítulo IV</td>
+    <td>Redacción del informe</td>
+    <td>Giusephi y Sebastian</td>
+    <td>In Process</td>
+  </tr>
+
   <tr>
     <td>US04</td>
-    <td>Capítulo V</td>
-    <td>UT04</td>
+    <td>Informe</td>
+    <td>UT07</td>
     <td>Desarrollar Capítulo V</td>
     <td>Configuración, despliegue y evidencia</td>
     <td>Camila</td>
@@ -463,7 +476,7 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <tr>
     <td>US05</td>
     <td>Landing Page</td>
-    <td>UT05</td>
+    <td>UT08</td>
     <td>Desarrollar landing</td>
     <td>Implementación visual del producto</td>
     <td>Equipo</td>
@@ -473,15 +486,15 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
   <tr>
     <td>US06</td>
     <td>Deploy</td>
-    <td>UT06</td>
+    <td>UT09</td>
     <td>Desplegar landing</td>
     <td>Publicación en web</td>
-    <td>Giusephi </td>
+    <td>Giusephi</td>
     <td>Done</td>
   </tr>
-
-</table>
-  </section>
+</tbody>
+  </table>
+</section>
 
   <section id="development-evidence-for-sprint-review">
     <h4>5.2.1.4. Development Evidence for Sprint Review</h4>
