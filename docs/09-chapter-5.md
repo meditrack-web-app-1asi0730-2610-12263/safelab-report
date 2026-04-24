@@ -122,6 +122,32 @@ la gestión del código, la revisión de cambios y la futura escalabilidad del s
     <li>Preferencia por arrow functions</li>
   </ul>
 
+<h4>Vue.js</h4>
+
+  <p><strong>Convenciones:</strong></p>
+  <ul>
+    <li>Componentes en PascalCase (ej. UserProfile.vue)</li>
+    <li>Props y métodos en camelCase</li>
+    <li>Uso de directivas abreviadas (@ para v-on, : para v-bind)</li>
+    <li>Organización de componentes por carpetas según funcionalidad</li>
+    <li>Orden de ciclo de vida (created(), mounted(), etc.)</li>
+  </ul>
+
+<h4>C# (ASP.NET Core)</h4>
+
+  <p><strong>Estilo Microsoft:</strong></p>
+  <ul>
+    <li>Clases y métodos en PascalCase (ej. UserService)</li>
+    <li>Variables y parámetros en camelCase</li>
+    <li>Uso de comentarios XML para documentación (/// &lt;summary&gt;)</li>
+  </ul>
+
+  <p><strong>ASP.NET Core:</strong></p>
+  <ul>
+    <li>Implementación de Inyección de Dependencias (Dependency Injection)</li>
+    <li>Separación de responsabilidades mediante arquitectura en capas (MVC)</li>
+    <li>Uso de ViewModels para transferencia de datos</li>
+  </ul>
 
 
 </section>
