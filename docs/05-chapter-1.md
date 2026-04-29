@@ -23,8 +23,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/giusephi.png"
-      alt="giusephi-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/giusephi-carlos.png"
+      alt="giusephi-carlos-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -49,8 +49,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/sebastian.png"
-      alt="sebastian-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/sebastian-montes.png"
+      alt="sebastian-montes-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -75,8 +75,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/jean.jpeg"
-      alt="jean-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/jean-arizabal.jpeg"
+      alt="jean-arizabal-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -101,8 +101,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/camila.jpeg"
-      alt="camila-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/camila-reyes.jpeg"
+      alt="camila-reyes-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -127,8 +127,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/juan.jpeg"
-      alt="juan-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/juan-orosco.jpeg"
+      alt="juan-orosco-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
