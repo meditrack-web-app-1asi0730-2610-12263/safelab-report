@@ -28,19 +28,30 @@ We use a simplified GitFlow strategy:
 
 - `main` → Final delivered versions ***(DO NOT WORK HERE)***
 - `develop` → Integration branch
-- `feature/*` → Work branches
+- `feature/<delivery>-<task-name>` → Work branches for the current delivery
+- `archive/<delivery>-<task-name>` → Archived branches from completed deliveries
 - `release/*` → Delivery preparation
 
+### **Branch Naming Convention**
+
+Every feature branch must include the delivery prefix followed by the task name:
+
+```text
+feature/<av1|tb1|av2|tb2>-your-task-name
+```
+
 ### **Branch Examples**
-- `feature/chapter-1-introduction`
-- `feature/chapter-2-interviews`
-- `feature/chapter-3-user-stories`
-- `feature/chapter-4-design`
-- `feature/chapter-5-implementation`
+
+- `feature/av1-chapter-1-introduction`
+- `feature/av1-chapter-2-interviews`
+- `feature/tb1-chapter-3-user-stories`
+- `feature/av2-chapter-4-design`
+- `feature/tb2-chapter-5-implementation`
 
 ---
 
 ## **Workflow (Mandatory)**
+
 ### **1. Update repository**
 
 ```bash
@@ -51,8 +62,8 @@ git pull origin develop
 ### **2. Create branch**
 
 ```bash
-git checkout -b feature/your-task-name
-git push -u origin feature/your-task-name
+git checkout -b feature/<av1|tb1|av2|tb2>-your-task-name
+git push -u origin feature/<av1|tb1|av2|tb2>-your-task-name
 ```
 
 ### **3. Work on your section**
@@ -70,7 +81,7 @@ git commit -m "feat(chapter-2): add interview analysis"
 ### **5. Push changes**
 
 ```bash
-git push origin feature/your-task-name
+git push origin feature/<av1|tb1|av2|tb2>-your-task-name
 ```
 
 ### **6. Pull Request**
@@ -82,6 +93,7 @@ git push origin feature/your-task-name
 ---
 
 ## **Release Process**
+
 ### **Create release branch**
 
 ```bash
@@ -98,6 +110,22 @@ git checkout -b release/tb1
 
 - `release/*` → `main`
 - `release/*` → `develop`
+
+### **Archive completed feature branches**
+
+After completing each project delivery (`AV1`, `TB1`, `AV2`, or `TB2`) and merging all work into `main`, the corresponding feature branches must be renamed from `feature/` to `archive/`.
+
+This keeps active work separated from completed delivery evidence.
+
+Example:
+
+```bash
+git branch -m feature/av1-chapter-1-introduction archive/av1-chapter-1-introduction
+git push origin archive/av1-chapter-1-introduction
+git push origin --delete feature/av1-chapter-1-introduction
+```
+
+For the next delivery, create new `feature/` branches from the updated `develop` branch.
 
 ---
 
