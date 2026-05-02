@@ -256,7 +256,7 @@
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
 
-**Segment: Coordinator**
+**Segment: The Coordinator of Bioclinical Operations**
 
 <ol style="text-align: justify;">
   <li>
