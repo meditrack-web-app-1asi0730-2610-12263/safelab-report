@@ -560,15 +560,15 @@
   </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ### **2.3.3. User Journey Mapping**
 
-**Segment: Coordinator**
+**Segment 1: The Coordinator of Bioclinical Operations**
 
-![User Journey Mapping Carlos](../assets/chapter-2/Carlos%20Journey%20Map.png)
+<div style="text-align: center;">
+  <img src="../assets/chapter-2/needfinding/user-journey-mapping/segment-1/carlos-mendoza.png" width="70%" alt="user-journey-mapping-s1-carlos-mendoza">
+</div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 ### **2.3.4. Empathy Mapping**
 
