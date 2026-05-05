@@ -318,7 +318,7 @@
       <li>
         <b>Screenshot:</b><br>
         <div style="text-align: center;">
-          <img src="../assets/chapter-2/interviews-recording/segment-1/abdul-muchica.png" 
+          <img src="../assets/chapter-2/interviews/interviews-recording/segment-1/abdul-muchica.png" 
           width="70%" alt="abdul-muchica">
         </div>
       </li>
@@ -342,7 +342,7 @@
       <li>
         <b>Screenshot:</b><br>
         <div style="text-align: center;">
-          <img src="../assets/chapter-2/interviews-recording/segment-1/fabrizio-palomino.png" 
+          <img src="../assets/chapter-2/interviews/interviews-recording/segment-1/fabrizio-palomino.png" 
           width="70%" alt="fabrizio-palomino">
         </div>
       </li>
@@ -366,7 +366,7 @@
       <li>
         <b>Screenshot:</b><br>
         <div style="text-align: center;">
-          <img src="../assets/chapter-2/interviews-recording/segment-1/efrain-palomino.png" 
+          <img src="../assets/chapter-2/interviews/interviews-recording/segment-1/efrain-palomino.png" 
           width="70%" alt="efrain-palomino">
         </div>
       </li>
@@ -459,11 +459,13 @@
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
 
-**Segment: Coordinator**
+**Segment 1: The Coordinator of Bioclinical Operations**
 
-![User Persona Carlos](../assets/chapter-2/Carlos%20Mendoza.png)
+<div style="text-align: center">
+  <img src="../assets/chapter-2/needfinding/user-personas/segment-1/carlos-mendoza.png" width="69%" alt="user-persona-s1-carlos-mendoza">
+</div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 ### **2.3.2. User Task Matrix**
 
