@@ -383,35 +383,78 @@
 
 ### **2.2.3. Interview Analysis**
 
-**Segment: Coordinator**
+**Segment 1: The Coordinator of Bioclinical Operations**
 
-**Characteristics**
-* **Sex:** Male
-* **Age:** 24 - 65 years old
-* **Devices:** Smartphone, Laptop
-* **Operating Systems:** Android, Windows
-* **Browsers:** Chrome
-* **Brand Influence:** Refrigeration equipment (BioRack, BioBase, Helmer Inc), Supplies (Wiener), Communication (WhatsApp)
+<ul>
+  <li>
+    <b>Characteristics</b>
+    <ul style="text-align: justify">
+      <li>
+        <b>Sex:</b> Male
+      </li>
+      <li>
+        <b>Age:</b> 65 years old
+      </li>
+      <li>
+        <b>Devices:</b> Smarthphone, Laptop
+      </li>
+      <li>
+        <b>Operating Systems:</b> Android, Windows
+      </li>
+      <li>
+        <b>Browsers:</b> Chrome
+      </li>
+      <li>
+        <b>Brand Influence:</b> Refrigeration equipment (BioRack, BioBase,  Helmer Inc), Supplies (Wiener), Communication (WhatsApp)
+      </li>
+    </ul>
+  </li>
+  <li>
+    <b>Common Goals</b>
+    <ul style="text-align: justify">
+      <li>
+        Stop relying on manual processes when examining their equipment and supplies.
+      </li>
+      <li>
+        Have detailed information about their equipment.
+      </li>
+      <li>
+        Standardize their controls and protocols.
+      </li>
+      <li>
+        Obtain a quick response from the administrative level.
+      </li>
+    </ul>
+  </li>
+  <li>
+    <b>Common Motivations</b>
+    <ul style="text-align: justify">
+      <li>
+        Have the assurance that their equipment operates correctly.
+      </li>
+        Have information that prevents breakdowns before the equipment stops working.
+      <li>
+        Have new, fully operational equipment as soon as possible when one stops working.
+      </li>
+    </ul>
+  </li>
+  <li>
+    <b>Common Frustrations</b>
+    <ul style="text-align: justify">
+      <li>
+        Manual processes prone to errors.
+      </li>
+      <li>
+        Access to superficial, insufficient information.
+      </li>
+      <li>
+        Long waiting times for bureaucratic processes due to a lack of standardization.
+      </li>
+    </ul>
+  </li>
+</ul>
 
-**Common Goals**
-* Stop relying on manual processes when examining their equipment and supplies.
-* Have detailed information about their equipment.
-* Standardize their controls and protocols.
-* Obtain a quick response from the administrative level.
-
-**Common Motivations**
-* Have the assurance that their equipment operates correctly.
-* Have information that prevents breakdowns before the equipment stops working.
-* Have new, fully operational equipment as soon as possible when one stops working.
-
-**Common Frustrations**
-* Manual processes prone to errors.
-* Access to superficial, insufficient information.
-* Long waiting times for bureaucratic processes due to a lack of standardization.
-
-</div>
 <div style="page-break-after: always;"></div>
-<div style="text-align: justify;">
 
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
