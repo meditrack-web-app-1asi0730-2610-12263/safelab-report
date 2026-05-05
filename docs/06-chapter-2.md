@@ -225,28 +225,28 @@
 
 **Offensive Strategies**
 
-<p style="text-align: justify">
+<p style="text-align: justify;">
   <i>Penetration through Hyper-specialization and Low Cost</i><br>
   By crossing our strength of having an agnostic software architecture (without proprietary hardware) with the immense underserved market in cities of less than 250,000 inhabitants, our main tactic will be to offer a SaaS model purely focused on the clinical workflow. While competitors force the purchase of expensive closed sensor packages, SafeLab will allow medium-sized laboratories to digitize their processes using generic local sensors, democratizing access to quality technology and quickly capturing this expanding niche.
 </p>
 
 **Adaptive Strategies**
 
-<p style="text-align: justify">
+<p style="text-align: justify;">
   <i>Strategic B2B Distribution Alliances</i><br>
   To counteract our main weakness (the lack of proprietary hardware and low initial brand recognition), we will take advantage of the growing need for post-pandemic digitalization through alliances. The tactic will be to partner with local distributors of medical refrigerators and providers of generic IoT sensors, offering SafeLab as a "value add" or native software in their sales. This allows us to reach the final customer through a channel that already enjoys trust, mitigating the acquisition cost.
 </p>
 
 **Defensive Strategies**
 
-<p style="text-align: justify">
+<p style="text-align: justify;">
   <i>Differentiation through Clinical Usability (Self-Onboarding)</i><br>
   Faced with the threat of the healthcare sector's distrust of new technologies or the possible entry of tech giants with low-cost solutions, we will use our agility and design centered on the clinical user as a shield. The tactic is to build a "Plug & Play" onboarding flow and an interface (dashboard/PDF reports) so precisely adapted to the stress of local audits (e.g., ISO 15189), that any other generic platform will be perceived as clumsy and inadequate for a biologist.
 </p>
 
 **Survival Strategies**<br>
 
-<p style="text-align: justify">
+<p style="text-align: justify;">
   <i>Early Validation and Strict Regulatory Compliance</i><br>
   The combination of being a new brand (weakness) in a highly distrustful and regulated sector (threat) is the biggest risk for the startup. To survive this barrier, the tactic from "Day 1" will be strict standardization. The software will be designed exclusively under the formats required by health regulatory entities. Furthermore, pilot programs (free Beta tests) will be implemented in key laboratories in secondary cities to generate verifiable success cases and real ROI metrics, substituting the lack of initial reputation with irrefutable empirical evidence.
 </p>
@@ -388,7 +388,7 @@
 <ul>
   <li>
     <b>Characteristics</b>
-    <ul style="text-align: justify">
+    <ul style="text-align: justify;">
       <li>
         <b>Sex:</b> Male
       </li>
@@ -411,7 +411,7 @@
   </li>
   <li>
     <b>Common Goals</b>
-    <ul style="text-align: justify">
+    <ul style="text-align: justify;">
       <li>
         Stop relying on manual processes when examining their equipment and supplies.
       </li>
@@ -428,7 +428,7 @@
   </li>
   <li>
     <b>Common Motivations</b>
-    <ul style="text-align: justify">
+    <ul style="text-align: justify;">
       <li>
         Have the assurance that their equipment operates correctly.
       </li>
@@ -440,7 +440,7 @@
   </li>
   <li>
     <b>Common Frustrations</b>
-    <ul style="text-align: justify">
+    <ul style="text-align: justify;">
       <li>
         Manual processes prone to errors.
       </li>
@@ -461,7 +461,7 @@
 
 **Segment 1: The Coordinator of Bioclinical Operations**
 
-<div style="text-align: center">
+<div style="text-align: center;">
   <img src="../assets/chapter-2/needfinding/user-personas/segment-1/carlos-mendoza.png" width="69%" alt="user-persona-s1-carlos-mendoza">
 </div>
 
@@ -469,17 +469,98 @@
 
 ### **2.3.2. User Task Matrix**
 
-<br>
+<table style="margin: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">
+        #
+      </th>
+      <th style="text-align: center;">
+        Task
+      </th>
+      <th style="text-align: center;">
+        Frequency
+      </th>
+      <th style="text-align: center;">
+        Importance
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        1
+      </td>
+      <td style="text-align: justify;">
+        Routine temperature monitoring
+      </td>
+      <td style="text-align: center;">
+        High
+      </td>
+      <td style="text-align: center;">
+        High
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        2
+      </td>
+      <td style="text-align: justify;">
+        Response to equipment incidents
+      </td>
+      <td style="text-align: center;">
+        Low
+      </td>
+      <td style="text-align: center;">
+        Critical
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        3
+      </td>
+      <td style="text-align: justify;">
+        Preparation of quality reports
+      </td>
+      <td style="text-align: center;">
+        Medium
+      </td>
+      <td style="text-align: center;">
+        High
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        4
+      </td>
+      <td style="text-align: justify;">
+        Information handover between shifts
+      </td>
+      <td style="text-align: center;">
+        High
+      </td>
+      <td style="text-align: center;">
+        Medium
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        5
+      </td>
+      <td style="text-align: justify;">
+        Administrative replacement management
+      </td>
+      <td style="text-align: center;">
+        Very Low
+      </td>
+      <td style="text-align: center;">
+        Medium
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| # | Task | Frequency | Importance |
-| :--- | :--- | :--- | :--- |
-| 1 | Routine temperature monitoring | High | High |
-| 2 | Response to equipment incidents | Low | Critical |
-| 3 | Preparation of quality reports | Medium | High |
-| 4 | Information handover between shifts | High | Medium |
-| 5 | Administrative replacement management | Very Low | Medium |
-
-<br>
+<div style="page-break-after: always;"></div>
 
 ### **2.3.3. User Journey Mapping**
 
