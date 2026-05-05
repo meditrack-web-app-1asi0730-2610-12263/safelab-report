@@ -572,11 +572,13 @@
 
 ### **2.3.4. Empathy Mapping**
 
-**Segment: Coordinator**
+**Segment 1: The Coordinator of Bioclinical Operations**
 
-![User Journey Mapping Carlos](../assets/chapter-2/Carlos%20Empathy%20map.png)
+<div style="text-align: center;">
+  <img src="../assets/chapter-2/needfinding/empathy-mapping/segment-1/carlos-mendoza.png" width="70%" alt="empathy-mapping-s1-carlos-mendoza">
+</div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 ## **2.4. Big Picture Event Storming**
 ## **2.5. Ubiquitous Language**
