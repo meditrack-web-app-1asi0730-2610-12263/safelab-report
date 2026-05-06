@@ -107,26 +107,142 @@
 
 <div style="page-break-after: always;"></div>
 
-#### User Stories
-
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Epic</th>
-  </tr>
-
-  <!-- EP01 -->
-  <tr><td>US01</td><td>Register laboratory site</td><td>As a Supervisor, I want to register a site with name and location so I can organize monitoring</td><td>EP01</td></tr>
-  <tr><td>US02</td><td>View laboratory sites</td><td>As a Supervisor, I want to see all registered sites so I can manage them</td><td>EP01</td></tr>
-  <tr><td>US03</td><td>Create storage area</td><td>As a Supervisor, I want to create storage areas with name and type so I can organize equipment</td><td>EP01</td></tr>
-  <tr><td>US04</td><td>View storage areas</td><td>As a Supervisor, I want to see storage areas so I understand organization</td><td>EP01</td></tr>
-  <tr><td>US05</td><td>Register equipment</td><td>As a Supervisor, I want to register equipment with name, type and identifier so it can be monitored</td><td>EP01</td></tr>
-  <tr><td>US06</td><td>View equipment list</td><td>As a Supervisor, I want to see all equipment so I can manage it easily</td><td>EP01</td></tr>
-  <tr><td>US07</td><td>Assign equipment to area</td><td>As a Supervisor, I want to assign equipment to a storage area so I know its location</td><td>EP01</td></tr>
-  <tr><td>US08</td><td>Search equipment by name</td><td>As a Supervisor, I want to search equipment by name so I find it quickly</td><td>EP01</td></tr>
-
+<table style="margin: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: center;" colspan="4">
+        USER STORIES
+      </th>
+    </tr>
+    <tr>
+      <th style="text-align: center;">
+        ID
+      </th>
+      <th style="text-align: center;">
+        Title
+      </th>
+      <th style="text-align: center;">
+        Description
+      </th>
+      <th style="text-align: center;">
+        Epic
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- EP01 -->
+    <tr>
+      <td style="text-align: center;">
+        US01
+      </td>
+      <td style="text-align: center;">
+        Register laboratory site
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to register a site with name and location so I can organize monitoring
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US02
+      </td>
+      <td style="text-align: center;">
+        View laboratory sites
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see all registered sites so I can manage them
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US03
+      </td>
+      <td style="text-align: center;">
+        Create storage area
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to create storage areas with name and type so I can organize equipment
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US04
+      </td>
+      <td style="text-align: center;">
+        View storage areas
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see storage areas so I understand organization
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US05
+      </td>
+      <td style="text-align: center;">
+        Register equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to register equipment with name, type and identifier so it can be monitored
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US06
+      </td>
+      <td style="text-align: center;">
+        View equipment list
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see all equipment so I can manage it easily
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US07
+      </td>
+      <td style="text-align: center;">
+        Assign equipment to area
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to assign equipment to a storage area so I know its location
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US08
+      </td>
+      <td style="text-align: center;">
+        Search equipment by name
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to search equipment by name so I find it quickly
+      </td>
+      <td style="text-align: center;">
+        EP01
+      </td>
+    </tr>
   <!-- EP02 -->
   <tr><td>US09</td><td>View temperature values</td><td>As an Operator, I want to see temperature values so I monitor conditions</td><td>EP02</td></tr>
   <tr><td>US10</td><td>View humidity values</td><td>As an Operator, I want to see humidity values so I ensure proper storage</td><td>EP02</td></tr>
@@ -185,7 +301,7 @@
   <tr><td>US53</td><td>Recover password by email</td><td>As a user, I want to recover access via email</td><td>EP07</td></tr>
   <tr><td>US54</td><td>Logout from system</td><td>As a user, I want to log out to protect my account</td><td>EP07</td></tr>
   <tr><td>US55</td><td>Assign user role</td><td>As a Supervisor, I want to assign roles so users have proper access</td><td>EP07</td></tr>
-
+ </tbody>
 </table>
 ---
 
