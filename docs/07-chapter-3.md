@@ -1,63 +1,111 @@
 # **Chapter III: Requirements Specification**
 ## **3.1 User Stories**
 
-In this section, the system’s functional requirements are presented, defined through User Stories and grouped into Epics based on the analysis carried out in Chapter II.
+<p style="text-align: justify;">
+  In this section, the system’s functional requirements are presented, defined through User Stories and grouped into Epics based on the analysis carried out in Chapter II.
+</p>
 
-#### Epics
-
-<table>
-  <tr>
-    <th>Epic ID</th>
-    <th>Title</th>
-    <th>Description</th>
-  </tr>
-
-  <tr>
-    <td>EP01</td>
-    <td>Laboratory organization</td>
-    <td>Manage laboratory structure including sites, storage areas and equipment to organize monitoring across locations</td>
-  </tr>
-
-  <tr>
-    <td>EP02</td>
-    <td>Real-time monitoring</td>
-    <td>View temperature, humidity and equipment status automatically in real time without manual recording</td>
-  </tr>
-
-  <tr>
-    <td>EP03</td>
-    <td>Alerts and notifications</td>
-    <td>Receive, view and manage alerts, including mobile notifications and team awareness of incidents</td>
-  </tr>
-
-  <tr>
-    <td>EP04</td>
-    <td>Reporting and data analysis</td>
-    <td>Access historical data, compare periods and generate reports to analyze trends and support compliance</td>
-  </tr>
-
-  <tr>
-    <td>EP05</td>
-    <td>Equipment condition and maintenance</td>
-    <td>Monitor equipment condition, reliability and maintenance history to prevent failures</td>
-  </tr>
-
-  <tr>
-    <td>EP06</td>
-    <td>Dashboard and system overview</td>
-    <td>Provide a centralized view of system status, alerts and key indicators for quick decision making</td>
-  </tr>
-
-  <tr>
-    <td>EP07</td>
-    <td>User access and roles</td>
-    <td>Allow users to securely access the system using login methods and manage roles for proper access control</td>
-  </tr>
-
+<table style="margin: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: center;" colspan="3">
+        EPICS
+      </th>
+    </tr>
+    <tr>
+      <th style="text-align: center;">
+        ID
+      </th>
+      <th style="text-align: center;">
+        Title
+      </th>
+      <th style="text-align: center;">
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        EP01
+      </td>
+      <td style="text-align: center;">
+        Laboratory organization
+      </td>
+      <td style="text-align: justify;">
+        Manage laboratory structure including sites, storage areas and  equipment to organize monitoring across locations
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP02
+      </td>
+      <td style="text-align: center;">
+        Real-time monitoring
+      </td>
+      <td style="text-align: justify;">
+        View temperature, humidity and equipment status automatically in  real time without manual recording
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP03
+      </td>
+      <td style="text-align: center;">
+        Alerts and notifications
+      </td>
+      <td style="text-align: justify;">
+        Receive, view and manage alerts, including mobile notifications   and team awareness of incidents
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP04
+      </td>
+      <td style="text-align: center;">
+        Reporting and data analysis
+      </td>
+      <td style="text-align: justify;">
+        Access historical data, compare periods and generate reports to   analyze trends and support compliance
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP05
+      </td>
+      <td style="text-align: center;">
+        Equipment condition and maintenance
+      </td>
+      <td style="text-align: justify;">
+        Monitor equipment condition, reliability and maintenance history  to prevent failures
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP06
+      </td>
+      <td style="text-align: center;">
+        Dashboard and system overview
+      </td>
+      <td style="text-align: justify;">
+        Provide a centralized view of system status, alerts and key   indicators for quick decision making
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        EP07
+      </td>
+      <td style="text-align: center;">
+        User access and roles
+      </td>
+      <td style="text-align: justify;">
+        Allow users to securely access the system using login methods and   manage roles for proper access control
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-
----
+<div style="page-break-after: always;"></div>
 
 #### User Stories
 
