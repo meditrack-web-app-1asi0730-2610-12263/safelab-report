@@ -243,17 +243,133 @@
         EP01
       </td>
     </tr>
-  <!-- EP02 -->
-  <tr><td>US09</td><td>View temperature values</td><td>As an Operator, I want to see temperature values so I monitor conditions</td><td>EP02</td></tr>
-  <tr><td>US10</td><td>View humidity values</td><td>As an Operator, I want to see humidity values so I ensure proper storage</td><td>EP02</td></tr>
-  <tr><td>US11</td><td>View equipment working status</td><td>As an Operator, I want to see if equipment is working so I detect issues</td><td>EP02</td></tr>
-  <tr><td>US12</td><td>View equipment details</td><td>As an Operator, I want to open equipment details to see temperature, humidity and status</td><td>EP02</td></tr>
-  <tr><td>US13</td><td>View equipment list with real-time data</td><td>As an Operator, I want to see equipment with current values so I monitor quickly</td><td>EP02</td></tr>
-  <tr><td>US14</td><td>Filter equipment by storage area</td><td>As an Operator, I want to filter equipment by area so I focus on a location</td><td>EP02</td></tr>
-  <tr><td>US15</td><td>Identify equipment without recent data</td><td>As an Operator, I want to detect equipment without recent data so I act quickly</td><td>EP02</td></tr>
-  <tr><td>US16</td><td>Automatic data collection</td><td>As an Operator, I want data to be collected automatically so I don’t record it manually</td><td>EP02</td></tr>
-  <tr><td>US17</td><td>View data on mobile</td><td>As an Operator, I want to view monitoring data on my phone so I can access it easily</td><td>EP02</td></tr>
-
+    <!-- EP02 -->
+    <tr>
+      <td style="text-align: center;">
+        US09
+      </td>
+      <td style="text-align: center;">
+        View temperature values
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see temperature values so I monitor conditions
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US10
+      </td>
+      <td style="text-align: center;">
+        View humidity values
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see humidity values so I ensure proper storage
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US11
+      </td>
+      <td style="text-align: center;">
+        View equipment working status
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see if equipment is working so I detect issues
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US12
+      </td>
+      <td style="text-align: center;">
+        View equipment details
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to open equipment details to see temperature, humidity and status
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US13
+      </td>
+      <td style="text-align: center;">
+        View equipment list with real-time data
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see equipment with current values so I monitor quickly
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US14
+      </td>
+      <td style="text-align: center;">
+        Filter equipment by storage area
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to filter equipment by area so I focus on a location
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US15
+      </td>
+      <td style="text-align: center;">
+        Identify equipment without recent data
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to detect equipment without recent data so I act quickly
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US16
+      </td>
+      <td style="text-align: center;">
+        Automatic data collection
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want data to be collected automatically so I don’t record it manually
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US17
+      </td>
+      <td style="text-align: center;">
+        View data on mobile
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to view monitoring data on my phone so I can access it easily
+      </td>
+      <td style="text-align: center;">
+        EP02
+      </td>
+    </tr>
   <!-- EP03 -->
   <tr><td>US18</td><td>Receive temperature alerts</td><td>As an Operator, I want alerts when temperature exceeds limits so I react fast</td><td>EP03</td></tr>
   <tr><td>US19</td><td>Receive humidity alerts</td><td>As an Operator, I want alerts when humidity exceeds limits so I act quickly</td><td>EP03</td></tr>
