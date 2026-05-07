@@ -836,17 +836,79 @@
         EP06
       </td>
     </tr>
-
-  <!-- EP07 -->
-  <tr><td>US51</td><td>Login with Google account</td><td>As a user, I want to log in with Google so I access quickly</td><td>EP07</td></tr>
-  <tr><td>US52</td><td>Login with email and password</td><td>As a user, I want to log in with email so I access my account</td><td>EP07</td></tr>
-  <tr><td>US53</td><td>Recover password by email</td><td>As a user, I want to recover access via email</td><td>EP07</td></tr>
-  <tr><td>US54</td><td>Logout from system</td><td>As a user, I want to log out to protect my account</td><td>EP07</td></tr>
-  <tr><td>US55</td><td>Assign user role</td><td>As a Supervisor, I want to assign roles so users have proper access</td><td>EP07</td></tr>
+    <!-- EP07 -->
+    <tr>
+      <td style="text-align: center;">
+        US51
+      </td>
+      <td style="text-align: center;">
+        Login with Google account
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log in with Google so I access quickly
+      </td>
+      <td style="text-align: center;">
+        EP07
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US52
+      </td>
+      <td style="text-align: center;">
+        Login with email and password
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log in with email so I access my account
+      </td>
+      <td style="text-align: center;">
+        EP07
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US53
+      </td>
+      <td style="text-align: center;">
+        Recover password by email
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to recover access via email
+      </td>
+      <td style="text-align: center;">
+        EP07
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US54
+      </td>
+      <td style="text-align: center;">
+        Logout from system
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log out to protect my account
+      </td>
+      <td style="text-align: center;">
+        EP07
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US55
+      </td>
+      <td style="text-align: center;">
+        Assign user role
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to assign roles so users have proper access
+      </td>
+      <td style="text-align: center;">
+        EP07
+      </td>
+    </tr>
  </tbody>
 </table>
----
-
 
 ### HU01 - Listar productos
 
