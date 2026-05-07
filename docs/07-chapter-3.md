@@ -3235,97 +3235,967 @@ Then system shows error
 
 ## **3.3. Product Backlog**
 
-Product Backlog for the Meditrack system is shown below, where user stories are prioritized based on user needs and value, and estimated using the Fibonacci scale.
+<p style="text-align: justify;">
+  Product Backlog for the Meditrack system is shown below, where user stories are prioritized based on user needs and value, and estimated using the Fibonacci scale.
+</p>
 
-<table>
-<thead>
-<tr>
-<th># Orden</th>
-<th>User Story ID</th>
-<th>Título</th>
-<th>Descripción</th>
-<th>Story Points</th>
-</tr>
-</thead>
-<tbody>
-
-<tr><td>1</td><td>US51</td><td>Login with Google</td><td>As a user, I want to log in using Google so I access quickly</td><td>3</td></tr>
-<tr><td>2</td><td>US01</td><td>Register site</td><td>As a Supervisor, I want to register a site to organize monitoring</td><td>3</td></tr>
-<tr><td>3</td><td>US03</td><td>Create storage area</td><td>As a Supervisor, I want to create areas to organize equipment</td><td>3</td></tr>
-<tr><td>4</td><td>US05</td><td>Register equipment</td><td>As a Supervisor, I want to register equipment to monitor it</td><td>5</td></tr>
-<tr><td>5</td><td>US07</td><td>Assign equipment</td><td>As a Supervisor, I want to assign equipment to areas</td><td>3</td></tr>
-
-<tr><td>6</td><td>US16</td><td>Automatic data collection</td><td>As an Operator, I want automatic data so I don’t record manually</td><td>8</td></tr>
-<tr><td>7</td><td>US09</td><td>View temperature</td><td>As an Operator, I want to monitor temperature</td><td>3</td></tr>
-<tr><td>8</td><td>US10</td><td>View humidity</td><td>As an Operator, I want to monitor humidity</td><td>3</td></tr>
-<tr><td>9</td><td>US11</td><td>View equipment status</td><td>As an Operator, I want to detect equipment issues</td><td>3</td></tr>
-
-<tr><td>10</td><td>US18</td><td>Temperature alerts</td><td>As an Operator, I want alerts for temperature issues</td><td>5</td></tr>
-<tr><td>11</td><td>US19</td><td>Humidity alerts</td><td>As an Operator, I want alerts for humidity issues</td><td>5</td></tr>
-<tr><td>12</td><td>US20</td><td>View alerts</td><td>As an Operator, I want to see alerts list</td><td>3</td></tr>
-<tr><td>13</td><td>US22</td><td>Acknowledge alert</td><td>As an Operator, I want to mark alerts as handled</td><td>2</td></tr>
-
-<tr><td>14</td><td>US24</td><td>Mobile alerts</td><td>As an Operator, I want alerts on my phone</td><td>5</td></tr>
-<tr><td>15</td><td>US17</td><td>View data on mobile</td><td>As an Operator, I want to access data on mobile</td><td>5</td></tr>
-
-<tr><td>16</td><td>US43</td><td>View dashboard</td><td>As a Supervisor, I want to see system overview</td><td>5</td></tr>
-<tr><td>17</td><td>US44</td><td>View critical alerts</td><td>As a Supervisor, I want to prioritize issues</td><td>3</td></tr>
-<tr><td>18</td><td>US45</td><td>View summary</td><td>As a Supervisor, I want quick overview</td><td>3</td></tr>
-
-<tr><td>19</td><td>US27</td><td>View historical data</td><td>As a Supervisor, I want to analyze past data</td><td>5</td></tr>
-<tr><td>20</td><td>US30</td><td>Generate report</td><td>As a Supervisor, I want reports for compliance</td><td>5</td></tr>
-<tr><td>21</td><td>US31</td><td>Download report</td><td>As a Supervisor, I want to download reports</td><td>3</td></tr>
-
-<tr><td>22</td><td>US35</td><td>View equipment condition</td><td>As a Supervisor, I want to prevent failures</td><td>3</td></tr>
-<tr><td>23</td><td>US42</td><td>Equipment reliability</td><td>As a Supervisor, I want to evaluate stability</td><td>5</td></tr>
-
-<tr><td>24</td><td>US26</td><td>Share alerts</td><td>As an Operator, I want team coordination</td><td>3</td></tr>
-
-<tr><td>25</td><td>US25</td><td>Set alert limits</td><td>As a Supervisor, I want to configure thresholds</td><td>5</td></tr>
-
-<tr><td>26</td><td>US02</td><td>View sites</td><td>As a Supervisor, I want to manage sites</td><td>2</td></tr>
-<tr><td>27</td><td>US04</td><td>View areas</td><td>As a Supervisor, I want to manage areas</td><td>2</td></tr>
-<tr><td>28</td><td>US06</td><td>View equipment</td><td>As a Supervisor, I want to manage equipment</td><td>3</td></tr>
-
-<tr><td>29</td><td>US13</td><td>Equipment list with data</td><td>As an Operator, I want quick monitoring</td><td>3</td></tr>
-<tr><td>30</td><td>US12</td><td>Equipment details</td><td>As an Operator, I want full info</td><td>2</td></tr>
-
-<tr><td>31</td><td>US14</td><td>Filter equipment</td><td>As an Operator, I want focused view</td><td>2</td></tr>
-<tr><td>32</td><td>US08</td><td>Search equipment</td><td>As a Supervisor, I want quick search</td><td>2</td></tr>
-
-<tr><td>33</td><td>US15</td><td>No data detection</td><td>As an Operator, I want to detect missing data</td><td>3</td></tr>
-
-<tr><td>34</td><td>US21</td><td>Alert details</td><td>As an Operator, I want full alert info</td><td>2</td></tr>
-<tr><td>35</td><td>US23</td><td>Sort alerts</td><td>As an Operator, I want prioritization</td><td>2</td></tr>
-
-<tr><td>36</td><td>US28</td><td>Select date range</td><td>As a Supervisor, I want filtered data</td><td>2</td></tr>
-<tr><td>37</td><td>US29</td><td>Compare data</td><td>As a Supervisor, I want analysis</td><td>3</td></tr>
-
-<tr><td>38</td><td>US32</td><td>View incidents</td><td>As a Supervisor, I want to evaluate alerts</td><td>3</td></tr>
-<tr><td>39</td><td>US33</td><td>Export data</td><td>As a Supervisor, I want external usage</td><td>3</td></tr>
-
-<tr><td>40</td><td>US34</td><td>Compare weekly/monthly</td><td>As a Supervisor, I want deeper analysis</td><td>3</td></tr>
-
-<tr><td>41</td><td>US36</td><td>Abnormal values</td><td>As an Operator, I want to detect issues</td><td>3</td></tr>
-<tr><td>42</td><td>US37</td><td>Equipment warnings</td><td>As an Operator, I want early alerts</td><td>3</td></tr>
-
-<tr><td>43</td><td>US38</td><td>Performance data</td><td>As a Supervisor, I want optimization</td><td>3</td></tr>
-<tr><td>44</td><td>US39</td><td>Usage data</td><td>As a Supervisor, I want resource control</td><td>3</td></tr>
-
-<tr><td>45</td><td>US40</td><td>Register maintenance</td><td>As a Supervisor, I want tracking</td><td>3</td></tr>
-<tr><td>46</td><td>US41</td><td>Maintenance history</td><td>As a Supervisor, I want reliability</td><td>3</td></tr>
-
-<tr><td>47</td><td>US46</td><td>Equipment with alerts</td><td>As a Supervisor, I want focus</td><td>2</td></tr>
-<tr><td>48</td><td>US47</td><td>No data equipment</td><td>As an Operator, I want detection</td><td>2</td></tr>
-
-<tr><td>49</td><td>US48</td><td>Alert trends</td><td>As a Supervisor, I want analysis</td><td>3</td></tr>
-<tr><td>50</td><td>US49</td><td>Temperature trends</td><td>As a Supervisor, I want insights</td><td>3</td></tr>
-<tr><td>51</td><td>US50</td><td>Humidity trends</td><td>As a Supervisor, I want insights</td><td>3</td></tr>
-
-<tr><td>52</td><td>US52</td><td>Login email</td><td>As a user, I want to log in with email</td><td>3</td></tr>
-<tr><td>53</td><td>US53</td><td>Recover password</td><td>As a user, I want to recover access</td><td>3</td></tr>
-<tr><td>54</td><td>US54</td><td>Logout</td><td>As a user, I want to log out</td><td>1</td></tr>
-<tr><td>55</td><td>US55</td><td>Assign role</td><td>As a Supervisor, I want role control</td><td>3</td></tr>
-
-</tbody>
+<table style="margin: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">
+        # Orden
+      </th>
+      <th style="text-align: center;">
+        User Story ID
+      </th>
+      <th style="text-align: center;">
+        Título
+      </th>
+      <th style="text-align: center;">
+        Descripción
+      </th>
+      <th style="text-align: center;">
+        Story Points
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        01
+      </td>
+      <td style="text-align: center;">
+        US51
+      </td>
+      <td style="text-align: center;">
+        Login with Google
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log in using Google so I access quickly
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        02
+      </td>
+      <td style="text-align: center;">
+        US01
+      </td>
+      <td style="text-align: center;">
+        Register site
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to register a site to organize monitoring
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        03
+      </td>
+      <td style="text-align: center;">
+        US03
+      </td>
+      <td style="text-align: center;">
+        Create storage area
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to create areas to organize equipment
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        04
+      </td>
+      <td style="text-align: center;">
+        US05
+      </td>
+      <td style="text-align: center;">
+        Register equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to register equipment to monitor it
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        05
+      </td>
+      <td style="text-align: center;">
+        US07
+      </td>
+      <td style="text-align: center;">
+        Assign equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to assign equipment to areas
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        06
+      </td>
+      <td style="text-align: center;">
+        US16
+      </td>
+      <td style="text-align: center;">
+        Automatic data collection
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want automatic data so I don’t record manually
+      </td>
+      <td style="text-align: center;">
+        8
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        07
+      </td>
+      <td style="text-align: center;">
+        US09
+      </td>
+      <td style="text-align: center;">
+        View temperature
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to monitor temperature
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        08
+      </td>
+      <td style="text-align: center;">
+        US10
+      </td>
+      <td style="text-align: center;">
+        View humidity
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to monitor humidity
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        09
+      </td>
+      <td style="text-align: center;">
+        US11
+      </td>
+      <td style="text-align: center;">
+        View equipment status
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to detect equipment issues
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        10
+      </td>
+      <td style="text-align: center;">
+        US18
+      </td>
+      <td style="text-align: center;">
+        Temperature alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts for temperature issues
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        11
+      </td>
+      <td style="text-align: center;">
+        US19
+      </td>
+      <td style="text-align: center;">
+        Humidity alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts for humidity issues
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        12
+      </td>
+      <td style="text-align: center;">
+        US20
+      </td>
+      <td style="text-align: center;">
+        View alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see alerts list
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        13
+      </td>
+      <td style="text-align: center;">
+        US22
+      </td>
+      <td style="text-align: center;">
+        Acknowledge alert
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to mark alerts as handled
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        14
+      </td>
+      <td style="text-align: center;">
+        US24
+      </td>
+      <td style="text-align: center;">
+        Mobile alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts on my phone
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        15
+      </td>
+      <td style="text-align: center;">
+        US17
+      </td>
+      <td style="text-align: center;">
+        View data on mobile
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to access data on mobile
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        16
+      </td>
+      <td style="text-align: center;">
+        US43
+      </td>
+      <td style="text-align: center;">
+        View dashboard
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see system overview
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        17
+      </td>
+      <td style="text-align: center;">
+        US44
+      </td>
+      <td style="text-align: center;">
+        View critical alerts
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to prioritize issues
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        18
+      </td>
+      <td style="text-align: center;">
+        US45
+      </td>
+      <td style="text-align: center;">
+        View summary
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want quick overview
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        19
+      </td>
+      <td style="text-align: center;">
+        US27
+      </td>
+      <td style="text-align: center;">
+        View historical data
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to analyze past data
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        20
+      </td>
+      <td style="text-align: center;">
+        US30
+      </td>
+      <td style="text-align: center;">
+        Generate report
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want reports for compliance
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        21
+      </td>
+      <td style="text-align: center;">
+        US31
+      </td>
+      <td style="text-align: center;">
+        Download report
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to download reports
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        22
+      </td>
+      <td style="text-align: center;">
+        US35
+      </td>
+      <td style="text-align: center;">
+        View equipment condition
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to prevent failures
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        23
+      </td>
+      <td style="text-align: center;">
+        US42
+      </td>
+      <td style="text-align: center;">
+        Equipment reliability
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to evaluate stability
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        24
+      </td>
+      <td style="text-align: center;">
+        US26
+      </td>
+      <td style="text-align: center;">
+        Share alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want team coordination
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        25
+      </td>
+      <td style="text-align: center;">
+        US25
+      </td>
+      <td style="text-align: center;">
+        Set alert limits
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to configure thresholds
+      </td>
+      <td style="text-align: center;">
+        5
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        26
+      </td>
+      <td style="text-align: center;">
+        US02
+      </td>
+      <td style="text-align: center;">
+        View sites
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to manage sites
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        27
+      </td>
+      <td style="text-align: center;">
+        US04
+      </td>
+      <td style="text-align: center;">
+        View areas
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to manage areas
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        28
+      </td>
+      <td style="text-align: center;">
+        US06
+      </td>
+      <td style="text-align: center;">
+        View equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to manage equipment
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        29
+      </td>
+      <td style="text-align: center;">
+        US13
+      </td>
+      <td style="text-align: center;">
+        Equipment list with data
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want quick monitoring
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        30
+      </td>
+      <td style="text-align: center;">
+        US12
+      </td>
+      <td style="text-align: center;">
+        Equipment details
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want full info
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        31
+      </td>
+      <td style="text-align: center;">
+        US14
+      </td>
+      <td style="text-align: center;">
+        Filter equipment
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want focused view
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        32
+      </td>
+      <td style="text-align: center;">
+        US08
+      </td>
+      <td style="text-align: center;">
+        Search equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want quick search
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        33
+      </td>
+      <td style="text-align: center;">
+        US15
+      </td>
+      <td style="text-align: center;">
+        No data detection
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to detect missing data
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        34
+      </td>
+      <td style="text-align: center;">
+        US21
+      </td>
+      <td style="text-align: center;">
+        Alert details
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want full alert info
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        35
+      </td>
+      <td style="text-align: center;">
+        US23
+      </td>
+      <td style="text-align: center;">
+        Sort alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want prioritization
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        36
+      </td>
+      <td style="text-align: center;">
+        US28
+      </td>
+      <td style="text-align: center;">
+        Select date range
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want filtered data
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        37
+      </td>
+      <td style="text-align: center;">
+        US29
+      </td>
+      <td style="text-align: center;">
+        Compare data
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want analysis
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        38
+      </td>
+      <td style="text-align: center;">
+        US32
+      </td>
+      <td style="text-align: center;">
+        View incidents
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to evaluate alerts
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        39
+      </td>
+      <td style="text-align: center;">
+        US33
+      </td>
+      <td style="text-align: center;">
+        Export data
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want external usage
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        40
+      </td>
+      <td style="text-align: center;">
+        US34
+      </td>
+      <td style="text-align: center;">
+        Compare weekly/monthly
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want deeper analysis
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        41
+      </td>
+      <td style="text-align: center;">
+        US36
+      </td>
+      <td style="text-align: center;">
+        Abnormal values
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to detect issues
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        42
+      </td>
+      <td style="text-align: center;">
+        US37
+      </td>
+      <td style="text-align: center;">
+        Equipment warnings
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want early alerts
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        43
+      </td>
+      <td style="text-align: center;">
+        US38
+      </td>
+      <td style="text-align: center;">
+        Performance data
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want optimization
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        44
+      </td>
+      <td style="text-align: center;">
+        US39
+      </td>
+      <td style="text-align: center;">
+        Usage data
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want resource control
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        45
+      </td>
+      <td style="text-align: center;">
+        US40
+      </td>
+      <td style="text-align: center;">
+        Register maintenance
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want tracking
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        46
+      </td>
+      <td style="text-align: center;">
+        US41
+      </td>
+      <td style="text-align: center;">
+        Maintenance history
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want reliability
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        47
+      </td>
+      <td style="text-align: center;">
+        US46
+      </td>
+      <td style="text-align: center;">
+        Equipment with alerts
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want focus
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        48
+      </td>
+      <td style="text-align: center;">
+        US47
+      </td>
+      <td style="text-align: center;">
+        No data equipment
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want detection
+      </td>
+      <td style="text-align: center;">
+        2
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        49
+      </td>
+      <td style="text-align: center;">
+        US48
+      </td>
+      <td style="text-align: center;">
+        Alert trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want analysis
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        50
+      </td>
+      <td style="text-align: center;">
+        US49
+      </td>
+      <td style="text-align: center;">
+        Temperature trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want insights
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        51
+      </td>
+      <td style="text-align: center;">
+        US50
+      </td>
+      <td style="text-align: center;">
+        Humidity trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want insights
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        52
+      </td>
+      <td style="text-align: center;">
+        US52
+      </td>
+      <td style="text-align: center;">
+        Login email
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log in with email
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        53
+      </td>
+      <td style="text-align: center;">
+        US53
+      </td>
+      <td style="text-align: center;">
+        Recover password
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to recover access
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        54
+      </td>
+      <td style="text-align: center;">
+        US54
+      </td>
+      <td style="text-align: center;">
+        Logout
+      </td>
+      <td style="text-align: justify;">
+        As a user, I want to log out
+      </td>
+      <td style="text-align: center;">
+        1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        55
+      </td>
+      <td style="text-align: center;">
+        US55
+      </td>
+      <td style="text-align: center;">
+        Assign role
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want role control
+      </td>
+      <td style="text-align: center;">
+        3
+      </td>
+    </tr>
+  </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
