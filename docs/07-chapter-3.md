@@ -370,17 +370,133 @@
         EP02
       </td>
     </tr>
-  <!-- EP03 -->
-  <tr><td>US18</td><td>Receive temperature alerts</td><td>As an Operator, I want alerts when temperature exceeds limits so I react fast</td><td>EP03</td></tr>
-  <tr><td>US19</td><td>Receive humidity alerts</td><td>As an Operator, I want alerts when humidity exceeds limits so I act quickly</td><td>EP03</td></tr>
-  <tr><td>US20</td><td>View alerts list</td><td>As an Operator, I want to see a list of alerts so I manage incidents</td><td>EP03</td></tr>
-  <tr><td>US21</td><td>View alert details</td><td>As an Operator, I want to open an alert to see equipment, value and time</td><td>EP03</td></tr>
-  <tr><td>US22</td><td>Acknowledge alert</td><td>As an Operator, I want to mark an alert as handled so I track actions</td><td>EP03</td></tr>
-  <tr><td>US23</td><td>View alerts sorted by severity</td><td>As an Operator, I want to see alerts sorted by severity so I prioritize work</td><td>EP03</td></tr>
-  <tr><td>US24</td><td>Receive alerts on mobile device</td><td>As an Operator, I want to receive alerts on my phone so I respond quickly</td><td>EP03</td></tr>
-  <tr><td>US25</td><td>Set alert limits per equipment</td><td>As a Supervisor, I want to define limits so alerts trigger automatically</td><td>EP03</td></tr>
-  <tr><td>US26</td><td>Share alerts with team</td><td>As an Operator, I want alerts to be visible to the team so we coordinate actions</td><td>EP03</td></tr>
-
+    <!-- EP03 -->
+    <tr>
+      <td style="text-align: center;">
+        US18
+      </td>
+      <td style="text-align: center;">
+        Receive temperature alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts when temperature exceeds limits so I react fast
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US19
+      </td>
+      <td style="text-align: center;">
+        Receive humidity alerts
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts when humidity exceeds limits so I act quickly
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US20
+      </td>
+      <td style="text-align: center;">
+        View alerts list
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see a list of alerts so I manage incidents
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US21
+      </td>
+      <td style="text-align: center;">
+        View alert details
+      </td>
+      <td style="text-align: justify;">
+      As an Operator, I want to open an alert to see equipment, value and time
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US22
+      </td>
+      <td style="text-align: center;">
+        Acknowledge alert
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to mark an alert as handled so I track actions
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US23
+      </td>
+      <td style="text-align: center;">
+        View alerts sorted by severity
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to see alerts sorted by severity so I prioritize work
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US24
+      </td>
+      <td style="text-align: center;">
+        Receive alerts on mobile device
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to receive alerts on my phone so I respond quickly
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US25
+      </td>
+      <td style="text-align: center;">
+        Set alert limits per equipment
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to define limits so alerts trigger automatically
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US26
+      </td>
+      <td style="text-align: center;">
+        Share alerts with team
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want alerts to be visible to the team so we coordinate actions
+      </td>
+      <td style="text-align: center;">
+        EP03
+      </td>
+    </tr>
   <!-- EP04 -->
   <tr><td>US27</td><td>View historical data</td><td>As a Supervisor, I want to see past data so I analyze trends</td><td>EP04</td></tr>
   <tr><td>US28</td><td>Select date range for data</td><td>As a Supervisor, I want to choose a date range so I filter data</td><td>EP04</td></tr>
