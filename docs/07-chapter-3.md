@@ -723,16 +723,119 @@
         EP05
       </td>
     </tr>
-
-  <!-- EP06 -->
-  <tr><td>US43</td><td>View dashboard</td><td>As a Supervisor, I want to see key system information</td><td>EP06</td></tr>
-  <tr><td>US44</td><td>View critical alerts</td><td>As a Supervisor, I want to see critical alerts so I act immediately</td><td>EP06</td></tr>
-  <tr><td>US45</td><td>View summary with totals</td><td>As a Supervisor, I want an overview of equipment and alerts</td><td>EP06</td></tr>
-  <tr><td>US46</td><td>View equipment with active alerts</td><td>As a Supervisor, I want to see equipment with issues</td><td>EP06</td></tr>
-  <tr><td>US47</td><td>View equipment without recent data</td><td>As an Operator, I want to detect missing data</td><td>EP06</td></tr>
-  <tr><td>US48</td><td>View alert trends</td><td>As a Supervisor, I want to analyze alert patterns</td><td>EP06</td></tr>
-  <tr><td>US49</td><td>View temperature trends</td><td>As a Supervisor, I want to analyze temperature changes</td><td>EP06</td></tr>
-  <tr><td>US50</td><td>View humidity trends</td><td>As a Supervisor, I want to analyze humidity changes</td><td>EP06</td></tr>
+    <!-- EP06 -->
+    <tr>
+      <td style="text-align: center;">
+        US43
+      </td>
+      <td style="text-align: center;">
+        View dashboard
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see key system information
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US44
+      </td>
+      <td style="text-align: center;">
+        View critical alerts
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see critical alerts so I act immediately
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US45
+      </td>
+      <td style="text-align: center;">
+        View summary with totals
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want an overview of equipment and alerts
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US46
+      </td>
+      <td style="text-align: center;">
+        View equipment with active alerts
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to see equipment with issues
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US47
+      </td>
+      <td style="text-align: center;">
+        View equipment without recent data
+      </td>
+      <td style="text-align: justify;">
+        As an Operator, I want to detect missing data
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US48
+      </td>
+      <td style="text-align: center;">
+        View alert trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to analyze alert patterns
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US49
+      </td>
+      <td style="text-align: center;">
+        View temperature trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to analyze temperature changes
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        US50
+      </td>
+      <td style="text-align: center;">
+        View humidity trends
+      </td>
+      <td style="text-align: justify;">
+        As a Supervisor, I want to analyze humidity changes
+      </td>
+      <td style="text-align: center;">
+        EP06
+      </td>
+    </tr>
 
   <!-- EP07 -->
   <tr><td>US51</td><td>Login with Google account</td><td>As a user, I want to log in with Google so I access quickly</td><td>EP07</td></tr>
