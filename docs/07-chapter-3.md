@@ -3204,28 +3204,34 @@ Then system shows error
 </td></tr>
 </table>
 
-
+<div style="page-break-after: always;"></div>
 
 ## **3.2. Impact Mapping**
 
-The Impact Mapping has been created using the Miro tool. You can access the board at the following link:
+<p style="text-align: justify;">
+  The Impact Mapping has been created using the Miro tool. You can access the board at the following link:
+</p>
 
-https://miro.com/app/board/uXjVGhw33Ew=/?share_link_id=265067473734
+> **Link:** [Impact Mapping Board](https://miro.com/app/board/uXjVGhw33Ew=/?share_link_id=265067473734)
 
-
-The following impact maps show how the system connects the main goal with the needs of both Supervisor and Operator users. They help explain how each feature and user story contributes to solving real problems, improving monitoring, and allowing faster response in the laboratory.
-
-Operator:
-
-<img src="../assets/chapter-3/impact-mapping/impact-mapping-operator.jpg" alt="Impact Mapping Operator" width="800">
-
-Supervisor:
-
-<img src="../assets/chapter-3/impact-mapping/impact-mapping-supervisor.jpg" alt="Impact Mapping Operator" width="800">
+<p style="text-align: justify;">
+  The following impact maps show how the system connects the main goal with the needs of both Supervisor and Operator users. They help explain how each feature and user story contributes to solving real problems, improving monitoring, and allowing faster response in the laboratory.
+</p>
 
 
+- **Operator:**
+  <div style="text-align: center;">
+    <img src="../assets/chapter-3/impact-mapping/operator.jpg" alt="impact-mapping-operator" width="70%">
+  </div>
 
+<br>
 
+- **Supervisor:**
+  <div style="text-align: center;">
+    <img src="../assets/chapter-3/impact-mapping/supervisor.jpg" alt="impact-mapping-operator" width="70%">
+  </div>
+
+<div style="page-break-after: always;"></div>
 
 ## **3.3. Product Backlog**
 
