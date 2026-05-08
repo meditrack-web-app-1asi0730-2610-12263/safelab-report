@@ -910,2298 +910,3947 @@
  </tbody>
 </table>
 
-### HU01 - Listar productos
-
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU01 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU01</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Register laboratory site</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to register a laboratory site with name and location so I can organize monitoring
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Successful registration</b><br>
-Given a site name and location<br>
-When the user saves<br>
-Then the system registers the site<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given missing name or location<br>
-When saving<br>
-Then the system shows an error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU01
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Register laboratory site
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td  style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> register a laboratory site with name and location <i>so</i> I can organize monitoring
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Successful registration</b>
+      </div>
+              <i>Given</i> a site name and location
+      <br><i>When</i> the user saves
+      <br><i>Then</i> the system registers the site      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+              <i>Given</i> missing name or location
+      <br><i>When</i> saving
+      <br><i>Then</i> the system shows an error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU02 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU02</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View laboratory sites</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to view all registered sites so I can manage them
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: View list</b><br>
-Given existing sites<br>
-When accessing the list<br>
-Then the system displays all sites<br><br>
-
-<b>Scenario 2: Empty list</b><br>
-Given no sites registered<br>
-When accessing<br>
-Then the system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU02
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View laboratory sites
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> view all registered sites <i>so</i> I can manage themg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: View list</b>
+      </div>
+              <i>Given</i> existing sites
+      <br><i>When</i> accessing the list
+      <br><i>Then</i> the system displays all sites      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Empty list</b>
+      </div>
+              <i>Given</i> no sites registered
+      <br><i>When</i> accessing
+      <br><i>Then</i> the system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU03 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU03</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Create storage area</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to create a storage area with name and type so I can organize equipment
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Successful creation</b><br>
-Given name and type<br>
-When saving<br>
-Then the system creates the area<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given missing fields<br>
-When saving<br>
-Then error is shown
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU03
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Create storage area
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> create a storage area with name and type <i>so</i> I can organize equipment
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Successful creation</b>
+      </div>
+              <i>Given</i> name and type
+      <br><i>When</i> saving
+      <br><i>Then</i> the system creates the area      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+              <i>Given</i> missing fields
+      <br><i>When</i> saving
+      <br><i>Then</i> error is shown
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU04 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU04</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View storage areas</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to see storage areas so I understand organization
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show areas</b><br>
-Given areas exist<br>
-When opening list<br>
-Then system shows areas<br><br>
-
-<b>Scenario 2: No areas</b><br>
-Given no data<br>
-When opening<br>
-Then empty message appears
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU04
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View storage areas
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see storage areas <i>so</i> I understand organization
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show areas</b>
+      </div>
+              <i>Given</i> areas exist
+      <br><i>When</i> opening list
+      <br><i>Then</i> system shows areas      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No areas</b>
+      </div>
+              <i>Given</i> no data
+      <br><i>When</i> opening
+      <br><i>Then</i> empty message appears
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU05 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU05</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Register equipment</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to register equipment with name and type so it can be monitored
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Register equipment</b><br>
-Given valid data<br>
-When saving<br>
-Then equipment is created<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given missing fields<br>
-When saving<br>
-Then error appears
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU05
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Register equipment
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> register equipment with name and type <i>so</i> it can be monitored
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Register equipment</b>
+      </div>
+              <i>Given</i> valid data
+      <br><i>When</i> saving
+      <br><i>Then</i> equipment is created      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+              <i>Given</i> missing fields
+      <br><i>When</i> saving
+      <br><i>Then</i> error appears
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU06 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU06</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment list</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to see all equipment so I can manage it
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show list</b><br>
-Given equipment exists<br>
-When opening list<br>
-Then system displays equipment<br><br>
-
-<b>Scenario 2: Empty list</b><br>
-Given no equipment<br>
-When opening<br>
-Then show empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU06
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment list
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see all equipment <i>so</i> I can manage it
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show list</b>
+      </div>
+              <i>Given</i> equipment exists
+      <br><i>When</i> opening list
+      <br><i>Then</i> system displays equipment      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Empty list</b>
+      </div>
+              <i>Given</i> no equipment
+      <br><i>When</i> opening
+      <br><i>Then</i> show empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU07 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU07</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Assign equipment to area</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to assign equipment to an area so I know its location
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Assign equipment</b><br>
-Given equipment and area<br>
-When assigning<br>
-Then system links them<br><br>
-
-<b>Scenario 2: Missing selection</b><br>
-Given missing data<br>
-When assigning<br>
-Then show error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU07
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Assign equipment to area
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> assign equipment to an area <i>so</i> I know its location
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Assign equipment</b>
+      </div>
+              <i>Given</i> equipment and area
+      <br><i>When</i> assigning
+      <br><i>Then</i> system links them      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing selection</b>
+      </div>
+              <i>Given</i> missing data
+      <br><i>When</i> assigning
+      <br><i>Then</i> show error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU08 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU08</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Search equipment by name</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to search equipment by name so I find it quickly
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Search result</b><br>
-Given matching name<br>
-When searching<br>
-Then system shows results<br><br>
-
-<b>Scenario 2: No result</b><br>
-Given no match<br>
-When searching<br>
-Then show no results message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU08
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Search equipment by name
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> search equipment by name <i>so</i> I find it quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Search result</b>
+      </div>
+              <i>Given</i> matching name
+      <br><i>When</i> searching
+      <br><i>Then</i> system shows results      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No result</b>
+      </div>
+              <i>Given</i> no match
+      <br><i>When</i> searching
+      <br><i>Then</i> show no results message
+    </td>
+  </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU09 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU09</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View temperature values</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see temperature values so I monitor conditions
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show temperature</b><br>
-Given equipment connected<br>
-When viewing<br>
-Then temperature is displayed<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows warning
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU09
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View temperature values
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see temperature values <i>so</i> I monitor conditions
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show temperature</b>
+      </div>
+              <i>Given</i> equipment connected
+      <br><i>When</i> viewing
+      <br><i>Then</i> temperature is displayed      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+              <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows warning
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU10 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU10</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View humidity values</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see humidity values so I ensure proper storage
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show humidity</b><br>
-Given equipment connected<br>
-When viewing<br>
-Then humidity is displayed<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows warning
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU10
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View humidity values
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see humidity values <i>so</i> I ensure proper storage
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show humidity</b>
+      </div>
+              <i>Given</i> equipment connected
+      <br><i>When</i> viewing
+      <br><i>Then</i> humidity is displayed      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+              <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows warning
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU11 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU11</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment working status</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see if equipment is working or not so I detect issues
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Working status</b><br>
-Given equipment sending data<br>
-When viewing status<br>
-Then system shows "working"<br><br>
-
-<b>Scenario 2: Not working</b><br>
-Given no data received<br>
-When viewing status<br>
-Then system shows "not working"
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU11
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment working status
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see if equipment is working or not <i>so</i> I detect issues
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Working status</b>
+      </div>
+              <i>Given</i> equipment sending data
+      <br><i>When</i> viewing status
+      <br><i>Then</i> system shows "working"      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Not working</b>
+      </div>
+              <i>Given</i> no data received
+      <br><i>When</i> viewing status
+      <br><i>Then</i> system shows "not working"
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU12 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU12</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment details</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to view equipment details so I see temperature, humidity and status
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: View details</b><br>
-Given existing equipment<br>
-When opening details<br>
-Then system shows temperature, humidity and status<br><br>
-
-<b>Scenario 2: Equipment not found</b><br>
-Given invalid selection<br>
-When opening<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU12
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment details
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> view equipment details <i>so</i> I see temperature, humidity and status
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: View details</b>
+      </div>
+              <i>Given</i> existing equipment
+      <br><i>When</i> opening details
+      <br><i>Then</i> system shows temperature, humidity and status      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Equipment not found</b>
+      </div>
+              <i>Given</i> invalid selection
+      <br><i>When</i> opening
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU13 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU13</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment list with real-time data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see equipment with current values so I monitor quickly
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show list with data</b><br>
-Given equipment available<br>
-When viewing list<br>
-Then system shows temperature and humidity<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given no data available<br>
-When viewing list<br>
-Then system shows warning
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU13
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment list with real-time data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see equipment with current values <i>so</i> I monitor quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show list with data</b>
+      </div>
+              <i>Given</i> equipment available
+      <br><i>When</i> viewing list
+      <br><i>Then</i> system shows temperature and humidity      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+              <i>Given</i> no data available
+      <br><i>When</i> viewing list
+      <br><i>Then</i> system shows warning
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU14 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU14</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Filter equipment by storage area</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to filter equipment by area so I focus on a location
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Filter results</b><br>
-Given selected area<br>
-When applying filter<br>
-Then system shows only equipment in that area<br><br>
-
-<b>Scenario 2: No results</b><br>
-Given no equipment in area<br>
-When filtering<br>
-Then show empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU14
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Filter equipment by storage area
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> filter equipment by area <i>so</i> I focus on a location
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Filter results</b>
+      </div>
+              <i>Given</i> selected area
+      <br><i>When</i> applying filter
+      <br><i>Then</i> system shows only equipment in that area      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No results</b>
+      </div>
+              <i>Given</i> no equipment in area
+      <br><i>When</i> filtering
+      <br><i>Then</i> show empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU15 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU15</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Identify equipment without recent data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to detect equipment without recent data so I act quickly
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Detect no data</b><br>
-Given no data received for a period<br>
-When viewing equipment<br>
-Then system highlights it<br><br>
-
-<b>Scenario 2: Normal data</b><br>
-Given data is available<br>
-When viewing<br>
-Then no warning is shown
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU15
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Identify equipment without recent data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> detect equipment without recent data <i>so</i> I act quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Detect no data</b>
+      </div>
+              <i>Given</i> no data received for a period
+      <br><i>When</i> viewing equipment
+      <br><i>Then</i> system highlights it      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal data</b>
+      </div>
+              <i>Given</i> data is available
+      <br><i>When</i> viewing
+      <br><i>Then</i> no warning is shown
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU16 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU16</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Automatic data collection</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want data to be collected automatically so I don’t record it manually
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Automatic update</b><br>
-Given connected equipment<br>
-When system runs<br>
-Then data updates automatically<br><br>
-
-<b>Scenario 2: No connection</b><br>
-Given no connection<br>
-When collecting data<br>
-Then system shows warning
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU16
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Automatic data collection
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, I want data to be collected automatically <i>so</i> I don’t record it manually
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Automatic update</b>
+      </div>
+              <i>Given</i> connected equipment
+      <br><i>When</i> system runs
+      <br><i>Then</i> data updates automatically      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No connection</b>
+      </div>
+              <i>Given</i> no connection
+      <br><i>When</i> collecting data
+      <br><i>Then</i> system shows warning
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU17 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU17</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View data on mobile</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to view monitoring data on my phone so I can access it easily
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Mobile access</b><br>
-Given logged in user<br>
-When accessing from mobile<br>
-Then system shows data correctly<br><br>
-
-<b>Scenario 2: No access</b><br>
-Given no connection<br>
-When accessing<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU17
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View data on mobile
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> view monitoring data on my phone <i>so</i> I can access it easily
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Mobile access</b>
+      </div>
+          <i>Given</i> logged in user
+      <br><i>When</i> accessing from mobile
+      <br><i>Then</i> system shows data correctly
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No access</b>
+      </div>
+          <i>Given</i> no connection
+      <br><i>When</i> accessing
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU18 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU18</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Receive temperature alerts</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want alerts when temperature exceeds limits so I react fast
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Alert triggered</b><br>
-Given temperature exceeds limit<br>
-When system detects it<br>
-Then alert is generated<br><br>
-
-<b>Scenario 2: Normal values</b><br>
-Given temperature within limits<br>
-When monitoring<br>
-Then no alert is generated
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU18
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Receive temperature alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, I want alerts when temperature exceeds limits <i>so</i> I react fast
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Alert triggered</b>
+      </div>
+          <i>Given</i> temperature exceeds limit
+      <br><i>When</i> system detects it
+      <br><i>Then</i> alert is generated
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal values</b>
+      </div>
+          <i>Given</i> temperature within limits
+      <br><i>When</i> monitoring
+      <br><i>Then</i> no alert is generated
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU19 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU19</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Receive humidity alerts</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want alerts when humidity exceeds limits so I act quickly
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Alert triggered</b><br>
-Given humidity exceeds limit<br>
-When detected<br>
-Then system generates alert<br><br>
-
-<b>Scenario 2: Normal humidity</b><br>
-Given normal values<br>
-When monitoring<br>
-Then no alert is generated
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU19
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Receive humidity alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, I want alerts when humidity exceeds limits <i>so</i> I act quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Alert triggered</b>
+      </div>
+          <i>Given</i> humidity exceeds limit
+      <br><i>When</i> detected
+      <br><i>Then</i> system generates alert
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal humidity</b>
+      </div>
+          <i>Given</i> normal values
+      <br><i>When</i> monitoring
+      <br><i>Then</i> no alert is generated
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU20 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU20</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View alerts list</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see a list of alerts so I manage incidents
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show alerts</b><br>
-Given existing alerts<br>
-When opening list<br>
-Then system displays alerts<br><br>
-
-<b>Scenario 2: No alerts</b><br>
-Given no alerts<br>
-When opening<br>
-Then system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU20
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View alerts list
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see a list of alerts <i>so</i> I manage incidents
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show alerts</b>
+      </div>
+          <i>Given</i> existing alerts
+      <br><i>When</i> opening list
+      <br><i>Then</i> system displays alerts
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No alerts</b>
+      </div>
+          <i>Given</i> no alerts
+      <br><i>When</i> opening
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU21 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU21</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View alert details</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to view alert details so I understand the issue
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show details</b><br>
-Given an alert selected<br>
-When opening it<br>
-Then system shows equipment, value and time<br><br>
-
-<b>Scenario 2: Invalid alert</b><br>
-Given alert does not exist<br>
-When opening<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU21
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View alert details
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> view alert details <i>so</i> I understand the issue
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show details</b>
+      </div>
+          <i>Given</i> an alert selected
+      <br><i>When</i> opening it
+      <br><i>Then</i> system shows equipment, value and time
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid alert</b>
+      </div>
+          <i>Given</i> alert does not exist
+      <br><i>When</i> opening
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU22 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU22</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Acknowledge alert</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to mark an alert as handled so I track actions
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Mark as handled</b><br>
-Given an active alert<br>
-When marking as handled<br>
-Then system updates status<br><br>
-
-<b>Scenario 2: Already handled</b><br>
-Given alert already handled<br>
-When updating<br>
-Then system keeps status
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU22
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Acknowledge alert
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> mark an alert as handled <i>so</i> I track actions
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Mark as handled</b>
+      </div>
+          <i>Given</i> an active alert
+      <br><i>When</i> marking as handled
+      <br><i>Then</i> system updates status
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Already handled</b>
+      </div>
+          <i>Given</i> alert already handled
+      <br><i>When</i> updating
+      <br><i>Then</i> system keeps status
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU23 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU23</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View alerts sorted by severity</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see alerts sorted by severity so I prioritize work
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Sorted alerts</b><br>
-Given multiple alerts<br>
-When viewing list<br>
-Then system orders by severity<br><br>
-
-<b>Scenario 2: Same severity</b><br>
-Given equal severity<br>
-When viewing<br>
-Then system keeps default order
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU23
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View alerts sorted by severity
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see alerts sorted by severity <i>so</i> I prioritize work
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Sorted alerts</b>
+      </div>
+          <i>Given</i> multiple alerts
+      <br><i>When</i> viewing list
+      <br><i>Then</i> system orders by severity
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Same severity</b>
+      </div>
+          <i>Given</i> equal severity
+      <br><i>When</i> viewing
+      <br><i>Then</i> system keeps default order
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU24 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU24</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Receive alerts on mobile device</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to receive alerts on my phone so I respond quickly
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Alert notification</b><br>
-Given alert triggered<br>
-When system detects it<br>
-Then notification is sent<br><br>
-
-<b>Scenario 2: No connection</b><br>
-Given no network<br>
-When sending alert<br>
-Then system retries later
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU24
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Receive alerts on mobile device
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> receive alerts on my phone <i>so</i> I respond quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Alert notification</b>
+      </div>
+          <i>Given</i> alert triggered
+      <br><i>When</i> system detects it
+      <br><i>Then</i> notification is sent
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No connection</b>
+      </div>
+          <i>Given</i> no network
+      <br><i>When</i> sending alert
+      <br><i>Then</i> system retries later
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU25 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU25</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Set alert limits per equipment</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to define temperature and humidity limits so alerts trigger automatically
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Save limits</b><br>
-Given valid limits<br>
-When saving<br>
-Then system stores values<br><br>
-
-<b>Scenario 2: Invalid limits</b><br>
-Given incorrect values<br>
-When saving<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU25
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Set alert limits per equipment
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> define temperature and humidity limits <i>so</i> alerts trigger automatically
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Save limits</b>
+      </div>
+          <i>Given</i> valid limits
+      <br><i>When</i> saving
+      <br><i>Then</i> system stores values
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid limits</b>
+      </div>
+          <i>Given</i> incorrect values
+      <br><i>When</i> saving
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
 
-<!-- ===================== HU25 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU25</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
+<br><br>
 
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Set alert limits per equipment</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to define temperature and humidity limits so alerts trigger automatically
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Save limits</b><br>
-Given valid limits<br>
-When saving<br>
-Then system stores values<br><br>
-
-<b>Scenario 2: Invalid limits</b><br>
-Given incorrect values<br>
-When saving<br>
-Then system shows error
-
-</td>
-</tr>
+<!-- ===================== HU26 ===================== -->
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU25
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Set alert limits per equipment
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> define temperature and humidity limits <i>so</i> alerts trigger automatically
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Save limits</b>
+      </div>
+          <i>Given</i> valid limits
+      <br><i>When</i> saving
+      <br><i>Then</i> system stores values
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid limits</b>
+      </div>
+          <i>Given</i> incorrect values
+      <br><i>When</i> saving
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU27 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU27</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View historical data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to view historical data so I analyze trends
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show history</b><br>
-Given stored data<br>
-When selecting equipment<br>
-Then system displays history<br><br>
-
-<b>Scenario 2: No history</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU27
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View historical data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> view historical data <i>so</i> I analyze trends
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show history</b>
+      </div>
+              <i>Given</i> stored data
+      <br><i>When</i> selecting equipment
+      <br><i>Then</i> system displays history      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No history</b>
+      </div>
+              <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU28 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU28</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Select date range for data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to select a date range so I filter data
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Apply filter</b><br>
-Given selected dates<br>
-When applying filter<br>
-Then system shows filtered data<br><br>
-
-<b>Scenario 2: Invalid range</b><br>
-Given wrong dates<br>
-When applying<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU28
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Select date range for data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> select a date range <i>so</i> I filter data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Apply filter</b>
+      </div>
+          <i>Given</i> selected dates
+      <br><i>When</i> applying filter
+      <br><i>Then</i> system shows filtered data
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid range</b>
+      </div>
+          <i>Given</i> wrong dates
+      <br><i>When</i> applying
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU29 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU29</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Compare data between periods</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to compare data between periods so I detect changes
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Compare data</b><br>
-Given two periods selected<br>
-When comparing<br>
-Then system shows both results<br><br>
-
-<b>Scenario 2: Missing selection</b><br>
-Given incomplete data<br>
-When comparing<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU29
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Compare data between periods
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> compare data between periods <i>so</i> I detect changes
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Compare data</b>
+      </div>
+          <i>Given</i> two periods selected
+      <br><i>When</i> comparing
+      <br><i>Then</i> system shows both results
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing selection</b>
+      </div>
+          <i>Given</i> incomplete data
+      <br><i>When</i> comparing
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU30 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU30</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Generate report by equipment and date</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to generate reports so I validate compliance
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Generate report</b><br>
-Given selected equipment and date<br>
-When generating<br>
-Then system creates report<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given incomplete fields<br>
-When generating<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU30
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Generate report by equipment and date
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> generate reports <i>so</i> I validate compliance
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Generate report</b>
+      </div>
+          <i>Given</i> selected equipment and date
+      <br><i>When</i> generating
+      <br><i>Then</i> system creates report
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+          <i>Given</i> incomplete fields
+      <br><i>When</i> generating
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU31 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU31</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Download report file</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to download generated reports so I can share them
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Download report</b><br>
-Given a generated report<br>
-When downloading<br>
-Then file is saved locally<br><br>
-
-<b>Scenario 2: No report</b><br>
-Given no report generated<br>
-When downloading<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU31
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Download report file
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> download generated reports <i>so</i> I can share them
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Download report</b>
+      </div>
+          <i>Given</i> a generated report
+      <br><i>When</i> downloading
+      <br><i>Then</i> file is saved locally
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No report</b>
+      </div>
+          <i>Given</i> no report generated
+      <br><i>When</i> downloading
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU32 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU32</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View incident history</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to view past alerts so I evaluate performance
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show incidents</b><br>
-Given stored alerts<br>
-When viewing history<br>
-Then system displays alerts<br><br>
-
-<b>Scenario 2: No incidents</b><br>
-Given no alerts<br>
-When viewing<br>
-Then system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU32
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View incident history
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> view past alerts <i>so</i> I evaluate performance
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show incidents</b>
+      </div>
+          <i>Given</i> stored alerts
+      <br><i>When</i> viewing history
+      <br><i>Then</i> system displays alerts
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No incidents</b>
+      </div>
+          <i>Given</i> no alerts
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU33 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU33</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Export data file</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to export data so I can use it outside the system
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Export data</b><br>
-Given available data<br>
-When exporting<br>
-Then file is generated<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given empty data<br>
-When exporting<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU33
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Export data file
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> export data <i>so</i> I can use it outside the system
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Export data</b>
+      </div>
+          <i>Given</i> available data
+      <br><i>When</i> exporting
+      <br><i>Then</i> file is generated
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> empty data
+      <br><i>When</i> exporting
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU34 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU34</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Compare weekly and monthly data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to compare weekly and monthly data so I detect variations
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Compare data</b><br>
-Given selected week and month<br>
-When comparing<br>
-Then system shows both values<br><br>
-
-<b>Scenario 2: Missing selection</b><br>
-Given incomplete selection<br>
-When comparing<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU34
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Compare weekly and monthly data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> compare weekly and monthly data <i>so</i> I detect variations
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Compare data</b>
+      </div>
+          <i>Given</i> selected week and month
+      <br><i>When</i> comparing
+      <br><i>Then</i> system shows both values
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing selection</b>
+      </div>
+          <i>Given</i> incomplete selection
+      <br><i>When</i> comparing
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU35 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU35</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment condition</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to see if equipment is working correctly so I prevent failures
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Working condition</b><br>
-Given equipment functioning<br>
-When viewing<br>
-Then system shows normal status<br><br>
-
-<b>Scenario 2: Issue detected</b><br>
-Given abnormal condition<br>
-When viewing<br>
-Then system shows warning
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU35
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment condition
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see if equipment is working correctly <i>so</i> I prevent failures
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Working condition</b>
+      </div>
+          <i>Given</i> equipment functioning
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows normal status
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Issue detected</b>
+      </div>
+          <i>Given</i> abnormal condition
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows warning
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU36 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU36</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View abnormal values</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to see values outside limits so I detect problems
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Abnormal detected</b><br>
-Given values exceed limits<br>
-When viewing<br>
-Then system highlights them<br><br>
-
-<b>Scenario 2: Normal values</b><br>
-Given normal values<br>
-When viewing<br>
-Then no warning appears
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU36
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View abnormal values
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> see values outside limits <i>so</i> I detect problems
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Abnormal detected</b>
+      </div>
+          <i>Given</i> values exceed limits
+      <br><i>When</i> viewing
+      <br><i>Then</i> system highlights them
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal values</b>
+      </div>
+          <i>Given</i> normal values
+      <br><i>When</i> viewing
+      <br><i>Then</i> no warning appears
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU37 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU37</td>
-<td><b>User:</b></td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Receive equipment warning alerts</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As an Operator, I want to receive warnings so I prevent failures
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Warning triggered</b><br>
-Given abnormal condition<br>
-When detected<br>
-Then system sends warning<br><br>
-
-<b>Scenario 2: Normal operation</b><br>
-Given normal values<br>
-When monitoring<br>
-Then no warning is sent
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU37
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Receive equipment warning alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> receive warnings <i>so</i> I prevent failures
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Warning triggered</b>
+      </div>
+          <i>Given</i> abnormal condition
+      <br><i>When</i> detected
+      <br><i>Then</i> system sends warning
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal operation</b>
+      </div>
+          <i>Given</i> normal values
+      <br><i>When</i> monitoring
+      <br><i>Then</i> no warning is sent
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU38 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU38</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment performance data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to see performance over time so I improve operations
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show performance</b><br>
-Given stored data<br>
-When viewing<br>
-Then system displays performance trend<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU38
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment performance data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see performance over time <i>so</i> I improve operations
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show performance</b>
+      </div>
+          <i>Given</i> stored data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system displays performance trend
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU39 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU39</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">View equipment usage data</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">Medium</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to see usage data so I manage resources
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Show usage</b><br>
-Given usage data exists<br>
-When viewing<br>
-Then system displays usage<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no usage data<br>
-When viewing<br>
-Then system shows empty message
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU39
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment usage data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see usage data <i>so</i> I manage resources
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show usage</b>
+      </div>
+          <i>Given</i> usage data exists
+      <br><i>When</i> viewing
+      <br><i>Then</i> system displays usage
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no usage data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU40 ===================== -->
-<table>
-<tr>
-<td><b>Number:</b></td>
-<td>HU40</td>
-<td><b>User:</b></td>
-<td>Supervisor</td>
-</tr>
-
-<tr>
-<td><b>Story Name:</b></td>
-<td colspan="3">Register maintenance record</td>
-</tr>
-
-<tr>
-<td><b>Business Priority:</b></td>
-<td colspan="3">High</td>
-</tr>
-
-<tr>
-<td><b>Developer:</b></td>
-<td colspan="3">To be defined</td>
-</tr>
-
-<tr>
-<td><b>Description:</b></td>
-<td colspan="3">
-As a Supervisor, I want to record maintenance so I track equipment history
-</td>
-</tr>
-
-<tr>
-<td><b>Acceptance Criteria:</b></td>
-<td colspan="3">
-
-<b>Scenario 1: Save record</b><br>
-Given maintenance data<br>
-When saving<br>
-Then system stores record<br><br>
-
-<b>Scenario 2: Missing data</b><br>
-Given incomplete data<br>
-When saving<br>
-Then system shows error
-
-</td>
-</tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU40
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Register maintenance record
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> record maintenance <i>so</i> I track equipment history
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Save record</b>
+      </div>
+          <i>Given</i> maintenance data
+      <br><i>When</i> saving
+      <br><i>Then</i> system stores record
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Missing data</b>
+      </div>
+          <i>Given</i> incomplete data
+      <br><i>When</i> saving
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU41 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU41</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View maintenance history</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to view maintenance records so I ensure reliability</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show history</b><br>
-Given maintenance records exist<br>
-When viewing history<br>
-Then system displays records<br><br>
-
-<b>Scenario 2: No records</b><br>
-Given no records<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU41
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View maintenance history
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> view maintenance records <i>so</i> I ensure reliability
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show history</b>
+      </div>
+          <i>Given</i> maintenance records exist
+      <br><i>When</i> viewing history
+      <br><i>Then</i> system displays records
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No records</b>
+      </div>
+          <i>Given</i> no records
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU42 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU42</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View equipment reliability</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see equipment stability over time so I prevent failures</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show reliability</b><br>
-Given historical data exists<br>
-When viewing<br>
-Then system shows stability trend<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU42
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment reliability
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see equipment stability over time <i>so</i> I prevent failures
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show reliability</b>
+      </div>
+          <i>Given</i> historical data exists
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows stability trend
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU43 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU43</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View dashboard</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see key system information so I understand system status</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show dashboard</b><br>
-Given system data available<br>
-When accessing dashboard<br>
-Then system displays key metrics<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When accessing<br>
-Then system shows empty state
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU43
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View dashboard
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see key system information <i>so</i> I understand system status
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show dashboard</b>
+      </div>
+          <i>Given</i> system data available
+      <br><i>When</i> accessing dashboard
+      <br><i>Then</i> system displays key metrics
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no data
+      <br><i>When</i> accessing
+      <br><i>Then</i> system shows empty state
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU44 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU44</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View critical alerts</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see critical alerts so I act immediately</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show critical alerts</b><br>
-Given alerts exist<br>
-When filtering by critical<br>
-Then system shows critical alerts<br><br>
-
-<b>Scenario 2: No critical alerts</b><br>
-Given none exist<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU44
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View critical alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see critical alerts <i>so</i> I act immediately
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show critical alerts</b>
+      </div>
+          <i>Given</i> alerts exist
+      <br><i>When</i> filtering by critical
+      <br><i>Then</i> system shows critical alerts
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No critical alerts</b>
+      </div>
+          <i>Given</i> none exist
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
 
-<!-- ===================== HU44 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU44</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View critical alerts</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see critical alerts so I act immediately</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
+<div style="page-break-after: always;"></div>
 
-<b>Scenario 1: Show critical alerts</b><br>
-Given alerts exist<br>
-When filtering by critical<br>
-Then system shows critical alerts<br><br>
-
-<b>Scenario 2: No critical alerts</b><br>
-Given none exist<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<!-- ===================== HU45 ===================== -->
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU45
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View critical alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see critical alerts <i>so</i> I act immediately
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show critical alerts</b>
+      </div>
+          <i>Given</i> alerts exist
+      <br><i>When</i> filtering by critical
+      <br><i>Then</i> system shows critical alerts
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No critical alerts</b>
+      </div>
+          <i>Given</i> none exist
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU46 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU46</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View equipment with active alerts</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see equipment with active alerts so I focus on issues</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show affected equipment</b><br>
-Given alerts exist<br>
-When filtering<br>
-Then system shows affected equipment<br><br>
-
-<b>Scenario 2: No alerts</b><br>
-Given none exist<br>
-When filtering<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU46
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment with active alerts
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see equipment with active alerts <i>so</i> I focus on issues
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show affected equipment</b>
+      </div>
+          <i>Given</i> alerts exist
+      <br><i>When</i> filtering
+      <br><i>Then</i> system shows affected equipment
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No alerts</b>
+      </div>
+          <i>Given</i> none exist
+      <br><i>When</i> filtering
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU47 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU47</td><td><b>User:</b></td><td>Operator</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View equipment without recent data</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As an Operator, I want to identify equipment without recent data so I act quickly</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show missing data</b><br>
-Given no recent data<br>
-When viewing<br>
-Then system highlights equipment<br><br>
-
-<b>Scenario 2: Normal data</b><br>
-Given data exists<br>
-When viewing<br>
-Then no warning is shown
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU47
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Operator
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View equipment without recent data
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Operator, <i>I want to</i> identify equipment without recent data <i>so</i> I act quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show missing data</b>
+      </div>
+          <i>Given</i> no recent data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system highlights equipment
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Normal data</b>
+      </div>
+          <i>Given</i> data exists
+      <br><i>When</i> viewing
+      <br><i>Then</i> no warning is shown
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU48 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU48</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View alert trends</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">Medium</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see alert trends so I improve processes</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show trends</b><br>
-Given alert history<br>
-When viewing<br>
-Then system shows trend data<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no alerts<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU48
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View alert trends
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see alert trends <i>so</i> I improve processes
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show trends</b>
+      </div>
+          <i>Given</i> alert history
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows trend data
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no alerts
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU49 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU49</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View temperature trends</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">Medium</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see temperature trends so I detect risks</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show temperature trends</b><br>
-Given historical data<br>
-When viewing<br>
-Then system shows trend<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU49
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View temperature trends
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see temperature trends <i>so</i> I detect risks
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show temperature trends</b>
+      </div>
+          <i>Given</i> historical data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows trend
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU50 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU50</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">View humidity trends</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">Medium</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to see humidity trends so I maintain conditions</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Show humidity trends</b><br>
-Given historical data<br>
-When viewing<br>
-Then system shows trend<br><br>
-
-<b>Scenario 2: No data</b><br>
-Given no data<br>
-When viewing<br>
-Then system shows empty message
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU50
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      View humidity trends
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> see humidity trends <i>so</i> I maintain conditions
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Show humidity trends</b>
+      </div>
+          <i>Given</i> historical data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows trend
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: No data</b>
+      </div>
+          <i>Given</i> no data
+      <br><i>When</i> viewing
+      <br><i>Then</i> system shows empty message
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU51 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU51</td><td><b>User:</b></td><td>User</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">Login with Google account</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a user, I want to log in using my Google account so I access quickly</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Successful login</b><br>
-Given valid Google account<br>
-When logging in<br>
-Then access is granted<br><br>
-
-<b>Scenario 2: Failed login</b><br>
-Given invalid credentials<br>
-When logging in<br>
-Then system shows error
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU51
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      User
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Login with Google account
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> user, <i>I want to</i> log in using my Google account <i>so</i> I access quickly
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Successful login</b>
+      </div>
+          <i>Given</i> valid Google account
+      <br><i>When</i> logging in
+      <br><i>Then</i> access is granted
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Failed login</b>
+      </div>
+          <i>Given</i> invalid credentials
+      <br><i>When</i> logging in
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU52 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU52</td><td><b>User:</b></td><td>User</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">Login with email and password</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a user, I want to log in using my email so I access my account</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Successful login</b><br>
-Given valid credentials<br>
-When logging in<br>
-Then access is granted<br><br>
-
-<b>Scenario 2: Invalid credentials</b><br>
-Given incorrect data<br>
-When logging in<br>
-Then system shows error
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU52
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      User
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Login with email and password
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> user, <i>I want to</i> log in using my email <i>so</i> I access my account
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Successful login</b>
+      </div>
+          <i>Given</i> valid credentials
+      <br><i>When</i> logging in
+      <br><i>Then</i> access is granted
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid credentials</b>
+      </div>
+          <i>Given</i> incorrect data
+      <br><i>When</i> logging in
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <!-- ===================== HU53 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU53</td><td><b>User:</b></td><td>User</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">Recover password by email</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">Medium</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a user, I want to recover access via email</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Send reset link</b><br>
-Given valid email<br>
-When requesting reset<br>
-Then system sends email<br><br>
-
-<b>Scenario 2: Invalid email</b><br>
-Given unregistered email<br>
-When requesting<br>
-Then system shows error
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU53
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      User
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Recover password by email
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      Medium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> user, <i>I want to</i> recover access via email
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Send reset link</b>
+      </div>
+          <i>Given</i> valid email
+      <br><i>When</i> requesting reset
+      <br><i>Then</i> system sends email
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid email</b>
+      </div>
+          <i>Given</i> unregistered email
+      <br><i>When</i> requesting
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
+
+<br><br>
 
 <!-- ===================== HU54 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU54</td><td><b>User:</b></td><td>User</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">Logout from system</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a user, I want to log out to protect my account</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Logout</b><br>
-Given user logged in<br>
-When logging out<br>
-Then session ends<br><br>
-
-<b>Scenario 2: Session expired</b><br>
-Given inactive session<br>
-When accessing<br>
-Then system redirects to login
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU54
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      User
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Logout from system
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> user, <i>I want to</i> log out to protect my account
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Logout</b>
+      </div>
+          <i>Given</i> user logged in
+      <br><i>When</i> logging out
+      <br><i>Then</i> session ends
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Session expired</b>
+      </div>
+          <i>Given</i> inactive session
+      <br><i>When</i> accessing
+      <br><i>Then</i> system redirects to login
+    </td>
+  </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 <!-- ===================== HU55 ===================== -->
-<table>
-<tr><td><b>Number:</b></td><td>HU55</td><td><b>User:</b></td><td>Supervisor</td></tr>
-<tr><td><b>Story Name:</b></td><td colspan="3">Assign user role</td></tr>
-<tr><td><b>Business Priority:</b></td><td colspan="3">High</td></tr>
-<tr><td><b>Developer:</b></td><td colspan="3">To be defined</td></tr>
-<tr><td><b>Description:</b></td><td colspan="3">As a Supervisor, I want to assign roles so users have proper access</td></tr>
-<tr><td><b>Acceptance Criteria:</b></td><td colspan="3">
-
-<b>Scenario 1: Assign role</b><br>
-Given a user exists<br>
-When assigning role<br>
-Then system updates role<br><br>
-
-<b>Scenario 2: Invalid user</b><br>
-Given user not found<br>
-When assigning<br>
-Then system shows error
-
-</td></tr>
+<table style="margin: auto; table-layout: fixed; width: 80%;">
+  <tr style="background-color: #d9d9d9;">
+    <td>
+      <b>Number:</b>
+    </td>
+    <td style="text-align: center;">
+      HU55
+    </td>
+    <td>
+      <b>User:</b>
+    </td>
+    <td style="text-align: center;">
+      Supervisor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Story Name:</b>
+    </td>
+    <td style="text-align: center;" colspan="3">
+      Assign user role
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Business Priority:</b>
+    </td>
+    <td colspan="3">
+      High
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Developer:</b>
+    </td>
+    <td colspan="3">
+      To be defined
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Description:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <i>As a</i> Supervisor, <i>I want to</i> assign roles <i>so</i> users have proper access
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Acceptance Criteria:</b>
+    </td>
+    <td style="text-align: justify;" colspan="3">
+      <div style="text-align: center;">
+        <b>Scenario 1: Assign role</b>
+      </div>
+          <i>Given</i> a user exists
+      <br><i>When</i> assigning role
+      <br><i>Then</i> system updates role
+      <br><br>
+      <div style="text-align: center;">
+        <b>Scenario 2: Invalid user</b>
+      </div>
+          <i>Given</i> user not found
+      <br><i>When</i> assigning
+      <br><i>Then</i> system shows error
+    </td>
+  </tr>
 </table>
 
 <div style="page-break-after: always;"></div>
