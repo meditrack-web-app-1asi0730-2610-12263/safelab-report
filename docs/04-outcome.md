@@ -83,6 +83,66 @@
       <br>
         I actively participated in team meetings and decisions, fulfilling my responsibilities within the established deadlines. I was also involved in defining the epics and user stories (US) based on the information gathered during interviews, demonstrating commitment to the project and the team.
       <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Carlos Lavado, Ever Giusephi
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Montes Maza, Augusto Sebastian
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replac content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+        <b>
+          Arizabal Condori, Jean Niels
+        </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Reyes Menacho, Camila Asuncion
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+         (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Orosco Ttamiña, Juan Carlos
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -90,6 +150,14 @@
       </i></b>
       <br>
         During AV1, the team demonstrated joint leadership by distributing responsibilities according to each member’s strengths and coordinating efforts across strategic, technical, and design areas of the SafeLab project. Leadership was reflected in repository management, task planning, architecture development, UI/UX direction, product implementation coordination, and requirements definition through epics and user stories. Each member contributed proactively within their assigned scope while maintaining communication and collaboration, which enabled the team to progress efficiently and achieve the planned objectives for the first delivery.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
   
@@ -159,6 +227,66 @@
       <br>
         During this phase, we maintained a collaborative and inclusive work environment, using WhatsApp and Discord to coordinate meetings and GitHub to work in parallel. We defined goals from the outset, organized tasks, and worked as a team to achieve them. Furthermore, my input and support in the reporting process helped everything run more smoothly and kept the team coordinated.
       <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Carlos Lavado, Ever Giusephi
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Montes Maza, Augusto Sebastian
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replac content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+        <b>
+          Arizabal Condori, Jean Niels
+        </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Reyes Menacho, Camila Asuncion
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+         (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Orosco Ttamiña, Juan Carlos
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -166,6 +294,14 @@
       </i></b>
       <br>
         During AV1, the team created a collaborative and inclusive environment by maintaining constant communication, sharing feedback, and coordinating tasks through digital collaboration tools such as GitHub, Trello, WhatsApp, and Discord. Team members established clear goals and milestones for design, architecture, documentation, and research activities, while responsibilities were assigned according to individual strengths. This organized planning and cooperative workflow allowed the team to integrate all deliverables effectively and meet the objectives established for the first project milestone.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
 </table>
