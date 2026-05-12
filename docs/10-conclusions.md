@@ -1,49 +1,35 @@
-<h2>Conclusions</h2>
+# **Conclusions**
 
 <p style="text-align: justify;">
-  El producto Meditrack se posiciona como una solución orientada a optimizar la gestión y monitoreo de
-  máquinas de laboratorio, permitiendo centralizar información crítica y mejorar la toma de decisiones.
-  A nivel funcional, el sistema responde a la necesidad de control y organización de equipos, reduciendo
-  la dispersión de datos y facilitando el acceso a información relevante en tiempo real.
+  The Meditrack product is positioned as a solution designed to optimize the management and monitoring of laboratory equipment, centralizing critical information and improving decision-making. Functionally, the system addresses the need for equipment control and organization, reducing data dispersion and facilitating access to relevant information in real time.
 </p>
 
 <p style="text-align: justify;">
-  Asimismo, el enfoque del producto hacia la usabilidad y accesibilidad permite que distintos perfiles
-  de usuarios puedan interactuar con la plataforma de manera intuitiva, incrementando su adopción dentro
-  del entorno objetivo.
+  Furthermore, the product's focus on usability and accessibility allows different user profiles to interact with the platform intuitively, increasing its adoption within the target environment.
 </p>
 
-<h2>Conclusions and Recommendations</h2>
+## **Conclusions and Recommendations**
 
-<h3>Conclusions</h3>
+**Conclusions**
+
 <p style="text-align: justify;">
-  Meditrack representa una propuesta de valor alineada con la digitalización de procesos en laboratorios,
-  contribuyendo a una gestión más eficiente de los recursos. La solución permite estructurar la información
-  de los equipos, mejorar el seguimiento de su estado y reducir posibles errores asociados a la gestión manual.
+  Meditrack offers a value proposition aligned with the digitization of laboratory processes, contributing to more efficient resource management. The solution allows for the structuring of equipment information, improved status monitoring, and a reduction in potential errors associated with manual management.
 </p>
 
-<h3>Recommendations</h3>
+**Recommendations**
+
 <p style="text-align: justify;">
-  Se recomienda ampliar las capacidades del producto mediante la incorporación de módulos de analítica
-  avanzada, que permitan generar indicadores clave sobre el rendimiento y estado de las máquinas. Además,
-  sería pertinente integrar funcionalidades de notificación automática para alertar sobre mantenimientos
-  o incidencias.
+  Se recomienda ampliar las capacidades del producto mediante la incorporación de módulos de analítica avanzada, que permitan generar indicadores clave sobre el rendimiento y estado de las máquinas. Además, sería pertinente integrar funcionalidades de notificación automática para alertar sobre mantenimientos o incidencias.
 </p>
 
 <p style="text-align: justify;">
-  También se sugiere considerar la escalabilidad del sistema, permitiendo su adaptación a distintos tipos
-  de laboratorios y volúmenes de datos, así como la integración con otros sistemas existentes dentro de
-  las organizaciones.
+  It is recommended to expand the product's capabilities by incorporating advanced analytics modules that generate key performance indicators (KPIs) on machine performance and status. Additionally, integrating automatic notification functionalities to alert users about maintenance or incidents would be beneficial.
 </p>
 
-<h2>Video About-the-Team</h2>
+## **Video About-the-Team**
 
+> [**Video About-the-Team**](url.com)
 
-
-<p>
-  🔗 Video About-the-Team:
-  <br>
-  <a href="URL_DEL_VIDEO" target="_blank">
-    Ver video del equipo
-  </a>
-</p>
+<div style="text-align: center;">
+  <img src="../assets/conclusions/video-about-the-team/" width="70%" alt="video-about-the-team">
+</div>
