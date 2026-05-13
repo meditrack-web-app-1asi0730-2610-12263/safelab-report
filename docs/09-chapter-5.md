@@ -1008,6 +1008,290 @@ Deployment Steps
 
 <div style="page-break-after: always;"></div>
 
+
+<h3>5.2.2. Sprint 2</h3>
+
+<h4>5.2.2.1. Sprint Planning 2</h4>
+
+<p style="text-align: justify;">
+  For this second sprint, the team focused on the development of the frontend web application for Meditrack.
+  The sprint was carried out from April 30 to May 13. During this period, the team implemented the main
+  bounded contexts of the system, including authentication, user profiles, billing, dashboards, asset monitoring,
+  sensor monitoring, environmental compliance, alerts, remote control, reports, incident management and audit
+  traceability. In addition, corrections were made to the final report in order to keep the documentation aligned
+  with the current product implementation.
+</p>
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+  <tr>
+    <td colspan="14"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="9">2026-04-30</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="9">8:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="9">Via Discord</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="9">Camila Asunción Reyes Menacho</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees to Planning Meeting</td>
+    <td colspan="9">
+      Ever Giusephi Carlos Lavado, Augusto Sebastian Montes Maza, Jean Niels Arizabal Condori,
+      Camila Asunción Reyes Menacho and Juan Carlos Orozco Tamiña
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="9">
+      During Sprint 2, the team developed the frontend web application for Meditrack. The work included
+      the implementation of the following sections: Identity & Access Management, User Profiles,
+      Subscription & Billing, Dashboard & Overview, Asset & Inventory Monitoring, Sensor Monitoring,
+      Environmental Compliance, Alerts & Notifications, Remote Control & Actuation, Reports & Analytics,
+      Incident Management and Audit & Traceability. Report corrections were also completed to improve
+      consistency, structure and evidence presentation.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="9">
+      The team improved its task distribution by assigning specific frontend modules to each member.
+      This allowed parallel development and better control over each bounded context. As an improvement
+      point, the team agreed to review integrations more frequently, especially routing, shared components,
+      i18n files and navigation items, in order to reduce inconsistencies when merging individual contributions.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="14"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="9">
+      Develop the first functional version of the Meditrack frontend web application using Vue 3, Vite,
+      PrimeVue, Vue Router, Vue i18n and a domain-driven frontend structure. The sprint goal was to allow
+      users to navigate through the main modules of the system, visualize operational information and validate
+      core workflows related to monitoring, alerts, reporting, incidents, traceability and device management.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="9">24 story points</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="9">24 story points</td>
+  </tr>
+</table>
+
+<h4>5.2.2.2. Aspect Leaders and Collaborators</h4>
+
+<p style="text-align: justify;">
+  To improve collaboration and accountability, each team member was assigned as leader of specific frontend
+  sections. Each leader was responsible for implementing the assigned bounded contexts, maintaining consistency
+  with the project architecture and collaborating with the rest of the team during integration and report corrections.
+</p>
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <th>Team Member</th>
+    <th>GitHub Username</th>
+    <th>Evidence from Commits</th>
+    <th>Main Contribution</th>
+  </tr>
+  <tr>
+    <td>Camila Asunción Reyes Menacho</td>
+    <td>@dakuma-ai</td>
+    <td>Multiple commits authored by Camila Reyes on 12/05/2026</td>
+    <td>Alerts & Notifications; Incident Management; Report Corrections</td>
+  </tr>
+  <tr>
+    <td>Ever Giusephi Carlos Lavado</td>
+    <td>@sephi-dev05</td>
+    <td>Multiple commits authored by Giusephi Carlos on 10/05/2026 and 11/05/2026</td>
+    <td>Initial frontend setup, routing, JSON server, i18n, dashboard base and documentation</td>
+  </tr>
+  <tr>
+    <td>Juan Carlos Orozco Tamiña</td>
+    <td>@juancarlosorosco59</td>
+    <td>Multiple commits authored by juancarlosorosco59 on 13/05/2026</td>
+    <td>Subscription & Billing; Reports & Analytics</td>
+  </tr>
+  <tr>
+    <td>Jean Niels Arizabal Condori</td>
+    <td>@JeanArizabal</td>
+    <td>Multiple commits authored by JeanArizabal on 13/05/2026</td>
+    <td>Sensor Monitoring; Environmental Compliance</td>
+  </tr>
+  <tr>
+    <td>Augusto Sebastian Montes Maza</td>
+    <td>@asmmmazza</td>
+    <td>Multiple commits authored by asmmmazza on 13/05/2026</td>
+    <td>Asset & Inventory Monitoring; Remote Control & Actuation</td>
+  </tr>
+</table>
+
+<h4>5.2.2.3. Sprint Backlog 2</h4>
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <th colspan="3">User Story</th>
+    <th colspan="7">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th colspan="2">Title</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <tr>
+    <td>US01</td>
+    <td colspan="2">Identity & Access Management</td>
+    <td>UT01</td>
+    <td>Implement identity and access pages</td>
+    <td>Create frontend views for login, registration, access validation and user authentication flow.</td>
+    <td>3h</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td colspan="2">User Profiles</td>
+    <td>UT02</td>
+    <td>Implement user profile views</td>
+    <td>Create views and components to display user information, roles and profile details.</td>
+    <td>3h</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td colspan="2">Subscription & Billing</td>
+    <td>UT03</td>
+    <td>Implement subscription plans and billing views</td>
+    <td>Create frontend pages, domain models, entities, stores, components and API integration for subscription and billing.</td>
+    <td>6h</td>
+    <td>Juan Carlos Orozco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td colspan="2">Dashboard & Overview</td>
+    <td>UT04</td>
+    <td>Implement dashboard base</td>
+    <td>Create the initial frontend setup, routing, application state, localization and general structure needed for the dashboard and application overview.</td>
+    <td>5h</td>
+    <td>Giusephi Carlos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td colspan="2">Asset & Inventory Monitoring</td>
+    <td>UT05</td>
+    <td>Implement asset inventory page</td>
+    <td>Create views to list laboratory equipment, machine status, location and operational condition.</td>
+    <td>5h</td>
+    <td>Sebastian Montes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td colspan="2">Sensor Monitoring</td>
+    <td>UT06</td>
+    <td>Implement sensor monitoring module</td>
+    <td>Create domain classes, enumerations, API functions, mapping functions, stores, components, routes and live readings views.</td>
+    <td>7h</td>
+    <td>Jean Arizabal</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td colspan="2">Environmental Compliance</td>
+    <td>UT07</td>
+    <td>Implement environmental compliance support</td>
+    <td>Create monitoring structures and threshold-related domain elements to support environmental compliance indicators.</td>
+    <td>4h</td>
+    <td>Jean Arizabal</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td colspan="2">Alerts & Notifications</td>
+    <td>UT08</td>
+    <td>Implement alerts and notifications module</td>
+    <td>Create domain enums, entities, HTTP services, application services, stores, views, reusable components, routes, mock API integration and i18n support.</td>
+    <td>8h</td>
+    <td>Camila Reyes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td colspan="2">Remote Control & Actuation</td>
+    <td>UT09</td>
+    <td>Implement remote control module</td>
+    <td>Create frontend views for remote activation, deactivation and state management of actuators.</td>
+    <td>5h</td>
+    <td>Sebastian Montes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td colspan="2">Reports & Analytics</td>
+    <td>UT10</td>
+    <td>Implement reports and analytics module</td>
+    <td>Create analytics entities, models, infrastructure layer, presentation views, routes and navigation improvements.</td>
+    <td>6h</td>
+    <td>Juan Carlos Orozco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td colspan="2">Incident Management</td>
+    <td>UT11</td>
+    <td>Implement incident management frontend</td>
+    <td>Create incident-related views and integrate them with alerts, notification rules and delivery configuration workflows.</td>
+    <td>5h</td>
+    <td>Camila Reyes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td colspan="2">Audit & Traceability</td>
+    <td>UT12</td>
+    <td>Implement audit and traceability support</td>
+    <td>Configure the base application structure and routing required to support audit and traceability views.</td>
+    <td>4h</td>
+    <td>Giusephi Carlos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td colspan="2">Project Report Corrections</td>
+    <td>UT13</td>
+    <td>Update final report</td>
+    <td>Correct the report structure, add sprint evidence and align the documentation with frontend implementation.</td>
+    <td>4h</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Interview Design**
 ### **5.3.2. Interview Recording**
