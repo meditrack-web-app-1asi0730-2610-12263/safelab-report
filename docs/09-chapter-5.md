@@ -1292,6 +1292,458 @@ Deployment Steps
   </tr>
 </table>
 
+<h4>5.2.2.4. Development Evidence for Sprint Review</h4>
+
+<p style="text-align: justify;">
+  This section presents the commits related to the main implementation progress completed during Sprint 2.
+  These commits come from the frontend repository and provide evidence of the development of the main
+  bounded contexts of the Meditrack web application. The evidence includes the initial Vue and Vite setup,
+  routing configuration, JSON server configuration, internationalization, domain entities, stores, services,
+  views, reusable components and frontend pages for the implemented modules.
+</p>
+
+<p>
+  🔗 Frontend Repository:
+  <br>
+  <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-frontend.git" target="_blank">
+    https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-frontend.git
+  </a>
+</p>
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>6b583594c161e38d4c629d02330d71af5388dff2</td>
+    <td>Initial commit</td>
+    <td>Initial project repository commit.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>482792423d89ed7f68081d7eba64c8fc2abaaf3b</td>
+    <td>feat: initialize frontend setup with Vite, Vue, and essential configurations</td>
+    <td>Initialized the frontend project using Vite and Vue.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>0de1774a98bfa9df1c774d89842c9426bccf746a</td>
+    <td>feat: set up initial Vue application structure with routing and styling</td>
+    <td>Created the base Vue application structure, routing and styling configuration.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>662fef878fcd3d8add02a900707ffe48534a7f5d</td>
+    <td>feat: implement internationalization support and application state management</td>
+    <td>Added i18n support and application state management configuration.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>aeebe9537cfa971e3b62a907cc5f3569d1bf3c2f</td>
+    <td>feat: add main CSS styles and localization files for English and Spanish</td>
+    <td>Added base styles and localization files for English and Spanish.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>1ffa83e06fccf9a6b8132db49737c96033015de7</td>
+    <td>feat: add JSON server setup with initial database and routing configuration</td>
+    <td>Configured JSON server with initial database and routing files.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>main / develop</td>
+    <td>a272e15bf39891b4a6242227974ba3df97b753a3</td>
+    <td>feat: add routing configuration for all de BC application sections</td>
+    <td>Added routing configuration for all bounded context application sections.</td>
+    <td>11/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>73212e8ded39179b10ee024fb8da4d22f2928a7f</td>
+    <td>feat(alerts-notifications): add domain enums</td>
+    <td>Added domain enumerations for the Alerts & Notifications bounded context.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>48c70f365620b9d1ba7ec964f1c3b7dfb5eb470a</td>
+    <td>feat(alerts-notifications): add domain entities</td>
+    <td>Added domain entities for alerts, notifications, recipients and escalation policies.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>2c308c8485f25b7436206db6d688faec68437f2f</td>
+    <td>feat(alerts-notifications): add http api services</td>
+    <td>Created HTTP API services for alerts and notifications.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>710eeb3d5980a2d15b47b44aac31a6f8105bfe29</td>
+    <td>feat(alerts-notifications): add application services</td>
+    <td>Added application services for alert workflows.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>0f26ea5a7a72fbd61708208f28d061449d7087c5</td>
+    <td>feat(alerts-notifications): add alert store</td>
+    <td>Created the alert store for state management.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>a4746b54fa92265f129733005b32e14a29bd69fb</td>
+    <td>feat(alerts-notifications): add notification store</td>
+    <td>Created the notification store for notification state management.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>77428e515e20334eaccf390faa055b6622f61390</td>
+    <td>feat(alerts-notifications): add recipient store</td>
+    <td>Created the recipient store for notification recipients.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>6dc36edb2285416aaef60b7296abbd63e4b03af7</td>
+    <td>feat(alerts-notifications): add delivery rule store</td>
+    <td>Created the delivery rule store for notification configuration.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>45852365b6c474ce0a7e02c9769bba613b97f382</td>
+    <td>feat(alerts-notifications): add alert table component</td>
+    <td>Added table component for active alert visualization.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>2aab2ea98aeff7aa0d767d41498f2195db9e0df7</td>
+    <td>feat(alerts-notifications): add alerts page view</td>
+    <td>Created the main alerts page view.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>ec8e92f5e340dc55d07a744cb8c8a70de4a9013f</td>
+    <td>feat(alerts-notifications): add alert detail view</td>
+    <td>Created the alert detail view.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>11af3310283a8151bf6215e73c54790e52e77d54</td>
+    <td>feat(alerts-notifications): add notification table component</td>
+    <td>Added table component for notification history visualization.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>17f61a15c23f28db04232b00c8011e07e840bb30</td>
+    <td>feat(alerts-notifications): add notifications page view</td>
+    <td>Created notifications page view.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>082c831705d141a2634a1d9218a8a91e59e017ff</td>
+    <td>feat(alerts-notifications): add delivery rule form component</td>
+    <td>Created form component for delivery rule configuration.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>fda8f4b741de37dfcdff0b175b2a654597d4466c</td>
+    <td>feat(alerts-notifications): add delivery rules page view</td>
+    <td>Created delivery rules page view.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>5d0fd3b4015adcb0806b39984ee49f705bd08964</td>
+    <td>feat(alerts-notifications): replace coming soon routes with real views</td>
+    <td>Replaced placeholder routes with implemented views.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>f8ed83b113fac9d4178ea73c9e005e46fdc4bed2</td>
+    <td>test(alerts-notifications): expand mock data for alerts workflow</td>
+    <td>Expanded mock data to validate the alerts workflow.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>5015274baa6e0bf72efbcf45e87d8d8bf4a15f67</td>
+    <td>fix(alerts-notifications): adapt alert api service to json server</td>
+    <td>Adapted the alert API service to work with JSON server.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>9ccc1a8ad0031dceb385e1d893cb0e344d204959</td>
+    <td>fix(alerts-notifications): load notification history from mock api</td>
+    <td>Connected notification history with the mock API.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>9a67ba96aa16f4ed6f81342583ec8c0e8dca6740</td>
+    <td>fix(alerts-notifications): load delivery rules from mock api</td>
+    <td>Connected delivery rules with the mock API.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>f0225f250fd11aaf45afcfdcb7e77a69589aa9b9</td>
+    <td>feat(alerts): add i18n support to alerts views</td>
+    <td>Added internationalization support to alert views.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/alerts-notifications</td>
+    <td>f9db80bf931bb19b0ef6941d91a12c2767e0ae90</td>
+    <td>feat(alerts): add history and settings quick actions</td>
+    <td>Added quick action buttons for notification history and settings.</td>
+    <td>12/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/subscription-billing</td>
+    <td>de80cfd4cb6f1e3a56185c6c84df19605012d5db</td>
+    <td>feat: add domain models</td>
+    <td>Added domain models for the Subscription & Billing module.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/subscription-billing</td>
+    <td>5d37dd52a6ecb20928d2635479e433c49c24b273</td>
+    <td>feat: add domain entities</td>
+    <td>Added domain entities for subscription and billing data.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/subscription-billing</td>
+    <td>878d522ff1407356fdb9c8ef276c77fe87750b2f</td>
+    <td>feat: change in subscription-billing-api</td>
+    <td>Updated the subscription billing API integration.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/subscription-billing</td>
+    <td>c165b3c8e1a362207ba4254cedb4e99eaa40105a</td>
+    <td>feat: add components</td>
+    <td>Added reusable components for Subscription & Billing views.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/subscription-billing</td>
+    <td>6568e87f565effed44582657ce2228f305c54a04</td>
+    <td>feat: add views</td>
+    <td>Added frontend views for Subscription & Billing.</td>
+    <td>13/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>ffdd53ea123f97abb218a0b4768b30aacb0aaee7</td>
+    <td>Add analytics summary entity</td>
+    <td>Added the analytics summary entity for the Reports & Analytics module.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>e6c90169f36e8da7589a21b5c3fb318d165f93f7</td>
+    <td>Add models</td>
+    <td>Added models for reports and analytics data.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>e365fc51cee87f6c70eccf6f5564d093cdbb0404</td>
+    <td>feat: add infrastructure</td>
+    <td>Added infrastructure layer elements for Reports & Analytics.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>f7e048a33b89823cccc2df3ee3f42e0bf8d2b6ab</td>
+    <td>feat: add presentation/views</td>
+    <td>Added presentation views for Reports & Analytics.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>309d6395e4111900b161722beb59baa4fd602431</td>
+    <td>feat: change routes</td>
+    <td>Updated routes for Reports & Analytics.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/reports-analytics</td>
+    <td>5910f17633528170c1a06b798f924a8bcab57072</td>
+    <td>feat: improve reports analytics navigation</td>
+    <td>Improved navigation for the Reports & Analytics section.</td>
+    <td>13/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>6abd2827def49b7636575701759acde910abb42f</td>
+    <td>feat: add sensor type enumeration for sensor monitoring</td>
+    <td>Added sensor type enumeration.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>631a51485d69de73f9f397d27221d288d206a3e5</td>
+    <td>feat: add sensor status enumeration for sensor monitoring</td>
+    <td>Added sensor status enumeration.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>9039f7a4df444339a71b057ce75971667b79d529</td>
+    <td>feat: implement sensor class</td>
+    <td>Implemented the main sensor domain class.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>814a09148bdcf1f8e3d2fd2085eae0924a650ae2</td>
+    <td>feat: implement sensor reading class</td>
+    <td>Implemented the sensor reading class.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>276a0bfb1b2194fe7ae8a148cda22891c430d130</td>
+    <td>feat: implement fetch sensors api function</td>
+    <td>Implemented API function to fetch sensor data.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>be892ae6102780386751492a3c711a09c7e05bc1</td>
+    <td>feat: implement sensor mapping functions</td>
+    <td>Implemented mapping functions for sensor resources and domain objects.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>f545ca4ce1f8465bdc33eaa407a522132e6ab3c9</td>
+    <td>feat: implement sensor store with state management and filtering</td>
+    <td>Implemented store logic for sensor state management and filtering.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>9a49953a96c843e0987723241a27328b0d8df31f</td>
+    <td>feat: add monitoring toolbar component for sensor filtering and search</td>
+    <td>Added toolbar component for filtering and searching sensors.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>c106563f1cc947b4420d720cbae9995b085daa63</td>
+    <td>feat: add sensor card component for displaying sensor readings and status</td>
+    <td>Added sensor card component for readings and status visualization.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>60b0112bd1cef9b96f0cb0c4d5497e0dc92a7eb4</td>
+    <td>feat: add live readings view component for displaying sensor data</td>
+    <td>Created live readings view for sensor data display.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>19a40b4cead3f70e3119b0549ed75826eae72022</td>
+    <td>feat: update sensor monitoring routes to include live readings view</td>
+    <td>Updated routes to include the live readings view.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>safelab-frontend</td>
+    <td>feature/sensor-monitoring</td>
+    <td>a65cdefce50a5e5d051780612d4d1ea35423cdc8</td>
+    <td>feat: add localization for real-time monitoring dashboard in english and spanish</td>
+    <td>Added English and Spanish localization for the real-time monitoring dashboard.</td>
+    <td>13/05/2026</td>
+  </tr>
+</table>
+
+
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Interview Design**
 ### **5.3.2. Interview Recording**
