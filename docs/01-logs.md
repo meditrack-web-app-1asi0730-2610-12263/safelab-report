@@ -1,18 +1,25 @@
 # **Report Version Log**
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; margin: auto; table-layout: fixed; width: 100%;">
   <!-- ROW 0 -->
   <tr>
-    <th style="text-align: center;">Version</th>
-    <th style="text-align: center;">Date</th>
-    <th style="text-align: center;">Author</th>
-    <th style="text-align: center;">Description of modification</th>
+    <th style="text-align: center;">
+      Version
+    </th>
+    <th style="text-align: center;">
+      Date
+    </th>
+    <th style="text-align: center;">
+      Author
+    </th>
+    <th style="text-align: center;" width="50%">
+      Description of modification
+    </th>
   </tr>
-
   <!-- ROW 1 -->
   <tr>
     <td style="text-align: center;">
-      1.0.0.
+      1.0.0
     </td>
     <td style="text-align: center;">
       24/04/2026
@@ -42,7 +49,7 @@
   <!-- ROW 3 -->
   <tr>
     <td style="text-align: center;">
-      (1.0.0.)
+      1.0.0
     </td>
     <td style="text-align: center;">
       24/04/26
@@ -81,6 +88,78 @@
     </td>
     <td style="text-align: justify;">
       Requirements Specification. In this section, user stories were defined to represent the main functionalities based on user needs. Impact mapping was also created to connect business goals with users and system features. Finally, the Product Backlog was organized, prioritized, and estimated using the Fibonacci scale to support the development process.
+    </td>
+  </tr>
+  <!-- ROW 6 -->
+  <tr>
+    <td style="text-align: center;">
+      2.0.1
+    </td>
+    <td style="text-align: center;">
+      00/05/26
+    </td>
+    <td style="text-align: center;">
+      Carlos Lavado, Ever Giusephi
+    </td>
+    <td style="text-align: justify;">
+      Refactored and standardized all report chapters to maintain consistent markdown syntax, HTML formatting, repository structure, and documentation conventions across the SafeLab ecosystem. Additionally, organized team workflows, coordinated merge integration processes, configured the SafeLab report and frontend repositories, and developed BC1 (Identity & Access Management), BC2 (User Profiles), BC4 (Dashboard & Overview), and BC12 (Audit & Traceability).
+    </td>
+  </tr>
+  <!-- ROW 7 -->
+  <tr>
+    <td style="text-align: center;">
+      2.2.0
+    </td>
+    <td style="text-align: center;">
+      00/05/26
+    </td>
+    <td style="text-align: center;">
+      Montes Maza, Augusto Sebastian
+    </td>
+    <td style="text-align: justify;">
+      Fully implemented the frontend layers under Domain-Driven Design (DDD) principles for the Bounded Contexts of Asset & Inventory and Remote Control & Actuation. Developed domain models, infrastructure Axios services with mock API handling, and Pinia reactive application stores. Built high-density data views in the presentation layer.
+    </td>
+  </tr>
+  <!-- ROW 8 -->
+  <tr>
+    <td style="text-align: center;">
+      2.3.0
+    </td>
+    <td style="text-align: center;">
+      13/05/26
+    </td>
+    <td style="text-align: center;">
+      Arizabal Condori, Jean Niels
+    </td>
+    <td style="text-align: justify;">
+      Implemented the entities, value objects, mappers, mock API's, stores, components, views, routing, and internationalization for English and Spanish, for the bounded contexts Sensor Monitoring and Environmental Compliance.
+    </td>
+ <!-- ROW 9 -->
+<tr>
+  <td>2.4.0</td>
+  <td>13/05/2026</td>
+  <td>Reyes Menacho, Camila Asuncion</td>
+  <td>
+    Developed the Sprint 2 section of Chapter V, including Sprint Planning 2, Aspect Leaders and Collaborators,
+    Sprint Backlog 2, Development Evidence, Execution Evidence, Services Documentation Evidence,
+    Software Deployment Evidence, and Team Collaboration Insights. Also documented frontend progress for
+    Alerts & Notifications and Incident Management, including commits, routing, i18n support, mock API integration,
+    views, components, stores, and report corrections.
+  </td>
+</tr>
+  <!-- ROW 10 -->
+  <tr>
+    <td style="text-align: center;">
+      2.5.0
+    </td>
+    <td style="text-align: center;">
+      13/05/2026
+    </td>
+    <td style="text-align: center;">
+      Orosco Ttamiña, Juan Carlos
+    </td>
+    <td style="text-align: justify;">
+      Completed sections related to the reports-analytics and subscription-billing bounded contexts, supporting the implementation of views, navigation flows, and frontend components following the team structure and design patterns. Communication and coordination were maintained through WhatsApp while following the guidelines established by the team leader and the team during this phase.
     </td>
   </tr>
 </table>

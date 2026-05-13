@@ -14,6 +14,8 @@
   From an operational and commercial perspective, SafeLab structures its services under a B2B (Business-to-Business) model supported by a SaaS (Software as a Service) architecture. This approach allows us to provide healthcare institutions with a highly scalable and rapidly deployable solution, where a corporate subscription guarantees uninterrupted access to real-time auditing tools, automated reports for regulatory compliance, and complete immutability in the retention of historical data. SafeLab's long-term vision is to become the regional standard for the intelligent management of biological inventories, driving healthcare institutions toward an operational model guided by pragmatic innovation and an unwavering commitment to a "Zero Waste" culture.
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ### **1.1.2. Team Member Profiles**
 
 <table style="width: 100%;">
@@ -21,8 +23,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/giusephi.png"
-      alt="giusephi-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/giusephi-carlos.png"
+      alt="giusephi-carlos-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -47,8 +49,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/sebastian.png"
-      alt="sebastian-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/sebastian-montes.png"
+      alt="sebastian-montes-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -73,8 +75,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/jean.jpeg"
-      alt="jean-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/jean-arizabal.jpeg"
+      alt="jean-arizabal-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -99,8 +101,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/camila.jpeg"
-      alt="camila-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/camila-reyes.jpeg"
+      alt="camila-reyes-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -125,8 +127,8 @@
   <tr>
     <td style="text-align: center; width: 40%; vertical-align: center;">
       <img
-      src="../assets/chapter-1/team-member-profiles/juan.jpeg"
-      alt="juan-profile-photo"
+      src="../assets/chapter-1/team-member-profiles/juan-orosco.jpeg"
+      alt="juan-orosco-profile-photo"
       width="70%"
       style="border-radius: 10px;">
     </td>
@@ -147,6 +149,8 @@
   </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## **1.2. Solution Profile**
 ### **1.2.1 Background and Problem Statement**
 
@@ -160,11 +164,12 @@
 
 <p style="text-align: justify;">
   The root of this problem is two-dimensional. On the one hand, there is an infrastructure factor: healthcare facilities often face power outages or rely on refrigeration equipment that lacks thermal backup systems. On the other hand, and more critically, conventional manual monitoring methods create "blind spots" in oversight. A systematic analysis of the cold chain demonstrates that sporadic checks during daytime shifts leave the inventory completely vulnerable during the early morning hours, weekends, and holidays (Matthias et al., 2007). It is precisely in these intervals of zero monitoring that most irreversible failures occur, forcing the discarding of supplies due to the uncertainty of the exposure time.
+
+<p style="text-align: justify;">
+  To define the problem in a structured way, we applied the 5 W's and 2 H's technique:
 </p>
 
-To define the problem in a structured way, we applied the 5 W's and 2 H's technique:
-
-<ul style="text-align: justify; padding-left: 1.2rem;">
+<ul style="text-align: justify;">
   <li>
     <b>Who:</b> Laboratory coordinators, pharmacy technicians, and administrative staff responsible for clinical viability and budget management of the biological inventory.
   </li>
@@ -193,6 +198,8 @@ To define the problem in a structured way, we applied the 5 W's and 2 H's techni
     <b>How Much:</b> An incalculable compromise to patient diagnostic reliability, in addition to the loss of thousands of dollars per discarded batch and hundreds of man-hours wasted annually on repetitive documentation tasks (Kumru et al., 2014; WHO, 2020).
   </li>
 </ul>
+
+<div style="page-break-after: always;"></div>
 
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
@@ -260,6 +267,8 @@ To define the problem in a structured way, we applied the 5 W's and 2 H's techni
       We believe that automation will free up valuable time for staff to focus on high-value clinical analytical tasks.
     </li>
   </ul>
+
+<div style="page-break-after: always;"></div>
 
 - **Business Assumptions:**
 
@@ -332,6 +341,8 @@ To define the problem in a structured way, we applied the 5 W's and 2 H's techni
     </li>
   </ul>
 
+<div style="page-break-after: always;"></div>
+
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 
 <ul style="text-align: justify;">
@@ -377,6 +388,8 @@ To define the problem in a structured way, we applied the 5 W's and 2 H's techni
   <img src="../assets/chapter-1/lean-ux-canvas/lean-ux-canva.png" width="70%">
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ## **1.3. Target Segments**
 
 - **The Coordinator of Bioclinical Operations**
@@ -396,3 +409,5 @@ To define the problem in a structured way, we applied the 5 W's and 2 H's techni
   <p style="text-align: justify;">
     Finally, the technological profile of this segment reveals an interesting duality. In their work environment, they typically interact with shared computers (generally desktop PCs with legacy operating systems) and lack a dedicated IT support department. However, in their personal lives, they are frequent users of smart mobile devices (Android or iOS smartphones) and consume information quickly. This reality demands that technological solutions aimed at them do not require complex installations or local maintenance; they need platforms such as web applications (SPAs) that are intuitive, accessible from any browser or mobile device, and that offer a seamless user experience to counteract the technological obsolescence of their work environment.
   </p>
+
+<div style="page-break-after: always;"></div>
