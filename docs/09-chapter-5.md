@@ -312,10 +312,10 @@ Deployment Steps
   <tr style="background-color: #d9d9d9;">
     <td>
       <b>Sprint #</b>
-    </th>
+    </td>
     <td style="text-align: center;">
       1
-    </th>
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;" colspan="2">
