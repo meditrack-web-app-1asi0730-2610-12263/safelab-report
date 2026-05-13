@@ -1,16 +1,18 @@
 # **Chapter IV: Product Design**
-
 ## **4.1. Style Guidelines**
-
 ### **4.1.1. General Style Guidelines**
 
 **Brand Overview**
 
-SafeLab is a biotech monitoring platform designed to ensure pharmaceutical and clinical cold chain compliance through real-time sensor monitoring and alert management. The brand identity reflects professionalism, reliability, and technological innovation in the healthcare sector.
+<p style="text-align: justify;">
+  SafeLab is a biotech monitoring platform designed to ensure pharmaceutical and clinical cold chain compliance through real-time sensor monitoring and alert management. The brand identity reflects professionalism, reliability, and technological innovation in the healthcare sector.
+</p>
 
 **Color Palette**
 
-Our primary color palette emphasizes trust, safety, and precision:
+<p style="text-align: justify;">
+  Our primary color palette emphasizes trust, safety, and precision:
+</p>
 
 - **Primary Colors:**
   - Indigo 600 (`#4F46E5`) - Main brand color, used for primary actions and navigation
@@ -29,6 +31,8 @@ Our primary color palette emphasizes trust, safety, and precision:
   - Amber 500 (`#F59E0B`) - Warning states, threshold approaching
   - Red 600 (`#DC2626`) - Critical alerts, errors, out-of-compliance
   - Blue 600 (`#2563EB`) - Information, neutral notifications
+
+<div style="page-break-after: always;"></div>
 
 **Typography**
 
@@ -68,6 +72,8 @@ Our primary color palette emphasizes trust, safety, and precision:
 
 - **Icon Style:** Minimalist line icons with 2px stroke width, consistent with modern medical/scientific interfaces
 
+<div style="page-break-after: always;"></div>
+
 **Visual Elements**
 
 - **Border Radius:**
@@ -92,6 +98,8 @@ Our primary color palette emphasizes trust, safety, and precision:
 - **Actionable:** Direct users with clear calls-to-action
 - **Accessible:** Avoid jargon when communicating with non-technical users
 
+<div style="page-break-after: always;"></div>
+
 ### **4.1.2. Web Style Guidelines**
 
 **Responsive Design Principles**
@@ -114,10 +122,8 @@ SafeLab follows a mobile-first responsive approach with three primary breakpoint
   - Hover: Indigo 700 background
   - Active: Indigo 800 background with subtle shadow
   - Disabled: Slate 300 background, Slate 500 text, no pointer events
-
 - **Secondary Button:** White background, Slate 700 text, Slate 300 border
   - Hover: Slate 50 background
-  
 - **Danger Button:** Red 600 background, white text (for critical actions like "Delete", "Deactivate")
 
 **Forms:**
@@ -125,7 +131,6 @@ SafeLab follows a mobile-first responsive approach with three primary breakpoint
   - Focus: Indigo 600 border (2px), subtle shadow
   - Error: Red 500 border, Red 600 error message below
   - Success: Emerald 500 border
-
 - **Labels:** Slate 700, 14px, semibold (600), 8px margin-bottom
 - **Placeholders:** Slate 400, italic
 - **Helper Text:** Slate 600, 12px, regular
@@ -134,6 +139,8 @@ SafeLab follows a mobile-first responsive approach with three primary breakpoint
 - **Standard Card:** White background, subtle shadow, 8px border-radius, 16px padding
 - **Elevated Card:** Medium shadow on hover for interactive cards
 - **Sensor Card:** Includes status indicator (colored left border: 4px), icon, title, metrics, and timestamp
+
+<div style="page-break-after: always;"></div>
 
 **Tables:**
 - **Header:** Slate 100 background, Slate 700 bold text, 12px uppercase
@@ -171,15 +178,19 @@ SafeLab follows a mobile-first responsive approach with three primary breakpoint
 - **Easing:** `ease-in-out` for most transitions
 - **Hover Effects:** Subtle scale (1.02) or shadow increase
 - **Page Transitions:** Fade in/out with slight vertical movement
-## **4.2. Information Architecture**
 
+<div style="page-break-after: always;"></div>
+
+## **4.2. Information Architecture**
 ### **4.2.1. Organization Systems**
 
-SafeLab's information architecture follows a **hierarchical organization** with **task-based navigation** to support both monitoring workflows and administrative functions.
+<p style="text-align: justify;">
+  SafeLab's information architecture follows a <b>hierarchical organization</b> with <b>task-based navigation</b> to support both monitoring workflows and administrative functions.
+</p>
 
 **Primary Organization Structure:**
 
-**1. Hierarchical Organization (Main Structure)**
+**I. Hierarchical Organization (Main Structure)**
 
 ```
 SafeLab Platform
@@ -205,7 +216,7 @@ SafeLab Platform
     └── Billing & Subscriptions (Account management)
 ```
 
-**2. Chronological Organization**
+**II. Chronological Organization**
 
 Applied to time-sensitive information:
 - **Alerts:** Most recent first, with filtering by date range
@@ -213,14 +224,16 @@ Applied to time-sensitive information:
 - **Reports:** Date-based organization with customizable time periods
 - **Sensor Readings:** Time-series data with real-time updates
 
-**3. Sequential Organization**
+**III. Sequential Organization**
 
 Used for multi-step processes:
 - **Alert Response Workflow:** Acknowledge → Investigate → Resolve → Document
 - **Device Setup:** Register → Configure → Calibrate → Activate → Monitor
 - **Subscription Management:** Select Plan → Payment → Confirmation → Activation
 
-**4. Topic-Based Organization**
+<div style="page-break-after: always;"></div>
+
+**IV. Topic-Based Organization**
 
 Content grouped by functional domain:
 - **Monitoring:** All real-time operational data and controls
@@ -241,9 +254,13 @@ Content grouped by functional domain:
   - **Medium:** Reports, configuration changes, normal operations
   - **Low:** Historical data, archived information, help documentation
 
+<div style="page-break-after: always;"></div>
+
 ### **4.2.2. Labeling Systems**
 
-SafeLab employs clear, consistent labeling to ensure users can quickly identify and navigate to desired information.
+<p style="text-align: justify;">
+  SafeLab employs clear, consistent labeling to ensure users can quickly identify and navigate to desired information.
+</p>
 
 **Navigation Labels:**
 
@@ -261,6 +278,8 @@ SafeLab employs clear, consistent labeling to ensure users can quickly identify 
 | **Auditoría** / **Audit** | Main navigation | Activity logs and traceability |
 | **Perfil** / **Profile** | User menu | Personal settings and preferences |
 | **Facturación** / **Billing** | User menu | Subscription and payment management |
+
+<div style="page-break-after: always;"></div>
 
 **Action Labels:**
 
@@ -291,6 +310,8 @@ SafeLab employs clear, consistent labeling to ensure users can quickly identify 
 | **Pendiente** / **Pending** | Amber 500 | Awaiting action or approval |
 | **Completado** / **Completed** | Slate 600 | Task finished |
 
+<div style="page-break-after: always;"></div>
+
 **Field Labels (Forms):**
 
 | Label | Field Type | Description |
@@ -311,6 +332,8 @@ SafeLab supports both Spanish (primary) and English labels with consistent trans
 - All critical information (alerts, compliance) available in both languages
 - Date/time formats adjust based on locale settings (es-PE, en-US)
 - Number formats respect regional conventions (decimal separator, thousands separator)
+
+<div style="page-break-after: always;"></div>
 
 ### **4.2.3. SEO Tags and Meta Tags**
 
@@ -367,6 +390,8 @@ SafeLab supports both Spanish (primary) and English labels with consistent trans
 <meta name="msapplication-config" content="/browserconfig.xml">
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Web Application Meta Tags:**
 
 ```html
@@ -391,6 +416,8 @@ SafeLab supports both Spanish (primary) and English labels with consistent trans
 <meta name="theme-color" content="#4338CA" media="(prefers-color-scheme: dark)">
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Dynamic Page Titles (SPA):**
 
 ```javascript
@@ -409,6 +436,8 @@ const pageTitles = {
   remote: "Remote Device Control | SafeLab"
 };
 ```
+
+<div style="page-break-after: always;"></div>
 
 **Structured Data (JSON-LD) - Landing Page:**
 
@@ -467,6 +496,8 @@ const pageTitles = {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Structured Data - Organization:**
 
 ```json
@@ -492,6 +523,8 @@ const pageTitles = {
   }
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 **Sitemap Structure:**
 
@@ -532,6 +565,8 @@ const pageTitles = {
 </urlset>
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### **4.2.4. Searching Systems**
 
 SafeLab implements multiple search mechanisms optimized for different user needs and data types.
@@ -566,6 +601,8 @@ SafeLab implements multiple search mechanisms optimized for different user needs
                 [Ver todos los resultados]
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Search Result Priority:**
 1. Exact matches (device ID, serial number)
 2. Critical alerts (if searching in alerts)
@@ -575,7 +612,7 @@ SafeLab implements multiple search mechanisms optimized for different user needs
 
 **Filtered Search (Module-Specific)**
 
-**1. Sensor Monitoring Search:**
+**I. Sensor Monitoring Search:**
 
 **Available Filters:**
 - **Device Name** (text input with autocomplete)
@@ -611,7 +648,9 @@ SafeLab implements multiple search mechanisms optimized for different user needs
 - Filter state persists during session
 - "Clear All Filters" button to reset
 
-**2. Alert Search & Filtering:**
+<div style="page-break-after: always;"></div>
+
+**II. Alert Search & Filtering:**
 
 **Available Filters:**
 - **Alert Type** (dropdown with icons)
@@ -642,7 +681,9 @@ SafeLab implements multiple search mechanisms optimized for different user needs
 - Group by: Device, Type, Severity, Date
 - Export filtered results (CSV, PDF)
 
-**3. Inventory Search & Filtering:**
+<div style="page-break-after: always;"></div>
+
+**III. Inventory Search & Filtering:**
 
 **Available Filters:**
 - **Asset Type** (dropdown)
@@ -680,7 +721,9 @@ SafeLab implements multiple search mechanisms optimized for different user needs
 - Asset Tag/ID (exact match)
 - Calibration Due Date (date range)
 
-**4. Audit Log Search & Filtering:**
+<div style="page-break-after: always;"></div>
+
+**IV. Audit Log Search & Filtering:**
 
 **Available Filters:**
 - **User** (autocomplete from user list)
@@ -719,7 +762,9 @@ SafeLab implements multiple search mechanisms optimized for different user needs
 - Resource ID (text input for specific record tracking)
 - Changed Fields (multi-select for edit actions)
 
-**5. Reports Search & Filtering:**
+<div style="page-break-after: always;"></div>
+
+**V. Reports Search & Filtering:**
 
 **Available Filters:**
 - **Report Type** (dropdown)
@@ -744,33 +789,37 @@ SafeLab implements multiple search mechanisms optimized for different user needs
   - Quarterly Report
   - Custom tags
 
+<div style="page-break-after: always;"></div>
+
 **Search Algorithms & Behavior:**
 
-**1. Exact Match (Highest Priority):**
+**I. Exact Match (Highest Priority):**
 - Device IDs, Serial Numbers, Asset Tags
 - Alert IDs, Report IDs
 - User emails
 - Pattern: Case-insensitive equality check
 
-**2. Prefix Match:**
+**II. Prefix Match:**
 - Device names, User names
 - Autocomplete suggestions
 - Pattern: `query*`
 
-**3. Full-Text Search:**
+**III. Full-Text Search:**
 - Report content, Descriptions, Notes
 - Uses indexed search for performance
 - Pattern: Contains query anywhere
 
-**4. Fuzzy Match (Lowest Priority):**
+**IV. Fuzzy Match (Lowest Priority):**
 - Applied to names and descriptions
 - Levenshtein distance ≤ 2
 - Helps with typos: "Frezer" → "Freezer"
 
-**5. Tag-Based Filtering:**
+**v. Tag-Based Filtering:**
 - Multi-tag support with AND/OR logic
 - Default: OR logic (matches any selected tag)
 - Advanced: AND logic (matches all selected tags)
+
+<div style="page-break-after: always;"></div>
 
 **Search Performance Optimizations:**
 
@@ -811,6 +860,8 @@ When no results are found:
 └─────────────────────────────────────┘
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Search Analytics (Admin Only):**
 
 Track user search behavior to improve search quality:
@@ -818,6 +869,8 @@ Track user search behavior to improve search quality:
 - Zero-result queries
 - Average time to result click
 - Filter usage statistics
+
+<div style="page-break-after: always;"></div>
 
 ### **4.2.5. Navigation Systems**
 
@@ -867,6 +920,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
 └─────────────────────────────┘
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Navigation States:**
 
 **Active State:**
@@ -893,6 +948,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
 - **Height:** 64px
 - **Position:** Fixed top, full width (minus sidebar)
 - **Background:** White with subtle bottom shadow
+
+<div style="page-break-after: always;"></div>
 
 **Layout:**
 
@@ -935,6 +992,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
      - ───────────
      - Cerrar Sesión
 
+<div style="page-break-after: always;"></div>
+
 **Mobile Navigation (< 768px)**
 
 **Bottom Tab Bar:**
@@ -970,6 +1029,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
    - Quick access to saved reports
    - Generate new report button
 
+<div style="page-break-after: always;"></div>
+
 5. **More** (Menu icon)
    - Opens bottom sheet drawer
    - Contains secondary navigation:
@@ -987,6 +1048,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
 - Icon color: Indigo 600
 - Label color: Indigo 600 (bold)
 - Underline: 3px Indigo 600
+
+<div style="page-break-after: always;"></div>
 
 **Mobile Top Bar:**
 
@@ -1012,6 +1075,8 @@ SafeLab implements a multi-layered navigation system optimized for different dev
 **Header:**
 - Full desktop header (breadcrumb, search, notifications, user)
 - Slightly condensed spacing for smaller screen
+
+<div style="page-break-after: always;"></div>
 
 **Contextual Navigation**
 
@@ -1053,6 +1118,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
 - Regla de cumplimiento relacionada (link)
 - Alertas similares (list)
 - Historial de temperatura (mini chart)
+
+<div style="page-break-after: always;"></div>
 
 **3. Reports Module (Three-Panel Layout):**
 
@@ -1096,6 +1163,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
 - **Quick Return:** Logo click always returns to dashboard
 - **Use Case:** Users frequently return to dashboard between tasks
 
+<div style="page-break-after: always;"></div>
+
 **2. Sequential Pattern:**
 - **Alert Workflow:**
   ```
@@ -1114,6 +1183,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
   ```
 - **Breadcrumb:** Always visible showing current position
 - **Back Button:** Navigate one level up
+
+<div style="page-break-after: always;"></div>
 
 **4. Flat Pattern:**
 - **Settings:** All options on one page with anchor links
@@ -1134,6 +1205,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
 | `Tab` | Navigate elements | Any page |
 | `Enter` | Activate/Select | Focused element |
 | `Shift + ?` | Show keyboard shortcuts | Any page |
+
+<div style="page-break-after: always;"></div>
 
 **Navigation Feedback & States**
 
@@ -1175,6 +1248,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
 - **Scroll Position:** Restored when navigating back
 - **Form Data:** Auto-saved in localStorage (drafts)
 - **Session:** Persists across page reloads
+
+<div style="page-break-after: always;"></div>
 
 **Accessibility Features**
 
@@ -1219,6 +1294,8 @@ Home > Alertas > Temperatura Alta > ALR-2026-04-1234
 - **Spacing:** 8px minimum between targets
 - **Tap Feedback:** Visual highlight on touch
 
+<div style="page-break-after: always;"></div>
+
 **Navigation Analytics**
 
 Track navigation patterns to improve UX:
@@ -1255,258 +1332,307 @@ Track navigation patterns to improve UX:
 - Size: 56x56px
 - Icon: Context-specific
 
-## **4.3. Landing Page UI Design**
+<div style="page-break-after: always;"></div>
 
+## **4.3. Landing Page UI Design**
 ### **4.3.1. Landing Page Wireframe**
 
-<p align="center">
-  <img src="../assets/chapter-4/landing-page-design/wireframes/landingwireframe.png" width="70%" alt="landing page mockup">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/landing-page-design/wireframes/landing-page-wireframe.png" width="70%" alt="landing-page-wireframe">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.3.2. Landing Page Mockup**
-<p align="center">
-  <img src="../assets/chapter-4/landing-page-design/mockups/landingmockup.png" width="70%" alt="landing page mockup">
-</p>
-## **4.4. Web Applications UX/UI Design**
 
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/landing-page-design/mockups/landing-page-mockup.png" width="65%" alt="landing-page-mockup">
+</div>
+
+## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb1.png" width="70%" alt="web application wireframes">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb2.png" width="70%" alt="web application wireframes">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb3.png" width="70%" alt="web application wireframes">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframeweb4.png" width="70%" alt="web application wireframes">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframe-web-1.png" width="65%" alt="wireframe-web-1">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframe-web-2.png" width="65%" alt="wireframe-web-2">
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframe-web-3.png" width="65%" alt="wireframe-web-3">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireframes/wireframe-web-4.png" width="65%" alt="wireframe-web-4">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.4.2. Web Applications Wireflow Diagrams**
 
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow1.png" width="70%" alt="wireflow diagram">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow2.png" width="70%" alt="wireflow diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow-1.png" width="70%" alt="wireflow-1">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/wireflow-diagrams/wireflow-2.png" width="70%" alt="wireflow-2">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.4.3. Web Applications Mock-ups**
 
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb1.png" width="70%" alt="web application mockup>
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb2.png" width="70%" alt="web application mockup>
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb3.png" width="70%" alt="web application mockup>
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/mockups/mockupweb4.png" width="70%" alt="web application mockup>
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockup-web-1.png" width="65%" alt="mockup-web-1">
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockup-web-2.png" width="65%" alt="mockup-web-2">
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockup-web-3.png" width="65%" alt="mockup-web-3">
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/mockups/mockup-web-4.png" width="70%" alt="mockup-web-4">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.4.4. Web Applications User Flow Diagrams**
 
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow1.png" width="70%" alt="user flow diagram">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow2.png" width="70%" alt="user flow diagram">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow3.png" width="70%" alt="user flow diagram">
-</p>
-<p align="center">
-  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/userflow4.png" width="70%" alt="user flow diagram">
-</p>
+<div style="text-align: center; vertical-align: middle;"> 
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/user-flow-1.png" width="65%" alt="user-flow-1">
+</div>
+
+<div style="text-align: center; vertical-align: middle;">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/user-flow-2.png" width="65%" alt="userflow-2">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/user-flow-3.png" width="65%" alt="user-flow-3">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-applications-design/user-flow-diagrams/user-flow-4.png" width="65%" alt="user-flow-4">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ## **4.5. Web Applications Prototyping**
 
-<p align="center">
-  <img src="../assets/chapter-4/prototype.png" width="70%" alt="web application prototype">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/web-application-prototyping/prototype.png" width="70%" alt="prototype">
+</div>
 
-[https://www.figma.com/proto/3nkB0rdhfOB1TfuFx5W1px/SafeLab?node-id=64-4373&t=jSkWlgIh7tqtWQFM-1](https://www.figma.com/proto/3nkB0rdhfOB1TfuFx5W1px/SafeLab?node-id=64-4373&t=jSkWlgIh7tqtWQFM-1)
+> [**See Prototype**](https://www.figma.com/proto/3nkB0rdhfOB1TfuFx5W1px/SafeLab?node-id=64-4373&t=jSkWlgIh7tqtWQFM-1)
+
+<div style="page-break-after: always;"></div>
 
 ## **4.6. Domain-Driven Software Architecture**
 
 <p style="text-align: justify;">
-  
   This section presents the Domain-Driven Software Architecture of SafeLab, structured through strategic and tactical design principles to manage the complexity of a real-time laboratory monitoring platform. The system is organized into well-defined Bounded Contexts, each representing an independent business domain such as Identity & Access Management, Sensor Monitoring, Asset & Inventory Monitoring, Alerts & Notifications, Incident Management, Reports & Analytics, and Audit & Traceability. This architectural approach promotes modularity, scalability, maintainability, and clear ownership of responsibilities across the solution. Through the use of Context, Container, Component, and Class Diagrams, the architecture aligns business processes with technical implementation, ensuring that SafeLab can evolve efficiently while supporting secure operations, regulatory compliance, and reliable monitoring services for laboratories and pharmaceutical environments.
-</P>
+</p>
 
 ### **4.6.1. Design-Level EventStorming**
 
-- Identity & Access Management Bounded Context:
+- **Identity & Access Management Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/identity-access-bounded-context.png" width="70%" alt="identity-access-bounded-context">
-</p>
+</div>
 
-- User Profiles Bounded Context:
+- **User Profiles Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/user-profiles-bounded-context.png" width="70%" alt="user-profiles-bounded-context">
-</p>
+</div>
 
-- Subscription & Billing Bounded Context:
+- **Subscription & Billing Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/subscription-billing-bounded-context.png" width="70%" alt="subscription-billing-bounded-context">
-</p>
+</div>
 
-- Dashboard & Overview Bounded Context:
+- **Dashboard & Overview Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/dashboard-overview-bounded-context.png" width="70%" alt="dashboard-overview-bounded-context">
-</p>
+</div>
 
-- Asset & Inventory Monitoring Bounded Context:
+- **Asset & Inventory Monitoring Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/asset-inventory-monitoring-bounded-context.png" width="70%" alt="asset-inventory-monitoring-bounded-context">
-</p>
+</div>
 
-- Sensor Monitoring Bounded Context:
+- **Sensor Monitoring Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/sensor-monitoring-bounded-context.png" width="70%" alt="sensor-monitoring-bounded-context">
-</p>
+</div>
 
-- Environmental Compliance Bounded Context:
+- **Environmental Compliance Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/environmental-compliance-bounded-context.png" width="70%" alt="environmental-compliance-bounded-context">
-</p>
+</div>
 
-- Alerts & Notifications Bounded Context:
+- **Alerts & Notifications Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/alerts-notifications-bounded-context.png" width="70%" alt="alerts-notifications-bounded-context">
-</p>
+</div>
 
-- Remote Control & Actuation Bounded Context:
+- **Remote Control & Actuation Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/remote-control-actuation-bounded-context.png" width="70%" alt="remote-control-actuation-bounded-context">
-</p>
+</div>
 
-- Reports & Analytics Bounded Context:
+- **Reports & Analytics Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/reports-analytics-bounded-context.png" width="70%" alt="reports-analytics-bounded-context">
-</p>
+</div>
 
-- Incident Management Bounded Context:
+- **Incident Management Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/incident-management-bounded-context.png" width="70%" alt="incident-management-bounded-context">
-</p>
+</div>
 
-- Audit & Traceability Bounded Context:
+- **Audit & Traceability Bounded Context:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/event-storming/audit-traceability-bounded-context.png" width="70%" alt="audit-traceability-bounded-context">
-</p>
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.6.2. Software Architecture Context Diagram**
 
-- SafeLab Contex Diagram:
+- **SafeLab Contex Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/context-diagram/context-diagram.png" width="70%" alt="context-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/context-diagram/context-diagram.png" width="60%" alt="context-diagram">
+</div>
 
 ### **4.6.3. Software Architecture Container Diagrams**
 
-- SafeLab Container Diagram:
+- **SafeLab Container Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/container-diagram/container-diagram.png" width="70%" alt="container-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/container-diagram/container-diagram.png" width="60%" alt="container-diagram">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ### **4.6.4. Software Architecture Components Diagrams**
 
-- SafeLab Web Application Component Diagram:
+- **SafeLab Web Application Component Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/components-diagram/web-application-component-diagram.png" width="70%" alt="web-application-component-diagram">
-</p>
+</div>
 
-- Identity & Access Management Component Diagram:
+- **Identity & Access Management Component Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/software-architecture/components-diagram/identity-access-component-diagram.png" width="70%" alt="identity-access-component-diagram">
-</p>
+</div>
 
-- User Profiles Component Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/user-profiles-component-diagram.png" width="70%" alt="user-profiles-component-diagram">
-</p>
+- **User Profiles Component Diagram:**
 
-- Subscription & Billing Component Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/user-profiles-component-diagram.png" width="60%" alt="user-profiles-component-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/subscription-billing-component-diagram.png" width="70%" alt="subscription-billing-component-diagram">
-</p>
+- **Subscription & Billing Component Diagram:**
 
-- Dashboard & Overview Component Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/subscription-billing-component-diagram.png" width="60%" alt="subscription-billing-component-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/dashboard-overview-component-diagram.png" width="70%" alt="dashboard-overview-component-diagram">
-</p>
+<div style="page-break-after: always;"></div>
 
-- Asset & Inventory Monitoring Component Diagram:
+- **Dashboard & Overview Component Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/asset-inventory-monitoring-component-diagram.png" width="70%" alt="asset-inventory-monitoring-component-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/dashboard-overview-component-diagram.png" width="50%" alt="dashboard-overview-component-diagram">
+</div>
 
-- Sensor Monitoring Component Diagram:
+- **Asset & Inventory Monitoring Component Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/sensor-monitoring-component-diagram.png" width="70%" alt="sensor-monitoring-component-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/asset-inventory-monitoring-component-diagram.png" width="50%" alt="asset-inventory-monitoring-component-diagram">
+</div>
 
-- Environmental Compliance Component Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/environmental-compliance-component-diagram.png" width="70%" alt="environmental-compliance-component-diagram">
-</p>
+- **Sensor Monitoring Component Diagram:**
 
-- Alerts & Notifications Component Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/sensor-monitoring-component-diagram.png" width="60%" alt="sensor-monitoring-component-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/alerts-notifications-component-diagram.png" width="70%" alt="alerts-notifications-component-diagram">
-</p>
+- **Environmental Compliance Component Diagram:**
 
-- Remote Control & Actuation Component Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/environmental-compliance-component-diagram.png" width="50%" alt="environmental-compliance-component-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/remote-control-actuation-component-diagram.png" width="70%" alt="remote-control-actuation-component-diagram">
-</p>
+<div style="page-break-after: always;"></div>
 
-- Reports & Analytics Component Diagram:
+- **Alerts & Notifications Component Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/reports-analytics-component-diagram.png" width="70%" alt="reports-analytics-component-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/alerts-notifications-component-diagram.png" width="60%" alt="alerts-notifications-component-diagram">
+</div>
 
-- Incident Management Component Diagram:
+- **Remote Control & Actuation Component Diagram:**
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/incident-management-component-diagram.png" width="70%" alt="incident-management-component-diagram">
-</p>
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/remote-control-actuation-component-diagram.png" width="60%" alt="remote-control-actuation-component-diagram">
+</div>
 
-- Audit & Traceability Component Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/audit-traceability-component-diagram.png" width="70%" alt="audit-traceability-component-diagram">
-</p>
+- **Reports & Analytics Component Diagram:**
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/reports-analytics-component-diagram.png" width="55%" alt="reports-analytics-component-diagram">
+</div>
+
+- **Incident Management Component Diagram:**
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/incident-management-component-diagram.png" width="55%" alt="incident-management-component-diagram">
+</div>
+
+<div style="page-break-after: always;"></div>
+
+- **Audit & Traceability Component Diagram:**
+
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/software-architecture/components-diagram/audit-traceability-component-diagram.png" width="60%" alt="audit-traceability-component-diagram">
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ## **4.7. Object-Oriented Design Software**
 
@@ -1516,77 +1642,91 @@ Track navigation patterns to improve UX:
 
 ### **4.7.1. Class Diagrams**
 
-- Identity & Access Management Class Diagram:
+- **Identity & Access Management Class Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/identity-access-management-class-diagram.png" width="70%" alt="identity-access-class-diagram">
-</p>
+</div>
 
-- User Profiles Class Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **User Profiles Class Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/user-profiles-class-diagram.png" width="70%" alt="user-profiles-class-diagram">
-</p>
+</div>
 
-- Subscription & Billing Class Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/subscription-billing-class-diagram.png" width="70%" alt="subscription-billing-class-diagram">
-</p>
+- **Subscription & Billing Class Diagram:**
 
-- Dashboard & Overview Class Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/design-software/class-diagrams/subscription-billing-class-diagram.png" width="60%" alt="subscription-billing-class-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/dashboard-overview-class-diagram.png" width="70%" alt="dashboard-overview-class-diagram">
-</p>
+- **Dashboard & Overview Class Diagram:**
 
-- Asset & Inventory Monitoring Class Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/design-software/class-diagrams/dashboard-overview-class-diagram.png" width="60%" alt="dashboard-overview-class-diagram">
+</div>
 
-<p align="center">
+<div style="page-break-after: always;"></div>
+
+- **Asset & Inventory Monitoring Class Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/asset-inventory-monitoring-class-diagram.png" width="70%" alt="asset-inventory-monitoring-class-diagram">
-</p>
+</div>
 
-- Sensor Monitoring Class Diagram:
+- **Sensor Monitoring Class Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/sensor-monitoring-class-diagram.png" width="70%" alt="sensor-monitoring-class-diagram">
-</p>
+</div>
 
-- Environmental Compliance Class Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/environmental-compliance-class-diagram.png" width="70%" alt="environmental-compliance-class-diagram">
-</p>
+- **Environmental Compliance Class Diagram:**
 
-- Alerts & Notifications Class Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/design-software/class-diagrams/environmental-compliance-class-diagram.png" width="65%" alt="environmental-compliance-class-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/alerts-notifications-class-diagram.png" width="70%" alt="alerts-notifications-class-diagram">
-</p>
+- **Alerts & Notifications Class Diagram:**
 
-- Remote Control & Actuation Class Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/design-software/class-diagrams/alerts-notifications-class-diagram.png" width="65%" alt="alerts-notifications-class-diagram">
+</div>
 
-<p align="center">
+<div style="page-break-after: always;"></div>
+
+- **Remote Control & Actuation Class Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/remote-control-actuation-class-diagram.png" width="70%" alt="remote-control-actuation-class-diagram">
-</p>
+</div>
 
-- Reports & Analytics Class Diagram:
+- **Reports & Analytics Class Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/reports-analytics-class-diagram.png" width="70%" alt="reports-analytics-class-diagram">
-</p>
+</div>
 
-- Incident Management Class Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **Incident Management Class Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/incident-management-class-diagram.png" width="70%" alt="incident-management-class-diagram">
-</p>
+</div>
 
-- Audit & Traceability Class Diagram:
+- **Audit & Traceability Class Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/design-software/class-diagrams/audit-traceability-class-diagram.png" width="70%" alt="audit-traceability-class-diagram">
-</p>
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ## **4.8. Database Design**
 
@@ -1596,80 +1736,94 @@ Track navigation patterns to improve UX:
 
 ### **4.8.1. Database Diagrams**
 
-- Identity & Access Management Database Diagram:
+- **SafeLab Database Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/safelab-database-diagram.png" width="70%" alt="safelab-database-diagram">
+</div>
 
+- **Identity & Access Management Database Diagram:**
 
-- Identity & Access Management Database Diagram:
-
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/identity-access-management-database-diagram.png" width="70%" alt="identity-access-management-database-diagram">
-</p>
+</div>
 
-- User Profiles Database Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **User Profiles Database Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/user-profiles-database-diagram.png" width="70%" alt="user-profiles-database-diagram">
-</p>
+</div>
 
-- Subscription & Billing Database Diagram:
+- **Subscription & Billing Database Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/subscription-billing-database-diagram.png" width="70%" alt="subscription-billing-database-diagram">
-</p>
+</div>
 
-- Dashboard & Overview Database Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **Dashboard & Overview Database Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/dashboard-overview-database-diagram.png" width="70%" alt="dashboard-overview-database-diagram">
-</p>
+</div>
 
-- Asset & Inventory Monitoring Database Diagram:
+- **Asset & Inventory Monitoring Database Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/asset-inventory-monitoring-database-diagram.png" width="70%" alt="asset-inventory-monitoring-database-diagram">
-</p>
+</div>
 
-- Sensor Monitoring Database Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **Sensor Monitoring Database Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/sensor-monitoring-database-diagram.png" width="70%" alt="sensor-monitoring-database-diagram">
-</p>
+</div>
 
-- Environmental Compliance Database Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
+- **Environmental Compliance Database Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/environmental-compliance-database-diagram.png" width="70%" alt="environmental-compliance-database-diagram">
-</p>
+</div>
 
-- Alerts & Notifications Database Diagram:
+- **Alerts & Notifications Database Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/alerts-notifications-database-diagram.png" width="70%" alt="alerts-notifications-database-diagram">
-</p>
+</div>
 
-- Remote Control & Actuation Database Diagram:
+<div style="page-break-after: always;"></div>
 
-<p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/remote-control-actuation-database-diagram.png" width="70%" alt="remote-control-actuation-database-diagram">
-</p>
+- **Remote Control & Actuation Database Diagram:**
 
-- Reports & Analytics Database Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/database-design/database-diagram/remote-control-actuation-database-diagram.png" width="60%" alt="remote-control-actuation-database-diagram">
+</div>
 
-<p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/reports-analytics-database-diagram.png" width="70%" alt="reports-analytics-database-diagram">
-</p>
+- **Reports & Analytics Database Diagram:**
 
-- Incident Management Database Diagram:
+<div style="text-align: center;">
+  <img src="../assets/chapter-4/database-design/database-diagram/reports-analytics-database-diagram.png" width="60%" alt="reports-analytics-database-diagram">
+</div>
 
-<p align="center">
+<div style="page-break-after: always;"></div>
+
+- **Incident Management Database Diagram:**
+
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/incident-management-database-diagram.png" width="70%" alt="incident-management-database-diagram">
-</p>
+</div>
 
-- Audit & Traceability Database Diagram:
+- **Audit & Traceability Database Diagram:**
 
-<p align="center">
+<div style="text-align: center;">
   <img src="../assets/chapter-4/database-design/database-diagram/audit-traceability-database-diagram.png" width="70%" alt="audit-traceability-database-diagram">
-</p>
+</div>
+
+<div style="page-break-after: always;"></div>
