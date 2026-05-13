@@ -93,7 +93,7 @@
   <!-- ROW 6 -->
   <tr>
     <td style="text-align: center;">
-      2.x.x
+      2.0.1
     </td>
     <td style="text-align: center;">
       00/05/26
@@ -102,7 +102,7 @@
       Carlos Lavado, Ever Giusephi
     </td>
     <td style="text-align: justify;">
-      (replace content)
+      Refactored and standardized all report chapters to maintain consistent markdown syntax, HTML formatting, repository structure, and documentation conventions across the SafeLab ecosystem. Additionally, organized team workflows, coordinated merge integration processes, configured the SafeLab report and frontend repositories, and developed BC1 (Identity & Access Management), BC2 (User Profiles), BC4 (Dashboard & Overview), and BC12 (Audit & Traceability).
     </td>
   </tr>
   <!-- ROW 7 -->
