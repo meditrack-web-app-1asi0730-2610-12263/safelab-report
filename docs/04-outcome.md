@@ -117,7 +117,7 @@
         TB1
       </i></b>
       <br>
-        (replace content)
+        During TB1, I took leadership over the Sensor Monitoring and Enviromental Compliance bounded contexts, and manage the integration of these two.
       <br><br>
         ------------------------------------
       <br><br>
@@ -261,7 +261,7 @@
         TB1
       </i></b>
       <br>
-        (replace content)
+        During TB1, I shared updates with the team and received reviews to align my work according to the goals set by the team at the beginning of the sprint.
       <br><br>
         ------------------------------------
       <br><br>
