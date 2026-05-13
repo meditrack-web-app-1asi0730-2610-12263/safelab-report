@@ -129,7 +129,7 @@
         TB1
       </i></b>
       <br>
-         (replace content)
+         During TB1, I contributed to the team’s joint leadership by developing the Alerts & Notifications bounded context and supporting Incident Management. I implemented views, components, stores, services, routing, mock API integration and i18n support. I also developed the Sprint 2 section of Chapter V, organizing planning, backlog, development evidence, execution evidence and collaboration insights.
       <br><br>
         ------------------------------------
       <br><br>
@@ -273,7 +273,7 @@
         TB1
       </i></b>
       <br>
-         (replace content)
+         During TB1, I collaborated with the team by coordinating my frontend tasks with the general application structure and ensuring consistency across routes, mock data, services and localization files. I also helped organize the Sprint 2 documentation and evidence, supporting the team in meeting the TB1 objectives with clear planning and technical traceability.
       <br><br>
         ------------------------------------
       <br><br>
