@@ -1742,6 +1742,106 @@ Deployment Steps
   </tr>
 </table>
 
+<h4>5.2.2.5. Execution Evidence for Sprint Review</h4>
+
+<p style="text-align: justify;">
+  During Sprint 2, the team completed the implementation of several frontend modules of Meditrack.
+  The available commit evidence shows the initial Vue and Vite setup, routing configuration, JSON server setup,
+  English and Spanish localization, and the implementation of key bounded contexts such as Alerts & Notifications,
+  Subscription & Billing, Reports & Analytics and Sensor Monitoring. These commits also evidence the creation of
+  domain entities, stores, API services, mock data integration, reusable components and page views.
+</p>
+
+<p style="text-align: justify;">
+  The implemented frontend sections were:
+</p>
+
+<ol>
+  <li>Identity & Access Management</li>
+  <li>User Profiles</li>
+  <li>Subscription & Billing</li>
+  <li>Dashboard & Overview</li>
+  <li>Asset & Inventory Monitoring</li>
+  <li>Sensor Monitoring</li>
+  <li>Environmental Compliance</li>
+  <li>Alerts & Notifications</li>
+  <li>Remote Control & Actuation</li>
+  <li>Reports & Analytics</li>
+  <li>Incident Management</li>
+  <li>Audit & Traceability</li>
+</ol>
+
+<p style="text-align: justify;">
+  The following screenshots should be included as execution evidence for the frontend implementation:
+</p>
+
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/Dashboard overview.png" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 3. Subscription & Billing.jpeg" alt="Subscription and Billing evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 6. Sensor Monitoring.jpeg" alt="Sensor Monitoring evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 8. Alerts & Notifications .png" alt="Alerts and Notifications evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 10. Reports & Analytics.jpeg" alt="Reports and Analytics evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 11. Incident Management.jpeg" alt="Incident Management evidence" style="width: 100%;">
+
+<h4>5.2.2.6. Services Documentation Evidence for Sprint Review</h4>
+
+<p style="text-align: justify;">
+  During Sprint 2, the scope of development was focused on the frontend web application. Therefore,
+  no backend endpoints were implemented or documented with OpenAPI or Swagger during this sprint.
+  The frontend was developed using JSON server, mock data, local services and frontend-layer data structures
+  to simulate the information required by each bounded context.
+</p>
+
+<p style="text-align: justify;">
+  Service documentation for RESTful APIs is planned for future sprints, once the backend layer and persistence
+  mechanisms are implemented. For this sprint, the main technical evidence corresponds to frontend services,
+  component integration, route configuration, mock API integration and data visualization.
+</p>
+
+<h4>5.2.2.7. Software Deployment Evidence for Sprint Review</h4>
+
+<p style="text-align: justify;">
+  During this sprint, the frontend web application was prepared for local execution and deployment validation.
+  The team verified that the project could be opened in JetBrains WebStorm, installed its dependencies, executed
+  the development server and validated the build process. The application was also prepared for deployment as
+  a static web application through Netlify, Vercel or GitHub Pages, depending on the final repository configuration.
+</p>
+
+<p style="text-align: justify;">
+  The following activities were completed:
+</p>
+
+<ul>
+  <li>The frontend repository was updated with the implemented bounded contexts.</li>
+  <li>The main routes and navigation items were configured.</li>
+  <li>The application was executed locally using WebStorm.</li>
+  <li>The team verified the visual consistency of the implemented views.</li>
+  <li>The team reviewed responsiveness, navigation flow and i18n text keys.</li>
+  <li>The project was prepared for build and deployment validation.</li>
+</ul>
+
+<p>
+  🔗 Frontend Repository:
+  <br>
+  <a href="https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-frontend.git" target="_blank">
+    https://github.com/meditrack-web-app-1asi0730-2610-12263/safelab-frontend.git
+  </a>
+</p>
+
+<p>
+  🔗 Deployed Frontend:
+  <br>
+  <a href="REPLACE_WITH_DEPLOYED_FRONTEND_URL" target="_blank">
+    REPLACE_WITH_DEPLOYED_FRONTEND_URL
+  </a>
+</p>
+
+<p style="text-align: justify;">
+  Deployment and execution evidence:
+</p>
+
+<img src="../assets/chapter-5/sprint-2-local-execution.png" alt="Local frontend execution evidence" style="width: 100%;">
+<img src="../assets/chapter-5/sprint-2-build-process.png" alt="Frontend build process evidence" style="width: 100%;">
+<img src="../assets/chapter-5/sprint-2-deployment.png" alt="Frontend deployment evidence" style="width: 100%;">
 
 
 ## **5.3. Validation Interviews**
