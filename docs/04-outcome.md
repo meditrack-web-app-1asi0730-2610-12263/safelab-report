@@ -105,7 +105,7 @@
         TB1
       </i></b>
       <br>
-        (replac content)
+During TB1, I exercised technical leadership over the Asset & Inventory and Remote Control & Actuation bounded contexts. I established the structural guidelines for the frontend implementation following a clean, Domain-Driven Design (DDD) layered architecture. I spearheaded the creation of the domain entities, infrastructure API connection layers using Axios, and application state synchronization through Pinia stores. Furthermore, I directed the implementation of advanced presentation components, ensuring that complex UX patterns like dynamic dashboards and CRUD validation dialogs were properly unified across the SafeLab frontend application. 
       <br><br>
         ------------------------------------
       <br><br>
@@ -249,7 +249,7 @@
         TB1
       </i></b>
       <br>
-        (replac content)
+During TB1, the team demonstrated cohesive joint leadership by decentralized management of the application's domain boundaries. Technical leaders took full ownership of their respective bounded contexts.
       <br><br>
         ------------------------------------
       <br><br>
