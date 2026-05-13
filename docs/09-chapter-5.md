@@ -1842,7 +1842,70 @@ Deployment Steps
 <img src="../assets/chapter-5/sprint-2-local-execution.png" alt="Local frontend execution evidence" style="width: 100%;">
 <img src="../assets/chapter-5/sprint-2-build-process.png" alt="Frontend build process evidence" style="width: 100%;">
 <img src="../assets/chapter-5/sprint-2-deployment.png" alt="Frontend deployment evidence" style="width: 100%;">
+<h4>5.2.2.8. Team Collaboration Insights during Sprint</h4>
 
+<p style="text-align: justify;">
+  During Sprint 2, the team used Trello and GitHub to coordinate the implementation process. Trello was used
+  to organize the sprint backlog, track task status and monitor each member's progress. GitHub was used for
+  version control, branch management, commit evidence and repository collaboration.
+</p>
+
+<p style="text-align: justify;">
+  During Sprint 2, the frontend repository shows active collaboration from several team members. Giusephi Carlos
+  contributed to the initial frontend setup, routing configuration, JSON server configuration, i18n support and
+  project documentation. Camila Reyes contributed to the Alerts & Notifications bounded context, including domain
+  entities, stores, services, views, routes, mock API integration and localization. Juan Carlos Orozco contributed
+  to Subscription & Billing and Reports & Analytics. Jean Arizabal contributed to Sensor Monitoring, including
+  domain classes, enumerations, API functions, mapping functions, stores, components, routes and localization.
+</p>
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <th>Team Member</th>
+    <th>GitHub Username</th>
+    <th>Main Contribution</th>
+  </tr>
+  <tr>
+    <td>Camila Asunción Reyes Menacho</td>
+    <td>@dakuma-ai</td>
+    <td>Alerts & Notifications; Incident Management; Report Corrections</td>
+  </tr>
+  <tr>
+    <td>Ever Giusephi Carlos Lavado</td>
+    <td>@sephi-dev05</td>
+    <td>Initial frontend setup, routing, JSON server, i18n, documentation and application structure</td>
+  </tr>
+  <tr>
+    <td>Juan Carlos Orozco Tamiña</td>
+    <td>@juancarlosorosco59</td>
+    <td>Subscription & Billing; Reports & Analytics</td>
+  </tr>
+  <tr>
+    <td>Jean Niels Arizabal Condori</td>
+    <td>@JeanArizabal</td>
+    <td>Sensor Monitoring; Environmental Compliance</td>
+  </tr>
+  <tr>
+    <td>Augusto Sebastian Montes Maza</td>
+    <td>@asmmmazza</td>
+    <td>Asset & Inventory Monitoring; Remote Control & Actuation</td>
+  </tr>
+</table>
+
+<p style="text-align: justify;">
+  The following evidence should be included to support team collaboration during the sprint:
+</p>
+
+<ul>
+  <li>Screenshot of the Trello board for Sprint 2.</li>
+  <li>Screenshot of GitHub commit history.</li>
+  <li>Screenshot of GitHub Insights or contributors graph.</li>
+  <li>Screenshot of frontend pull requests or merged branches, if available.</li>
+</ul>
+
+<img src="../assets/chapter-5/implementation/sprint-2/Trello Board/Trello Borad.png" alt="Sprint 2 Trello board evidence" style="width: 100%;">
+<img src="../assets/chapter-5/sprint-2-github-commits.png" alt="Sprint 2 GitHub commits evidence" style="width: 100%;">
+<img src="../assets/chapter-5/sprint-2-github-insights.png" alt="Sprint 2 GitHub insights evidence" style="width: 100%;">
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Interview Design**
