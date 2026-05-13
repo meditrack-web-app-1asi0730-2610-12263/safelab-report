@@ -33,3 +33,5 @@
 <div style="text-align: center;">
   <img src="../assets/conclusions/video-about-the-team/" width="70%" alt="video-about-the-team">
 </div>
+
+<div style="page-break-after: always;"></div>
