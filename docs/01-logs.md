@@ -150,16 +150,16 @@
   <!-- ROW 10 -->
   <tr>
     <td style="text-align: center;">
-      2.x.x
+      2.5.0
     </td>
     <td style="text-align: center;">
-      00/05/26
+      13/05/2026
     </td>
     <td style="text-align: center;">
       Orosco Ttamiña, Juan Carlos
     </td>
     <td style="text-align: justify;">
-      (replace content)
+      Completed sections related to the reports-analytics and subscription-billing bounded contexts, supporting the implementation of views, navigation flows, and frontend components following the team structure and design patterns. Communication and coordination were maintained through WhatsApp while following the guidelines established by the team leader and the team during this phase.
     </td>
   </tr>
 </table>

@@ -141,7 +141,7 @@
         TB1
       </i></b>
       <br>
-        (replace content)
+        During TB1, I contributed to the definition and refinement of functionalities associated with the reports-analytics and subscription-billing bounded contexts. I collaborated in reviewing the epics, user stories, and navigation flows to ensure that the implemented components and views reflected the expected user requirements and maintained consistency with the SafeLab platform structure.
       <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
@@ -285,7 +285,7 @@
         TB1
       </i></b>
       <br>
-        (replace content)
+        During TB1, I worked collaboratively with the team. We organized tasks, reviewed requirements together and coordinated the implementation of views and functionalities through WhatsApp communication to meet the objectives planned for this phase. I also followed the team guidelines and the directions established by the team leader to maintain consistency across both modules, support teamwork and ensure progress throughout the different SafeLab deliverables.
       <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
