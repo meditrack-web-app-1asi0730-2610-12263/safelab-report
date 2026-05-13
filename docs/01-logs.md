@@ -136,17 +136,15 @@
     </td>
  <!-- ROW 9 -->
 <tr>
-  <td style="text-align: center;">
-    2.x.x
-  </td>
-  <td style="text-align: center;">
-    00/05/26
-  </td>
-  <td style="text-align: center;">
-    Reyes Menacho, Camila Asuncion
-  </td>
-  <td style="text-align: justify;">
-    (replace content)
+  <td>2.4.0</td>
+  <td>13/05/2026</td>
+  <td>Reyes Menacho, Camila Asuncion</td>
+  <td>
+    Developed the Sprint 2 section of Chapter V, including Sprint Planning 2, Aspect Leaders and Collaborators,
+    Sprint Backlog 2, Development Evidence, Execution Evidence, Services Documentation Evidence,
+    Software Deployment Evidence, and Team Collaboration Insights. Also documented frontend progress for
+    Alerts & Notifications and Incident Management, including commits, routing, i18n support, mock API integration,
+    views, components, stores, and report corrections.
   </td>
 </tr>
   <!-- ROW 10 -->
