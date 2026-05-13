@@ -108,7 +108,7 @@
   <!-- ROW 7 -->
   <tr>
     <td style="text-align: center;">
-      2.x.x
+      2.2.0
     </td>
     <td style="text-align: center;">
       00/05/26
@@ -117,7 +117,7 @@
       Montes Maza, Augusto Sebastian
     </td>
     <td style="text-align: justify;">
-      (replace content)
+      Fully implemented the frontend layers under Domain-Driven Design (DDD) principles for the Bounded Contexts of Asset & Inventory and Remote Control & Actuation. Developed domain models, infrastructure Axios services with mock API handling, and Pinia reactive application stores. Built high-density data views in the presentation layer.
     </td>
   </tr>
   <!-- ROW 8 -->
