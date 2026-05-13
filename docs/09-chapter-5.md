@@ -1833,8 +1833,8 @@ Deployment Steps
 <p>
   🔗 Deployed Frontend:
   <br>
-  <a href="REPLACE_WITH_DEPLOYED_FRONTEND_URL" target="_blank">
-    REPLACE_WITH_DEPLOYED_FRONTEND_URL
+  <a href="FRONTEND_URL" target="_blank">
+    FRONTEND_URL
   </a>
 </p>
 
