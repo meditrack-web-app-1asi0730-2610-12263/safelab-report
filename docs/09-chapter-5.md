@@ -1775,12 +1775,14 @@ Deployment Steps
   The following screenshots should be included as execution evidence for the frontend implementation:
 </p>
 
-<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/Dashboard overview.png" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 3. Subscription & Billing.jpeg" alt="Subscription and Billing evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 4 Dashboard & Overview.jpeg" alt="Dashboard overview evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 6. Sensor Monitoring.jpeg" alt="Sensor Monitoring evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 7 Environmental Compliance.jpeg" alt="Environmental Compliance evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 8. Alerts & Notifications .png" alt="Alerts and Notifications evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 10. Reports & Analytics.jpeg" alt="Reports and Analytics evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 11. Incident Management.jpeg" alt="Incident Management evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 12 Audit & Traceability.jpeg" alt="Audit & Traceability evidence" style="width: 100%;">
 
 <h4>5.2.2.6. Services Documentation Evidence for Sprint Review</h4>
 
