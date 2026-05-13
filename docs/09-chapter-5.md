@@ -1777,6 +1777,7 @@ Deployment Steps
 
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 3. Subscription & Billing.jpeg" alt="Subscription and Billing evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 4 Dashboard & Overview.jpeg" alt="Dashboard overview evidence" style="width: 100%;">
+<img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 5. Asset & Inventory Monitoring.jpeg" alt="Asset & Inventory Monitoring evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 6. Sensor Monitoring.jpeg" alt="Sensor Monitoring evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 7 Environmental Compliance.jpeg" alt="Environmental Compliance evidence" style="width: 100%;">
 <img src="../assets/chapter-5/implementation/sprint-2/Execution Evidence/BC 8. Alerts & Notifications .png" alt="Alerts and Notifications evidence" style="width: 100%;">
