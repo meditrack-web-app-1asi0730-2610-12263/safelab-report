@@ -83,6 +83,66 @@
       <br>
         I actively participated in team meetings and decisions, fulfilling my responsibilities within the established deadlines. I was also involved in defining the epics and user stories (US) based on the information gathered during interviews, demonstrating commitment to the project and the team.
       <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Carlos Lavado, Ever Giusephi
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Montes Maza, Augusto Sebastian
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+During TB1, I exercised technical leadership over the Asset & Inventory and Remote Control & Actuation bounded contexts. I established the structural guidelines for the frontend implementation following a clean, Domain-Driven Design (DDD) layered architecture. I spearheaded the creation of the domain entities, infrastructure API connection layers using Axios, and application state synchronization through Pinia stores. Furthermore, I directed the implementation of advanced presentation components, ensuring that complex UX patterns like dynamic dashboards and CRUD validation dialogs were properly unified across the SafeLab frontend application. 
+      <br><br>
+        ------------------------------------
+      <br><br>
+        <b>
+          Arizabal Condori, Jean Niels
+        </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        During TB1, I took leadership over the Sensor Monitoring and Enviromental Compliance bounded contexts, and manage the integration of these two.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Reyes Menacho, Camila Asuncion
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+         During TB1, I contributed to the team’s joint leadership by developing the Alerts & Notifications bounded context and supporting Incident Management. I implemented views, components, stores, services, routing, mock API integration and i18n support. I also developed the Sprint 2 section of Chapter V, organizing planning, backlog, development evidence, execution evidence and collaboration insights.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Orosco Ttamiña, Juan Carlos
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        During TB1, I contributed to the definition and refinement of functionalities associated with the reports-analytics and subscription-billing bounded contexts. I collaborated in reviewing the epics, user stories, and navigation flows to ensure that the implemented components and views reflected the expected user requirements and maintained consistency with the SafeLab platform structure.
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -90,6 +150,14 @@
       </i></b>
       <br>
         During AV1, the team demonstrated joint leadership by distributing responsibilities according to each member’s strengths and coordinating efforts across strategic, technical, and design areas of the SafeLab project. Leadership was reflected in repository management, task planning, architecture development, UI/UX direction, product implementation coordination, and requirements definition through epics and user stories. Each member contributed proactively within their assigned scope while maintaining communication and collaboration, which enabled the team to progress efficiently and achieve the planned objectives for the first delivery.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
   
@@ -159,6 +227,66 @@
       <br>
         During this phase, we maintained a collaborative and inclusive work environment, using WhatsApp and Discord to coordinate meetings and GitHub to work in parallel. We defined goals from the outset, organized tasks, and worked as a team to achieve them. Furthermore, my input and support in the reporting process helped everything run more smoothly and kept the team coordinated.
       <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Carlos Lavado, Ever Giusephi
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Montes Maza, Augusto Sebastian
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+During TB1, the team demonstrated cohesive joint leadership by decentralized management of the application's domain boundaries. Technical leaders took full ownership of their respective bounded contexts.
+      <br><br>
+        ------------------------------------
+      <br><br>
+        <b>
+          Arizabal Condori, Jean Niels
+        </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        During TB1, I shared updates with the team and received reviews to align my work according to the goals set by the team at the beginning of the sprint.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Reyes Menacho, Camila Asuncion
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+         During TB1, I collaborated with the team by coordinating my frontend tasks with the general application structure and ensuring consistency across routes, mock data, services and localization files. I also helped organize the Sprint 2 documentation and evidence, supporting the team in meeting the TB1 objectives with clear planning and technical traceability.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b>
+        Orosco Ttamiña, Juan Carlos
+      </b>
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        During TB1, I worked collaboratively with the team. We organized tasks, reviewed requirements together and coordinated the implementation of views and functionalities through WhatsApp communication to meet the objectives planned for this phase. I also followed the team guidelines and the directions established by the team leader to maintain consistency across both modules, support teamwork and ensure progress throughout the different SafeLab deliverables.
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -166,6 +294,14 @@
       </i></b>
       <br>
         During AV1, the team created a collaborative and inclusive environment by maintaining constant communication, sharing feedback, and coordinating tasks through digital collaboration tools such as GitHub, Trello, WhatsApp, and Discord. Team members established clear goals and milestones for design, architecture, documentation, and research activities, while responsibilities were assigned according to individual strengths. This organized planning and cooperative workflow allowed the team to integrate all deliverables effectively and meet the objectives established for the first project milestone.
+      <br><br>
+        ------------------------------------
+      <br><br>
+      <b><i>
+        TB1
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
 </table>
