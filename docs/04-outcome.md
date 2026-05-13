@@ -90,7 +90,7 @@
       </b>
       <br><br>
       <b><i>
-        TB1
+        During AV1 and subsequent project phases, Carlos Lavado, Ever Giusephi assumed a joint leadership role by coordinating repository organization, standardizing collaborative workflows, and guiding the integration process between all team branches and documentation sections. He established common formatting conventions, synchronized chapter structures, and supervised merge integration to ensure consistency across the entire SafeLab ecosystem. Additionally, he supported the architectural planning and development of multiple bounded contexts while facilitating communication and technical alignment among team members.
       </i></b>
       <br>
         (replace content)
@@ -105,7 +105,7 @@
         TB1
       </i></b>
       <br>
-During TB1, I exercised technical leadership over the Asset & Inventory and Remote Control & Actuation bounded contexts. I established the structural guidelines for the frontend implementation following a clean, Domain-Driven Design (DDD) layered architecture. I spearheaded the creation of the domain entities, infrastructure API connection layers using Axios, and application state synchronization through Pinia stores. Furthermore, I directed the implementation of advanced presentation components, ensuring that complex UX patterns like dynamic dashboards and CRUD validation dialogs were properly unified across the SafeLab frontend application. 
+        During TB1, I exercised technical leadership over the Asset & Inventory and Remote Control & Actuation bounded contexts. I established the structural guidelines for the frontend implementation following a clean, Domain-Driven Design (DDD) layered architecture. I spearheaded the creation of the domain entities, infrastructure API connection layers using Axios, and application state synchronization through Pinia stores. Furthermore, I directed the implementation of advanced presentation components, ensuring that complex UX patterns like dynamic dashboards and CRUD validation dialogs were properly unified across the SafeLab frontend application. 
       <br><br>
         ------------------------------------
       <br><br>
@@ -237,7 +237,7 @@ During TB1, I exercised technical leadership over the Asset & Inventory and Remo
         TB1
       </i></b>
       <br>
-        (replace content)
+        I contributed to the creation of a collaborative environment by organizing report repositories, defining development workflows, and planning documentation structures that enabled all team members to contribute efficiently. He established clear organizational standards for markdown syntax, HTML formatting, branch naming, and merge processes, which facilitated coordination between different project sections. Furthermore, he actively participated in planning bounded context responsibilities and ensuring that project milestones and academic objectives were completed according to the established schedule.
       <br><br>
         ------------------------------------
       <br><br>
@@ -249,7 +249,7 @@ During TB1, I exercised technical leadership over the Asset & Inventory and Remo
         TB1
       </i></b>
       <br>
-During TB1, the team demonstrated cohesive joint leadership by decentralized management of the application's domain boundaries. Technical leaders took full ownership of their respective bounded contexts.
+        During TB1, the team demonstrated cohesive joint leadership by decentralized management of the application's domain boundaries. Technical leaders took full ownership of their respective bounded contexts.
       <br><br>
         ------------------------------------
       <br><br>
