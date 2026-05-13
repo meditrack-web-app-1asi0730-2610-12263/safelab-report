@@ -123,16 +123,16 @@
   <!-- ROW 8 -->
   <tr>
     <td style="text-align: center;">
-      2.x.x
+      2.3.0
     </td>
     <td style="text-align: center;">
-      00/05/26
+      13/05/26
     </td>
     <td style="text-align: center;">
       Arizabal Condori, Jean Niels
     </td>
     <td style="text-align: justify;">
-      (replace content)
+      Implemented the entities, value objects, mappers, mock API's, stores, components, views, routing, and internationalization for English and Spanish, for the bounded contexts Sensor Monitoring and Environmental Compliance.
     </td>
  <!-- ROW 9 -->
 <tr>
