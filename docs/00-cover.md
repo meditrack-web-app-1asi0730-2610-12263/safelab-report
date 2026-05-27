@@ -13,6 +13,8 @@
     Software engineering
   </p>
 
+  <br>
+
   <p style="text-align: center;">
     Cycle: 202610
   </p>
@@ -29,13 +31,17 @@
     NRC: 12263
   </p>
 
+  <br>
+
   <p style="text-align: center;">
     Teacher: Rafael Oswaldo Castro Veramendi
   </p>
 
   <p style="text-align: center;">
-    TB1 Work Report
+    AV2 Work Report
   </p>
+
+  <br>
 
   <p style="text-align: center;">
     Startup Name: MediTrack
@@ -45,19 +51,17 @@
     Product Name: SafeLab
   </p>
 
+  <br><br>
+
   <table>
-    <thead>
-      <tr>
-        <th style="
-        text-align: center;
-        background-color: #333;
+    <thead style="
+        background-color: #676767;
         color: #fff;">
+      <tr>
+        <th style="text-align: center;">
           Last Name and First Name
         </th>
-        <th style="
-        text-align: center;
-        background-color: #333;
-        color: #fff;">
+        <th style="text-align: center;">
           Student Code
         </th>
       </tr>
@@ -105,8 +109,9 @@
       </tr>
     </tbody>
   </table>
+  <br><br>
 
   <p style="text-align: center;">
-    May 2026
+    June 2026
   </p>
 </div>
